@@ -33,10 +33,24 @@ export default function Header() {
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+          <a
+            href={`/${locale}/history-and-meaning`}
+            className="text-sm font-medium transition-colors"
+            style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
+          >
+            {t('meaning')}
+          </a>
+          <a
+            href={`/${locale}/visitor-guide`}
+            className="text-sm font-medium transition-colors"
+            style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
+          >
+            {t('visitorGuide')}
+          </a>
+          {(['gallery', 'practical', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
-              href={`/#${section}`}
+              href={`/${locale}/#${section}`}
               className="text-sm font-medium transition-colors"
               style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >

@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { useMessages } from 'next-intl';
+import { siteConfig } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
@@ -28,14 +29,14 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Broken+Chair+Geneva&output=embed"
+            src={siteConfig.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Trg Kralja Tomislava"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Broken Chair - Google Maps location at Place des Nations, Geneva"
           />
         </div>
 

@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { siteConfig } from '@/lib/site';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -6,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://brokenchairgeneva.com/sitemap.xml',
+    sitemap: `${siteConfig.baseUrl}/sitemap.xml`,
   };
 }

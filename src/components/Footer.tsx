@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'en' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
 
   const officialLinks = t.raw('officialLinks') || {};
 
@@ -44,14 +44,23 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
-            <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+          <div className="flex flex-col items-start gap-3 text-sm mt-4 sm:mt-0">
+            <h3 className="font-display text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>
+              {t('guidesTitle')}
+            </h3>
+            <a href={`${prefix}/history-and-meaning`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {t('guideMeaning')}
+            </a>
+            <a href={`${prefix}/visitor-guide`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {t('guideVisitor')}
+            </a>
+            <a href={`${prefix}/privacy-policy`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('privacy')}
             </a>
-            <a href={`${prefix}/terms-of-service`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+            <a href={`${prefix}/terms-of-service`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('terms')}
             </a>
-            <a href={`${prefix}/cookie-settings`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+            <a href={`${prefix}/cookie-settings`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('cookies')}
             </a>
           </div>
@@ -62,7 +71,9 @@ export default function Footer() {
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
           <p>{t('rights')}</p>
+          <p>{t('lastUpdated')}: {t('lastUpdatedValue')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('imageCopyright')}</p>
         </div>
       </div>
     </footer>

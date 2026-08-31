@@ -1,27 +1,32 @@
 {
   "meta": {
-    "title": "Broken Chair – Geneva, Switzerland",
-    "description": "Complete travel guide to Broken Chair in Geneva."
+    "title": "Broken Chair Geneva: History, Meaning & Visitor Guide",
+    "description": "Discover the Broken Chair in Geneva at Place des Nations. Learn its powerful history, the symbol against landmines, artist Daniel Berset, and visitor tips."
   },
+  "contentUpdated": "August 31, 2026",
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
+    "meaning": "Meaning & History",
+    "visitorGuide": "Visitor Guide",
+    "practical": "Practical Info",
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Broken Chair",
-    "subtitle": "Broken Chair",
+    "title": "Broken Chair (Geneva)",
+    "subtitle": "The 12-metre three-legged chair at Place des Nations, opposite the United Nations",
     "rating": "4.5",
-    "reviewCount": "9,193 reviews",
+    "reviewCount": "9,446 reviews",
     "type": "Tourist Attraction",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7"
   },
   "intro": {
     "title": "Explore Broken Chair",
-    "description": "The Broken Chair is a monumental wooden sculpture located across the street from the Palace of Nations (United Nations European Headquarters) in Geneva, Switzerland. Designed by the Swiss artist Daniel Berset and constructed by carpenter Louis Genève, the 12-metre-high, 5.5-ton sculpture features a broken leg, symbolizing opposition to land mines and cluster bombs.",
+    "description": "The Broken Chair is a monumental wooden sculpture located across the street from the Palace of Nations (United Nations European Headquarters) in Geneva, Switzerland. This iconic 12-metre-tall three-legged chair — a giant wooden chair, sometimes called the big chair of Geneva or the chair with the broken leg — was designed by Swiss artist Daniel Berset and constructed by carpenter Louis Genève. It symbolizes opposition to landmines and cluster bombs.",
+    "breadcrumb": ["Broken Chair", "Geneva", "Genève", "Switzerland"],
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -82,6 +87,14 @@
       {
         "question": "How much time should I spend visiting the Broken Chair?",
         "answer": "Visiting the sculpture and taking photos at the square usually takes 15 to 30 minutes. We recommend combining it with a tour of the UN European Headquarters opposite the square or the nearby Red Cross Museum for a half-day trip."
+      },
+      {
+        "question": "Are there public toilets near the Broken Chair?",
+        "answer": "Yes. Public toilets are available at Place des Nations, near the tram terminus, and further public facilities exist across the International District and along the lake promenade."
+      },
+      {
+        "question": "Are there places to eat or buy food near the square?",
+        "answer": "Yes. Cafés, brasseries, restaurants and self-service eateries are within a short walk of the square, and supermarkets and grocery stores are a short tram ride away in the city centre."
       }
     ]
   },
@@ -96,7 +109,7 @@
     "city": "City",
     "cityValue": "Geneva",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.5 (9,193)",
+    "googleRatingValue": "4.5 (9,446)",
     "address": "Address",
     "addressValue": "1202 Geneva, Switzerland",
     "accessibility": "Accessibility",
@@ -106,7 +119,7 @@
   },
   "hours": {
     "title": "Visiting Hours",
-    "park": "Reserve Access",
+    "park": "Open Hours",
     "parkTime": "Open 24 hours a day",
     "bestTime": "Best Time to Visit",
     "bestTimeSpring": "Spring: Pleasant weather, perfect for walking along Lake Geneva",
@@ -133,7 +146,7 @@
     "fromAirport": "From Geneva International Airport (GVA)",
     "fromAirportDesc": "Take Bus 5 or 28 and get off at the 'Nations' stop. The ride takes around 15-20 minutes.",
     "publicTransport": "Public Transport",
-    "publicTransportDesc": "Geneva's public transport (TPG) is highly convenient. Tourists staying in Geneva hotels receive a free 'Geneva Transport Card' for unlimited rides on local transport. You can reach Place des Nations via Tram 15, or Buses 5, 8, 11, 22, and 28.",
+    "publicTransportDesc": "Geneva's public transport (TPG) is highly convenient. Tourists staying in Geneva hotels receive a free 'Geneva Transport Card' for unlimited rides on local transport. You can reach Place des Nations via Tram 15, or Buses 5, 8, 11, 22, 28 and F.",
     "walking": "Walking",
     "walkingDesc": "If you are around the Right Bank of Lake Geneva or the International District, walking is a great option. The Broken Chair is prominently visible at the Place des Nations.",
     "driving": "Driving",
@@ -172,6 +185,26 @@
       "Geneva Landmark",
       "Public Art Space",
       "Sculpture at Night"
+    ],
+    "alts": [
+      "The 12-metre Broken Chair, a giant wooden three-legged chair on Place des Nations in Geneva",
+      "Place des Nations square with the Broken Chair and the Palace of Nations in the background",
+      "Close-up of the broken leg of the giant chair, a symbol against landmines in Geneva",
+      "Looking up at the monumental broken chair sculpture from the square",
+      "The fountain and the three-legged chair on Place des Nations, Geneva",
+      "Broken Chair in Geneva's International District, opposite the United Nations office",
+      "Massive Douglas fir wood structure of the Broken Chair monument",
+      "The Broken Chair as a symbol of peace and dignity in Geneva",
+      "The big chair of Geneva on a sunny day at Place des Nations",
+      "Detail of the wooden surface and broken leg of the Geneva chair monument",
+      "The Broken Chair monument seen from the edge of Place des Nations",
+      "Surrounding architecture of the International District behind the giant chair",
+      "Scale of the sculpture: the 12-metre chair towering over visitors in Geneva",
+      "Square view of Place des Nations and the Broken Chair",
+      "Art and reflection: the Broken Chair with the UN Palace of Nations behind",
+      "Geneva landmark: the three-legged broken chair at dusk",
+      "Public art space: the Broken Chair on Place des Nations",
+      "The Broken Chair illuminated at night in Geneva"
     ],
     "viewAll": "View on Google Maps",
     "showAll": "View All Photos",
@@ -241,6 +274,12 @@
     "brandName": "Broken Chair",
     "brandSubtitle": "Broken Chair",
     "rights": "© 2026 Independent Tourism Research Project · All Rights Reserved.",
+    "guidesTitle": "Guides",
+    "guideMeaning": "Meaning & History",
+    "guideVisitor": "Visitor Guide",
+    "lastUpdated": "Content last updated",
+    "lastUpdatedValue": "August 31, 2026",
+    "imageCopyright": "All photos displayed on this website are the property of their respective photographers. If you are the copyright holder of any image and would like it credited or removed, please contact us.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
@@ -258,9 +297,329 @@
     "title": "About Broken Chair",
     "text": "The Broken Chair was commissioned and is owned by Handicap International (now Humanity & Inclusion). The organization is an international NGO dedicated to supporting people with disabilities and vulnerable populations, with a particular focus on victims of landmines and cluster munitions. The sculpture's presence serves as a constant reminder to the international community of their commitments to the Ottawa Treaty and the Oslo Convention on Cluster Munitions."
   },
+  "meaning": {
+    "title": "What Does the Broken Chair in Geneva Represent?",
+    "lead": "Known under many names — the three-legged chair, the giant chair, the big chair of Geneva, the chair with the broken leg — this 12-metre-tall wooden sculpture stands on Place des Nations, directly opposite the main entrance of the Palace of Nations (United Nations Office at Geneva). It was created in 1997 as a symbol of opposition to anti-personnel landmines and cluster munitions.",
+    "visualLink": "explore the famous three-legged chair in Geneva",
+    "blocks": [
+      {
+        "id": "symbolism",
+        "title": "The broken leg: the missing limb of a landmine survivor",
+        "content": "The chair's fourth leg is shattered, representing the limb lost by a victim of a landmine or cluster munition — a seat that can no longer be occupied. The three remaining legs and the tall backrest hold the chair upright and dignified. As sculptor Daniel Berset put it, despite its broken fourth leg, the chair remains standing and keeps its dignity."
+      },
+      {
+        "id": "message",
+        "title": "A message aimed directly at the United Nations",
+        "content": "The sculpture deliberately faces the Palace of Nations, a few metres away from the diplomats working inside. Its message: sign and honour the treaties banning anti-personnel mines and cluster munitions, support the victims and clear contaminated land. Since 2016, Handicap International has extended the chair's message to all explosive weapons used in populated areas."
+      },
+      {
+        "id": "handicap-international",
+        "title": "Handicap International and the Ottawa Treaty",
+        "content": "Commissioned in 1997 by Handicap International (now Humanity & Inclusion) at the initiative of Paul Vermeulen, co-founder of Handicap International Switzerland, the chair was designed by Swiss artist Daniel Berset, built by carpenter Louis Genève and engineered by Thomas Büchi. It was intended to stay for only three months — just long enough to push governments to sign the Ottawa Treaty banning anti-personnel mines in December 1997."
+      },
+      {
+        "id": "permanent",
+        "title": "From a three-month installation to a permanent landmark",
+        "content": "Public support kept the chair on Place des Nations. When the square was redesigned in 2005 the sculpture was taken away, but it returned to its original spot on 26 February 2007 after a campaign led by Handicap International. In 2008 it supported the Oslo Convention banning cluster munitions. Restored in 2016 and again in July 2024, it was repaired between 24 March and 4 April 2025 after being damaged by an act of vandalism in December 2024."
+      },
+      {
+        "id": "how-it-was-built",
+        "title": "How the 12-metre chair was built",
+        "content": "The chair was built in about a month in the workshop of carpenter Louis Genève, then transported to Place des Nations and assembled on site with a crane in time for its inauguration on 18 August 1997. Its 5.5 tonnes of Douglas fir were engineered by Thomas Büchi to withstand the open-air square — weather and wind included. From concept to unveiling, the entire project ran in less than a year."
+      }
+    ],
+    "factsTitle": "The Broken Chair in numbers",
+    "facts": [
+      { "label": "Height", "value": "12 metres" },
+      { "label": "Weight", "value": "5.5 tonnes (5,500 kg) of Douglas fir wood" },
+      { "label": "Installed", "value": "18 August 1997" },
+      { "label": "Artist", "value": "Daniel Berset, with carpenter Louis Genève and engineer Thomas Büchi" },
+      { "label": "Commissioned by", "value": "Handicap International (Humanity & Inclusion)" },
+      { "label": "Location", "value": "Place des Nations, 1202 Genève, opposite the Palace of Nations" }
+    ],
+    "readMore": "learn more about the Broken Chair Geneva meaning & history"
+  },
+  "visitor": {
+    "title": "How to Visit the Broken Chair near United Nations Geneva",
+    "lead": "The Broken Chair is an outdoor monument on Place des Nations, the public square in front of the Palace of Nations (United Nations Office at Geneva). It is free to visit 24 hours a day, which makes it one of the easiest Geneva landmarks to see — whether you have an hour or a full day.",
+    "blocks": [
+      {
+        "id": "location",
+        "title": "Exact location",
+        "content": "The sculpture stands at Place des Nations, 1202 Genève, directly opposite the main entrance of the Palace of Nations. The square is pedestrian-friendly and the monument is visible as soon as you arrive at the Nations stop."
+      },
+      {
+        "id": "transport",
+        "title": "Getting there by public transport",
+        "content": "Tram 15 and buses 8, 28 and F stop at 'Nations', the terminus right in front of the square — about a 1-minute walk. Buses 5, 11 and 22 also serve the International District. Visitors staying overnight in Geneva receive the free Geneva Transport Card for unlimited rides."
+      },
+      {
+        "id": "besttime",
+        "title": "Best time to visit and photo angles",
+        "content": "Mornings offer the best light on the chair and the Palace of Nations, with fewer visitors; evenings are quieter and the monument is lit after dusk. For a classic shot, stand at the edge of the square in front of the main UN gate so the chair fills the frame with the Palace of Nations behind it."
+      },
+      {
+        "id": "nearby",
+        "title": "Combine with nearby attractions",
+        "content": "The Broken Chair anchors a half-day route through Geneva's International District: book a guided tour of the Palace of Nations, visit the International Red Cross and Red Crescent Museum, stroll through Ariana Park, or walk down to the lake and the Jardin Anglais."
+      }
+    ],
+    "readMore": "how to visit the Broken Chair near United Nations Geneva"
+  },
+  "historyPage": {
+    "metaTitle": "What Does the Broken Chair in Geneva Represent? Symbolism & History",
+    "metaDescription": "What does the Broken Chair in Geneva represent? A 1997 monument against landmines and cluster bombs: its symbolism, Daniel Berset's design, the Ottawa Treaty and how it became permanent.",
+    "title": "What Does the Broken Chair in Geneva Represent?",
+    "subtitle": "Symbolism & history of the 12-metre monument at Place des Nations",
+    "lastUpdatedLabel": "Content last updated",
+    "lastUpdated": "August 31, 2026",
+    "intro": "The Broken Chair is one of the most photographed monuments in Geneva: a 12-metre-high wooden chair whose fourth leg is broken, standing on Place des Nations opposite the Palace of Nations. This page explains what it represents, who created it and how a temporary three-month installation became a permanent symbol of the fight against landmines and cluster munitions.",
+    "sections": [
+      {
+        "heading": "Symbolism: why a chair with a broken leg?",
+        "paragraphs": [
+          "The chair is a seat — a place where everyone, including political leaders, can sit. By breaking its fourth leg, the sculpture evokes the limb lost by a victim of an anti-personnel landmine or cluster munition: an empty seat that can never again be occupied.",
+          "The three remaining legs and the high backrest hold the chair upright. Sculptor Daniel Berset intended this to show that, despite its injury, the chair remains standing and keeps its dignity — just like the survivors and communities affected by armed violence."
+        ]
+      },
+      {
+        "heading": "The message to the United Nations",
+        "paragraphs": [
+          "The monument deliberately faces the Palace of Nations, the European headquarters of the United Nations. It serves as a daily reminder to diplomats: honour the commitments made to ban anti-personnel mines and cluster munitions, assist the victims and clear contaminated land.",
+          "Handicap International has used the chair as a stage for successive campaigns — for the Ottawa Treaty (1997), the Oslo Convention on Cluster Munitions (2008), and since 2016 against the use of explosive weapons in populated areas."
+        ]
+      },
+      {
+        "heading": "Who created the Broken Chair?",
+        "paragraphs": [
+          "The project was launched in 1997 by Handicap International (now Humanity & Inclusion), at the initiative of Paul Vermeulen, co-founder of Handicap International Switzerland. Swiss artist Daniel Berset designed the sculpture; carpenter Louis Genève built it and engineer Thomas Büchi oversaw its structure. It is made of 5.5 tonnes of Douglas fir wood and stands 12 metres tall."
+        ]
+      },
+      {
+        "heading": "Why was it planned for only three months?",
+        "paragraphs": [
+          "The chair was installed on 18 August 1997 to push world governments to sign the Ottawa Treaty prohibiting the production, stockpiling, use and transfer of anti-personnel mines. The treaty was signed in December 1997, and the sculpture was originally meant to be dismantled at that point.",
+          "Its popularity was such that it stayed. When Place des Nations was renovated in 2005 the chair was removed, but a popular campaign led by Handicap International brought it back to its original location on 26 February 2007."
+        ]
+      },
+      {
+        "heading": "How the giant chair was built",
+        "paragraphs": [
+          "The project moved with remarkable speed. Once the concept was agreed in 1997, carpenter Louis Genève and his team built the chair in about a month, and it was assembled on Place des Nations with a crane in time for its inauguration on 18 August 1997.",
+          "Structurally, the sculpture is a small feat of engineering: 5.5 tonnes of Douglas fir, designed by Thomas Büchi to face the weather of an open square, and detailed by Daniel Berset down to the rough-hewn texture of the wood and the jagged break of the fourth leg."
+        ]
+      },
+      {
+        "heading": "Why a chair? The universal object",
+        "paragraphs": [
+          "The chair is arguably the most universal object of daily life — present in homes, schools, parliaments and palaces on every continent. By choosing a chair, Daniel Berset gave the monument a language that is understood everywhere, without a single written word.",
+          "A chair also implies a person: someone sits on it. With its fourth leg broken, the chair keeps the place of the one who can no longer sit — a permanent, silent invitation to remember the victims of landmines and cluster munitions."
+        ]
+      },
+      {
+        "heading": "A people's monument: the 2005–2007 rescue",
+        "paragraphs": [
+          "The chair owes its permanence to the people of Geneva. When the redevelopment of Place des Nations in 2005 put its future in doubt, a spontaneous public movement — and a campaign led by Handicap International — turned the planned removal into a symbol of its own.",
+          "Months of debate and petitions followed. On 26 February 2007 the chair was reinstalled at its original location, where it has stood ever since: a monument that survives because people chose to keep it."
+        ]
+      }
+    ],
+    "timelineTitle": "Timeline: 25+ years of the Broken Chair",
+    "timeline": [
+      {
+        "year": "1997",
+        "title": "18 August — the giant chair arrives at Place des Nations",
+        "content": "Handicap International installs the sculpture to rally governments and public opinion against the humanitarian crisis caused by anti-personnel mines."
+      },
+      {
+        "year": "1997",
+        "title": "December — the Ottawa Treaty is signed",
+        "content": "The chair was meant to be taken down once the treaty banning anti-personnel mines was signed. Public support keeps it on the square."
+      },
+      {
+        "year": "2005",
+        "title": "An uncertain future",
+        "content": "The renovation of Place des Nations threatens the sculpture's future; Handicap International organises a support movement."
+      },
+      {
+        "year": "2007",
+        "title": "26 February — the Broken Chair returns",
+        "content": "The monument is reinstalled at its original location, thanks to a groundswell of popular demand."
+      },
+      {
+        "year": "2008",
+        "title": "Cluster munitions are banned",
+        "content": "The chair lends its symbolic power to the ban on cluster bombs, adopted in Oslo in December 2008."
+      },
+      {
+        "year": "2016",
+        "title": "A new battle: explosive weapons",
+        "content": "Handicap International gives the monument a new role in its 'NO to the bombing of civilians' campaign."
+      },
+      {
+        "year": "2024",
+        "title": "Restoration",
+        "content": "After last being restored in 2016, the chair is restored in July 2024 by the original craftsmen, including Louis Genève and Thomas Büchi."
+      },
+      {
+        "year": "2025",
+        "title": "Vandalised, then repaired",
+        "content": "Damaged by an act of vandalism on 13 December 2024, the chair is repaired between 24 March and 4 April 2025 at a cost of CHF 15,000, funded by the City of Geneva and private partners."
+      }
+    ],
+    "relatedTitle": "Continue reading",
+    "relatedLinks": [
+      { "label": "how to visit the Broken Chair near United Nations Geneva", "href": "/visitor-guide" },
+      { "label": "Back to the Broken Chair homepage", "href": "/" }
+    ]
+  },
+  "sources": {
+    "title": "Sources & Further Reading",
+    "note": "This guide is compiled from the official and authoritative sources below. Facts were last verified on August 31, 2026.",
+    "items": [
+      {
+        "name": "City of Geneva — Broken Chair (official monument page)",
+        "url": "https://www.geneve.ch/broken-chair"
+      },
+      {
+        "name": "Handicap International / Humanity & Inclusion — Discover Broken Chair",
+        "url": "https://www.handicap-international.ch/en/broken-chair"
+      },
+      {
+        "name": "Switzerland Tourism — Broken Chair",
+        "url": "https://www.myswitzerland.com/en-us/experiences/cities-culture/art-culture/art/broken-chair/"
+      },
+      {
+        "name": "Geneva Tourism (Genève Tourisme)",
+        "url": "https://www.geneve.com/en"
+      }
+    ]
+  },
+  "visitorPage": {
+    "metaTitle": "Broken Chair Geneva Visitor Guide: Location, Transport & Photo Tips",
+    "metaDescription": "Plan your visit to the Broken Chair in Geneva: exact location at Place des Nations, how to get there by tram and bus, best photo angles and what to combine with the UN visit.",
+    "title": "Broken Chair Geneva Visitor Guide",
+    "subtitle": "How to visit the giant three-legged chair opposite the United Nations",
+    "lastUpdatedLabel": "Content last updated",
+    "lastUpdated": "August 31, 2026",
+    "intro": "The Broken Chair is one of the easiest landmarks in Geneva to visit: it is an outdoor, free, 24-hour public monument on Place des Nations. Here is everything you need to plan your visit — exact location, transport, best times, photography tips and what to see nearby, plus practical information on toilets, parking, dining, accommodation, shops and refuelling.",
+    "sections": [
+      {
+        "heading": "Exact location",
+        "paragraphs": [
+          "The sculpture stands on Place des Nations, 1202 Genève, directly opposite the main entrance of the Palace of Nations (United Nations Office at Geneva). Its Plus Code is 64FQ+4G Geneva.",
+          "The monument is visible as soon as you arrive at the square — there is no ticket office, queue or gate. You simply walk up to it."
+        ]
+      },
+      {
+        "heading": "Getting there by public transport",
+        "paragraphs": [
+          "Tram 15 and buses 8, 28 and F stop at 'Nations', the terminus directly in front of the square — about a 1-minute walk to the chair. Buses 5, 11 and 22 also pass through the International District.",
+          "Overnight guests in Geneva hotels receive the free 'Geneva Transport Card' (mobility card) for unlimited rides on TPG buses, trams and boats. From Geneva Cornavin station, take tram 15 to the Nations terminus (about 10-15 minutes). From the airport, bus 5 or 28 reaches the square in about 15-20 minutes."
+        ]
+      },
+      {
+        "heading": "Best time to visit and photo angles",
+        "paragraphs": [
+          "The square is pleasant at any hour. Mornings offer the best light on the chair and the Palace of Nations, with fewer visitors; evenings are quieter and the monument is lit after dusk.",
+          "For the classic photograph, position yourself at the edge of the square in front of the main UN gate so the chair fills the frame with the Palace of Nations behind it. If the fountain on the square is running, use it as a foreground element."
+        ]
+      },
+      {
+        "heading": "What to combine with your visit",
+        "paragraphs": [
+          "The Broken Chair anchors a half-day route through Geneva's International District: book a guided tour of the Palace of Nations, visit the International Red Cross and Red Crescent Museum, and stroll through Ariana Park or the Jardin Anglais and the lake promenade.",
+          "Because the chair is outdoors and free, it also works perfectly as a short stop between other sightseeing in Geneva."
+        ]
+      },
+      {
+        "heading": "Public toilets and facilities",
+        "paragraphs": [
+          "Public toilets are available at Place des Nations, in the square area near the tram terminus. Additional public facilities can be found across the International District and along the lake promenade.",
+          "The square itself offers benches, shade and open space. Remember that the monument is an open-air sculpture: there are no lockers, cloakrooms or shops on the square itself."
+        ]
+      },
+      {
+        "heading": "Parking and driving",
+        "paragraphs": [
+          "A large public underground car park sits beneath the square (Parking des Nations), open daily with hourly rates and disabled parking spaces. Street parking in the International District is limited and metered.",
+          "If you drive, allow extra time in the morning or late afternoon, when traffic around the international organisations is busiest. Public transport remains the most convenient option."
+        ]
+      },
+      {
+        "heading": "Eating and drinking nearby",
+        "paragraphs": [
+          "The International District offers a range of cafés, brasseries, restaurants and self-service eateries within a short walk of the square — from quick coffee stops to business-style lunch spots.",
+          "For a picnic, the parks around the district (including Ariana Park) are pleasant, and food shops are available nearby."
+        ]
+      },
+      {
+        "heading": "Where to stay",
+        "paragraphs": [
+          "Accommodation near the monument includes hotels of the International District and the surrounding residential streets, a short tram ride from the city centre.",
+          "Hotels in central Geneva (around the lake and the old town) are equally convenient: tram 15 reaches Place des Nations in about 10 minutes, and overnight guests receive the free Geneva Transport Card."
+        ]
+      },
+      {
+        "heading": "Supermarkets and shops",
+        "paragraphs": [
+          "There is no shopping on the square itself, but supermarkets and grocery stores are a short tram or bus ride away in the city centre and around the main station.",
+          "For daily essentials, look for convenience stores and supermarkets along the tram lines that serve the Nations area."
+        ]
+      },
+      {
+        "heading": "Fuel and electric vehicle charging",
+        "paragraphs": [
+          "Petrol stations are located in the wider city area and along the main roads into Geneva; the nearest are a short drive from the International District.",
+          "Electric vehicle charging points are available at several public car parks across the city, including locations in the International District."
+        ]
+      }
+    ],
+    "relatedTitle": "Continue reading",
+    "relatedLinks": [
+      { "label": "learn more about the Broken Chair Geneva meaning & history", "href": "/history-and-meaning" },
+      { "label": "Back to the Broken Chair homepage", "href": "/" }
+    ]
+  },
+  "practical": {
+    "title": "Practical Visitor Information",
+    "subtitle": "Everything around the monument — facilities, parking, food, accommodation, shops and refuelling. To stay neutral and independent, we recommend types of services, not specific businesses.",
+    "items": [
+      {
+        "id": "toilets",
+        "title": "Toilets (WC)",
+        "content": "Public toilets are available at Place des Nations, near the tram terminus. Further public facilities are found across the International District and along the lake promenade. The monument itself is an open-air sculpture and has no facilities inside."
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "content": "A large public underground car park beneath the square offers hourly paid parking, including disabled spaces. Street parking in the International District is limited and metered. Public transport remains the most convenient option."
+      },
+      {
+        "id": "dining",
+        "title": "Dining",
+        "content": "Cafés, brasseries, restaurants and self-service eateries are within a short walk of the square. For a picnic, the surrounding parks are a good choice."
+      },
+      {
+        "id": "accommodation",
+        "title": "Accommodation",
+        "content": "Hotels of the International District and serviced apartments are nearby; central Geneva hotels are a short tram ride away. Overnight guests receive the free Geneva Transport Card."
+      },
+      {
+        "id": "shopping",
+        "title": "Supermarkets & shops",
+        "content": "There is no shopping on the square. Supermarkets, grocery stores and convenience shops are a short tram or bus ride away in the city centre and near the main station."
+      },
+      {
+        "id": "fuel",
+        "title": "Fuel & EV charging",
+        "content": "Petrol stations are located along the main roads into the city. Electric vehicle charging points are available at several public car parks across Geneva, including in the International District."
+      }
+    ]
+  },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: August 31, 2026",
     "sections": [
       {
         "heading": "Information Collection",
@@ -278,7 +637,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: August 31, 2026",
     "sections": [
       {
         "heading": "Website Content and Use",

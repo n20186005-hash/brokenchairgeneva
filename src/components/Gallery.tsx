@@ -3,26 +3,7 @@
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/broken-chair (1).jpg', alt: 'Broken Chair Photo 1' },
-  { src: '/gallery/broken-chair (2).jpg', alt: 'Broken Chair Photo 2' },
-  { src: '/gallery/broken-chair (3).jpg', alt: 'Broken Chair Photo 3' },
-  { src: '/gallery/broken-chair (4).jpg', alt: 'Broken Chair Photo 4' },
-  { src: '/gallery/broken-chair (5).jpg', alt: 'Broken Chair Photo 5' },
-  { src: '/gallery/broken-chair (6).jpg', alt: 'Broken Chair Photo 6' },
-  { src: '/gallery/broken-chair (7).jpg', alt: 'Broken Chair Photo 7' },
-  { src: '/gallery/broken-chair (8).jpg', alt: 'Broken Chair Photo 8' },
-  { src: '/gallery/broken-chair (9).jpg', alt: 'Broken Chair Photo 9' },
-  { src: '/gallery/broken-chair (10).jpg', alt: 'Broken Chair Photo 10' },
-  { src: '/gallery/broken-chair (11).jpg', alt: 'Broken Chair Photo 11' },
-  { src: '/gallery/broken-chair (12).jpg', alt: 'Broken Chair Photo 12' },
-  { src: '/gallery/broken-chair (13).jpg', alt: 'Broken Chair Photo 13' },
-  { src: '/gallery/broken-chair (14).jpg', alt: 'Broken Chair Photo 14' },
-  { src: '/gallery/broken-chair (15).jpg', alt: 'Broken Chair Photo 15' },
-  { src: '/gallery/broken-chair (16).jpg', alt: 'Broken Chair Photo 16' },
-  { src: '/gallery/broken-chair (17).jpg', alt: 'Broken Chair Photo 17' },
-  { src: '/gallery/broken-chair (18).jpg', alt: 'Broken Chair Photo 18' },
-];
+const photoCount = 18;
 
 export default function Gallery() {
   const t = useTranslations('gallery');
@@ -31,11 +12,15 @@ export default function Gallery() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const captions = (messages?.gallery?.captions || []) as string[];
+  const alts = (messages?.gallery?.alts || []) as string[];
 
-  const galleryPhotos = photos.map((photo, i) => ({
-    ...photo,
-    alt: captions[i] || photo.alt,
-  }));
+  const galleryPhotos = Array.from({ length: photoCount }, (_, i) => {
+    const num = String(i + 1).padStart(2, '0');
+    return {
+      src: `/gallery/broken-chair-geneva-${num}.jpg`,
+      alt: alts[i] || captions[i] || `Broken Chair Geneva photo ${i + 1}`,
+    };
+  });
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? galleryPhotos.length - 1 : prev - 1));

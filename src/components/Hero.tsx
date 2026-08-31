@@ -10,9 +10,11 @@ export default function Hero() {
       {/* Background image slideshow */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/broken-chair (2).jpg"
-          alt="Broken Chair"
+          src="/gallery/broken-chair-geneva-02.jpg"
+          alt="Broken Chair - Main view of the giant three-legged chair in Geneva at Place des Nations, Switzerland"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>

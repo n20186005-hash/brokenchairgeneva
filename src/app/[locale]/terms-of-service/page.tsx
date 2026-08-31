@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { siteConfig, buildAlternates } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,24 +9,11 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://brokenchairgeneva.com';
-  const zhUrl = `${baseUrl}/zh/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const hrUrl = `${baseUrl}/hr/terms-of-service`;
-  const deUrl = `${baseUrl}/de/terms-of-service`;
-  const selfUrl = `${baseUrl}/${locale}/terms-of-service`;
+  const { baseUrl } = siteConfig;
 
   return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'hr': hrUrl,
-        'de': deUrl,
-        'x-default': enUrl,
-      },
-    },
+    metadataBase: new URL(baseUrl),
+    alternates: buildAlternates(locale, '/terms-of-service'),
   };
 }
 

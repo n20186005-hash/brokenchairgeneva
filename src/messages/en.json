@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Broken Chair Geneva: History, Meaning & Visitor Guide",
-    "description": "Discover the Broken Chair in Geneva at Place des Nations. Learn its powerful history, the symbol against landmines, artist Daniel Berset, and visitor tips."
+    "title": "Broken Chair Geneva: Meaning, History & How to Visit",
+    "description": "Discover the Broken Chair in Geneva at Place des Nations — a 12m three-legged wooden sculpture. Learn what it represents, its 1997 history, and how to visit it."
   },
   "contentUpdated": "August 31, 2026",
   "header": {
@@ -105,6 +105,18 @@
       {
         "question": "Are there places to eat or buy food near the square?",
         "answer": "Yes. Cafés, brasseries, restaurants and self-service eateries are within a short walk of the square, and supermarkets and grocery stores are a short tram ride away in the city centre."
+      },
+      {
+        "question": "What does the Broken Chair in Geneva represent?",
+        "answer": "It is a memorial against anti-personnel landmines and cluster munitions. The single broken leg stands for the limb lost by a victim, while the three remaining legs and tall backrest represent the resilience and dignity of survivors — a quiet reminder aimed at the United Nations directly opposite the square."
+      },
+      {
+        "question": "Why does the Broken Chair have only three legs?",
+        "answer": "It was deliberately designed with a broken fourth leg. The missing leg symbolises the devastating injuries caused by landmines and cluster munitions; the three solid legs and backrest show that, despite its injury, the chair — like the survivors it honours — remains standing and dignified."
+      },
+      {
+        "question": "Is the Broken Chair a sculpture or a monument?",
+        "answer": "Both. It is a 12-metre monumental wooden sculpture, but it also functions as a permanent public monument and memorial on Place des Nations, opposite the UN. It was commissioned by Handicap International in 1997 and kept in place by public demand."
       }
     ]
   },
@@ -160,7 +172,9 @@
     "walking": "Walking",
     "walkingDesc": "If you are around the Right Bank of Lake Geneva or the International District, walking is a great option. The Broken Chair is prominently visible at the Place des Nations.",
     "driving": "Driving",
-    "drivingDesc": "There is an underground parking facility nearby (Parking des Nations). Since it is located in the international organization district, street parking can be limited, so public transport is highly recommended."
+    "drivingDesc": "There is an underground parking facility nearby (Parking des Nations). Since it is located in the international organization district, street parking can be limited, so public transport is highly recommended.",
+    "taxi": "Taxi & rideshare",
+    "taxiDesc": "A taxi or rideshare (Uber, Bolt) from Geneva Airport takes about 15–25 minutes and costs roughly CHF 35–55; from Cornavin station about 10–15 minutes and CHF 20–35. Taxi ranks sit outside the airport and station terminals, and app-based rides can drop you off right by Place des Nations."
   },
   "route": {
     "title": "Recommended Route",
@@ -298,6 +312,7 @@
       "myswitzerland": "Switzerland Tourism",
       "geneve": "Geneva Tourism",
       "geneve_ch": "Geneva City Government",
+      "ungeneva": "UN Geneva (UNOG)",
       "hi": "Handicap International",
       "visa": "Swiss-Visa System"
     },
@@ -598,32 +613,32 @@
       {
         "id": "toilets",
         "title": "Toilets (WC)",
-        "content": "Public toilets are available at Place des Nations, near the tram terminus. Further public facilities are found across the International District and along the lake promenade. The monument itself is an open-air sculpture and has no facilities inside."
+        "content": "Public toilets are available at Place des Nations, near the tram terminus, and further facilities sit across the International District and along the lake promenade. Accessible cubicles and baby-changing stations are provided in the larger public buildings nearby. The monument itself is an open-air sculpture and has no facilities inside."
       },
       {
         "id": "parking",
         "title": "Parking",
-        "content": "A large public underground car park beneath the square offers hourly paid parking, including disabled spaces. Street parking in the International District is limited and metered. Public transport remains the most convenient option."
+        "content": "A large public underground car park beneath the square offers hourly paid parking, including disabled bays and electric-vehicle charging. Surface street parking in the International District is limited and metered, so public transport is usually the easier choice."
       },
       {
         "id": "dining",
         "title": "Dining",
-        "content": "Cafés, brasseries, restaurants and self-service eateries are within a short walk of the square. For a picnic, the surrounding parks are a good choice."
+        "content": "Cafés, brasseries, restaurants and self-service eateries are within a short walk of the square, from a quick snack to a sit-down meal. For a relaxed bite, the surrounding parks are a good picnic choice. Geneva is generally pricey, so supermarket delis and lunch specials are good value."
       },
       {
         "id": "accommodation",
         "title": "Accommodation",
-        "content": "Hotels of the International District and serviced apartments are nearby; central Geneva hotels are a short tram ride away. Overnight guests receive the free Geneva Transport Card."
+        "content": "Hotels of the International District and serviced apartments are nearby, and central Geneva hotels are a short tram ride away. Overnight guests receive the free Geneva Transport Card, covering buses, trams and trains in the canton for their stay."
       },
       {
         "id": "shopping",
         "title": "Supermarkets & shops",
-        "content": "There is no shopping on the square. Supermarkets, grocery stores and convenience shops are a short tram or bus ride away in the city centre and near the main station."
+        "content": "There is no shopping on the square itself. Supermarkets, grocery stores, pharmacies and convenience shops are a short tram or bus ride away in the city centre and near the main station (Cornavin)."
       },
       {
         "id": "fuel",
         "title": "Fuel & EV charging",
-        "content": "Petrol stations are located along the main roads into the city. Electric vehicle charging points are available at several public car parks across Geneva, including in the International District."
+        "content": "Petrol stations sit along the main roads into the city. Electric-vehicle (EV) charging points are available at several public car parks across Geneva, including in the International District; charging networks and their apps help locate the nearest available connector."
       }
     ]
   },
@@ -681,5 +696,118 @@
     },
     "save": "Save Preferences",
     "saved": "Preferences Saved!"
+  },
+  "weather": {
+    "title": "Weather in Geneva",
+    "subtitle": "Current conditions and a 7-day outlook to help you plan a visit to the Broken Chair.",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "precip": "Precipitation",
+    "forecast": "7-day forecast",
+    "uv": "UV",
+    "pop": "Rain",
+    "todayTip": "Today's tip",
+    "outfitTitle": "What to wear",
+    "planTitle": "Planning your visit",
+    "itemsTitle": "What to bring",
+    "riskTitle": "Weather notice",
+    "fallback": "Live weather is temporarily unavailable. Geneva has a temperate climate — mild springs, warm summers and crisp winters — so pack layers and check the forecast before you set out."
+  },
+  "seasonal": {
+    "title": "Best Seasons to Visit",
+    "subtitle": "A travel-strategy overview based on Geneva's 30-year climate normals (1991–2020): weather, Lake Geneva and the outdoors, and how busy it gets.",
+    "cols": {
+      "weather": "Weather & temperature",
+      "lake": "Lake Geneva & outdoors",
+      "crowds": "Crowds",
+      "tip": "Our recommendation"
+    },
+    "items": [
+      {
+        "season": "Spring (Mar–May)",
+        "weather": "Mild, 8–18 °C; blossom and occasional showers.",
+        "lake": "Lakefront pleasant; water still cool for swimming.",
+        "crowds": "Quiet — a calm time to explore.",
+        "tip": "Great for lakeside walks and photography before the summer rush."
+      },
+      {
+        "season": "Summer (Jun–Aug)",
+        "weather": "Warm, 15–27 °C; long sunny days, afternoon storms possible.",
+        "lake": "Beaches and swimming at their best; fountains on.",
+        "crowds": "Busiest — July–August peak tourism.",
+        "tip": "Go early or late to avoid crowds; book UN tours ahead."
+      },
+      {
+        "season": "Autumn (Sep–Nov)",
+        "weather": "Pleasant 10–20 °C; golden foliage, fewer showers.",
+        "lake": "Calm water, clear light — excellent for photos.",
+        "crowds": "Easing after summer; comfortable and uncrowded.",
+        "tip": "Our favourite season for a relaxed, scenic visit."
+      },
+      {
+        "season": "Winter (Dec–Feb)",
+        "weather": "Cold 1–7 °C; frost, occasional snow, short days.",
+        "lake": "Quiet promenades; nearby museums shine.",
+        "crowds": "Low — ideal for museums and Christmas markets.",
+        "tip": "Pair the monument with indoor exhibitions on cold days."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Suggested Itineraries",
+    "subtitle": "Pick a route that matches your group and your pace.",
+    "audiencesTitle": "Tailored to your group",
+    "audiences": [
+      {
+        "title": "Families with children",
+        "desc": "Start at the Broken Chair for a quick, free photo stop, let the kids run on the open square, then walk to Ariana Park's green space and the International Red Cross and Red Crescent Museum (hands-on, family-friendly exhibits)."
+      },
+      {
+        "title": "Photographers & nature lovers",
+        "desc": "Arrive at sunrise for soft light on the chair and the Palace of Nations, return at blue hour for the lit monument, and capture Lake Geneva and the Jet d'Eau from the lakeside promenade."
+      },
+      {
+        "title": "Low-effort & accessible",
+        "desc": "Tram 15 drops you steps from the square (step-free); benches and flat paving make a gentle loop around the monument, with cafés nearby for a rest."
+      }
+    ],
+    "generalTitle": "Half-day or full-day",
+    "general": [
+      {
+        "title": "Half-day (2–3 hours)",
+        "desc": "Broken Chair → Place des Nations fountains → a guided tour of the Palace of Nations → a coffee on the square."
+      },
+      {
+        "title": "Full-day (5–6 hours)",
+        "desc": "Add the International Red Cross and Red Crescent Museum, a lakeside walk to the Jardin Anglais and the Jet d'Eau, and a stroll through the Old Town."
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Visitor Etiquette & Responsibility",
+    "subtitle": "A few thoughtful ways to enjoy the monument and respect what it stands for.",
+    "items": [
+      {
+        "title": "Respect the symbol",
+        "content": "The Broken Chair is a memorial against landmines and cluster munitions. Please don't climb on it or sit on the broken leg — treat it as you would any war memorial."
+      },
+      {
+        "title": "Thoughtful photography",
+        "content": "Photos are welcome, but be mindful of people who come to reflect. During peaceful gatherings, keep aisles clear and lower your voice."
+      },
+      {
+        "title": "Leave no trace",
+        "content": "The square is a shared public space. Use the bins provided, and take any picnic waste with you to keep it clean for everyone."
+      },
+      {
+        "title": "Learn the story",
+        "content": "Spend a moment with the history of the Ottawa and Oslo treaties — understanding why the chair is broken turns a photo stop into something meaningful."
+      },
+      {
+        "title": "Accessibility for all",
+        "content": "The square is step-free and wheelchair friendly. Keep accessible routes unobstructed so everyone can approach the monument."
+      }
+    ]
   }
 }

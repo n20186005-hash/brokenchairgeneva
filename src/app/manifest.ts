@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Broken Chair Geneva: History, Meaning & Visitor Guide',
+    name: 'Broken Chair Geneva Visitor Guide',
     short_name: 'Broken Chair',
     description:
       'Visitor guide to the Broken Chair monument at Place des Nations, Geneva — history, meaning, transport and photo tips.',

@@ -1,6 +1,6 @@
 export const siteConfig = {
   baseUrl: 'https://brokenchairgeneva.com',
-  siteName: 'Broken Chair Geneva',
+  siteName: 'Broken Chair Geneva Visitor Guide',
   brandName: 'Broken Chair',
   mapsUrl: 'https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7',
   mapsEmbedSrc:

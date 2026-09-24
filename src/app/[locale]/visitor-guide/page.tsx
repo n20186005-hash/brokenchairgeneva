@@ -3,11 +3,15 @@ import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
 import { siteConfig, buildAlternates, localeMeta } from '@/lib/site';
 import GuidePage from '@/components/GuidePage';
+import WeatherSection from '@/components/WeatherSection';
 import JsonLd from '@/components/JsonLd';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+// Re-render periodically so the server-fetched weather stays fresh.
+export const revalidate = 600;
 
 export async function generateMetadata({
   params,
@@ -77,6 +81,7 @@ export default async function VisitorGuidePage({
     <>
       <JsonLd id="visitor-jsonld" data={jsonLd} />
       <GuidePage ns="visitorPage" />
+      <WeatherSection locale={locale} />
     </>
   );
 }

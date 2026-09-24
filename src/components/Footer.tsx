@@ -36,6 +36,9 @@ export default function Footer() {
               <a href="https://www.geneve.ch/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {officialLinks.geneve_ch || 'Geneva City Government'}
               </a>
+              <a href="https://www.ungeneva.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.ungeneva || 'UN Geneva (UNOG)'}
+              </a>
               <a href="https://www.hi.org/en/news/no-to-the-return-of-antipersonnel-landmines" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {officialLinks.hi || 'Handicap International'}
               </a>

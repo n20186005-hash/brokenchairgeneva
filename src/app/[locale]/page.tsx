@@ -19,8 +19,15 @@ import NearbySection from '@/components/NearbySection';
 import MeaningSection from '@/components/MeaningSection';
 import VisitorSection from '@/components/VisitorSection';
 import PracticalInfoSection from '@/components/PracticalInfoSection';
+import SeasonalStrategy from '@/components/SeasonalStrategy';
+import WeatherSection from '@/components/WeatherSection';
+import Itineraries from '@/components/Itineraries';
+import VisitorResponsibility from '@/components/VisitorResponsibility';
 import SourcesSection from '@/components/SourcesSection';
 import JsonLd from '@/components/JsonLd';
+
+// Re-render the page periodically so the server-fetched weather stays fresh.
+export const revalidate = 600;
 
 export async function generateMetadata({
   params,
@@ -146,10 +153,14 @@ export default async function HomePage({
         <NearbySection />
         <BasicInfo />
         <HoursSection />
+        <SeasonalStrategy />
+        <WeatherSection locale={locale} />
         <TicketsSection />
         <TransportSection />
         <VisitorSection />
+        <Itineraries />
         <PracticalInfoSection />
+        <VisitorResponsibility />
         <Gallery />
         <Reviews />
         <FAQSection />

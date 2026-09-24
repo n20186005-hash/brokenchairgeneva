@@ -18,7 +18,7 @@
     "title": "断椅（日内瓦）",
     "subtitle": "万国宫广场上的12米三腿椅，正对联合国欧洲总部",
     "rating": "4.5",
-    "reviewCount": "9,446 条评价",
+    "reviewCount": "9,512 条评价",
     "type": "旅游胜地",
     "openMaps": "在谷歌地图上查看位置",
     "mapsLink": "https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7"
@@ -45,6 +45,16 @@
         "紧邻联合国欧洲总部"
       ]
     }
+  },
+  "nearby": {
+    "title": "断椅（日内瓦）周边地标与景点",
+    "subtitle": "断椅是日内瓦国际区的核心，以下几处地标均在步行可达的范围内。",
+    "lead": "在参观断椅时，游客可以轻松游览周边的历史地标与景点，包括万国宫（联合国日内瓦办事处）与国际红十字与红新月博物馆。",
+    "landmark1Title": "万国宫（联合国日内瓦办事处）",
+    "landmark1Desc": "联合国在日内瓦的总部，正对万国宫广场、与断椅隔广场相望。可提前预约参观议事厅与园区导览。",
+    "landmark2Title": "国际红十字与红新月博物馆",
+    "landmark2Desc": "从广场步行不远即可到达，讲述红十字运动的人道主义故事，与断椅所传达的和平与尊严主题相得益彰。",
+    "viewOnMap": "在谷歌地图上查看位置"
   },
   "knowledge": {
     "title": "关于断椅",
@@ -109,7 +119,7 @@
     "city": "城市",
     "cityValue": "日内瓦",
     "googleRating": "地图评分",
-    "googleRatingValue": "4.5 (9,446)",
+    "googleRatingValue": "4.5 (9,512)",
     "address": "地址",
     "addressValue": "1202 日内瓦, 瑞士",
     "accessibility": "无障碍设施",

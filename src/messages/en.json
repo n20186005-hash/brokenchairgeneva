@@ -18,7 +18,7 @@
     "title": "Broken Chair (Geneva)",
     "subtitle": "The 12-metre three-legged chair at Place des Nations, opposite the United Nations",
     "rating": "4.5",
-    "reviewCount": "9,446 reviews",
+    "reviewCount": "9,512 reviews",
     "type": "Tourist Attraction",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7"
@@ -45,6 +45,16 @@
         "Located right next to the UN European Headquarters"
       ]
     }
+  },
+  "nearby": {
+    "title": "Landmarks & Attractions Around Broken Chair Geneva",
+    "subtitle": "The Broken Chair anchors Geneva's International District — here are the key landmarks within a short walk.",
+    "lead": "When visiting the Broken Chair, visitors can easily explore surrounding historical landmarks and points of interest, including the Palais des Nations (United Nations Office at Geneva) and the International Red Cross and Red Crescent Museum.",
+    "landmark1Title": "Palais des Nations (UN Office at Geneva)",
+    "landmark1Desc": "The headquarters of the United Nations in Geneva, directly opposite the Broken Chair across Place des Nations. Guided tours of the assembly halls and grounds are available with advance booking.",
+    "landmark2Title": "International Red Cross and Red Crescent Museum",
+    "landmark2Desc": "A short walk from the square, this museum tells the humanitarian story behind the Red Cross movement — a natural pairing with the Broken Chair's message of peace and dignity.",
+    "viewOnMap": "View on Google Maps"
   },
   "knowledge": {
     "title": "About Broken Chair",
@@ -109,7 +119,7 @@
     "city": "City",
     "cityValue": "Geneva",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.5 (9,446)",
+    "googleRatingValue": "4.5 (9,512)",
     "address": "Address",
     "addressValue": "1202 Geneva, Switzerland",
     "accessibility": "Accessibility",

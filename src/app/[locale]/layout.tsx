@@ -6,6 +6,7 @@ import type { Metadata, Viewport } from 'next';
 import { siteConfig, localeMeta, buildAlternates } from '@/lib/site';
 import JsonLd from '@/components/JsonLd';
 import Analytics from '@/components/Analytics';
+import PwaRegister from '@/components/PwaRegister';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -166,6 +167,7 @@ export default async function LocaleLayout({
           {children}
         </NextIntlClientProvider>
         <Analytics />
+        <PwaRegister />
       </body>
     </html>
   );

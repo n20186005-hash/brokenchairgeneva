@@ -20,6 +20,15 @@ export const siteConfig = {
   /** Content last reviewed / updated (ISO date). Keep in sync with `contentUpdated` in messages. */
   contentUpdated: '2026-08-31',
   socialImage: '/gallery/broken-chair-geneva-01.jpg',
+  /** Official national tourism portal (country / canton). Used for authoritative outbound links. */
+  govtTourismUrl: 'https://www.myswitzerland.com/',
+  /** Key landmarks surrounding the Broken Chair, used by the nearby-cluster semantic content. */
+  nearbyLandmarks: {
+    landmark1: 'Palais des Nations (United Nations Office at Geneva)',
+    landmark2: 'International Red Cross and Red Crescent Museum',
+  },
+  /** Latest Google rating snapshot (keep in sync with messages hero/basicInfo). */
+  rating: { value: 4.5, reviewCount: 9512 },
 } as const;
 
 export type AppLocale = 'en' | 'zh';

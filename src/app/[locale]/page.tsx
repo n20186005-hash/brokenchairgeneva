@@ -15,6 +15,7 @@ import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import InfoSection from '@/components/InfoSection';
 import RouteSection from '@/components/RouteSection';
+import NearbySection from '@/components/NearbySection';
 import MeaningSection from '@/components/MeaningSection';
 import VisitorSection from '@/components/VisitorSection';
 import PracticalInfoSection from '@/components/PracticalInfoSection';
@@ -67,6 +68,13 @@ export default async function HomePage({
     image: [`${baseUrl}${socialImage}`],
     isAccessibleForFree: true,
     publicAccess: true,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: siteConfig.rating.value,
+      reviewCount: siteConfig.rating.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
     address: {
       '@type': 'PostalAddress',
       streetAddress: address.streetAddress,
@@ -135,6 +143,7 @@ export default async function HomePage({
         <InfoSection />
         <MeaningSection />
         <RouteSection />
+        <NearbySection />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />

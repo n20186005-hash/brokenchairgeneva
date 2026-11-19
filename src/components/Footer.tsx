@@ -63,6 +63,9 @@ export default function Footer() {
             <a href={`${prefix}/place-des-nations-walk`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {locale === 'zh' ? '万国广场步行路线' : 'Place des Nations Walk'}
             </a>
+            <a href={`${prefix}/attractions/palais-des-nations`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '万国宫' : 'Palais des Nations'}</a>
+            <a href={`${prefix}/attractions/red-cross-museum`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '国际红十字与红新月博物馆' : 'Red Cross Museum'}</a>
+            <a href={`${prefix}/attractions/portail-des-nations`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '万国之门访客中心' : 'Portail des Nations'}</a>
             <a href={`${prefix}/privacy-policy`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('privacy')}
             </a>

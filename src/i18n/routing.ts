@@ -13,6 +13,7 @@ export const routing = defineRouting({
     '/visitor-guide': '/visitor-guide',
     '/sculpture-facts': '/sculpture-facts',
     '/place-des-nations-walk': '/place-des-nations-walk',
+    '/attractions/[slug]': '/attractions/[slug]',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

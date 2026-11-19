@@ -1,5 +1,7 @@
 import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { siteConfig } from '@/lib/site';
+import Image from 'next/image';
+import { nearbyAttractions } from '@/lib/nearbyAttractions';
 
 type Landmark = { title: string; description: string };
 
@@ -64,6 +66,18 @@ export default function NearbySection() {
             <span className="block font-semibold">{zh ? '万国广场周边步行路线' : 'Place des Nations self-guided walk'}</span>
             <span className="block mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{zh ? '断椅、万国宫与红十字博物馆' : 'Broken Chair, UN buildings and Red Cross Museum'}</span>
           </a>
+        </div>
+
+        <h3 className="font-display text-2xl font-semibold mt-12 mb-5" style={{ color: 'var(--text-primary)' }}>
+          {zh ? '更多周边景点专页' : 'Explore nearby landmarks'}
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          {Object.values(nearbyAttractions).map((place) => (
+            <a key={place.slug} href={`/${locale}/attractions/${place.slug}`} className="block overflow-hidden rounded-xl hover:underline" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <div className="relative aspect-[4/3]"><Image src={place.image} alt={place[zh ? 'zh' : 'en'].name} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" /></div>
+              <div className="p-4"><h4 className="font-semibold" style={{ color: 'var(--text-primary)' }}>{place[zh ? 'zh' : 'en'].name}</h4><p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>{place[zh ? 'zh' : 'en'].tagline}</p></div>
+            </a>
+          ))}
         </div>
 
         {/* Authoritative outbound link to official tourism portal (template §5) */}

@@ -1,0 +1,121 @@
+export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations';
+type Content = {
+  name: string; tagline: string; intro: string; operator: string; about: string;
+  facts: [string, string][]; history: string[]; architecture: string[]; highlights: string[];
+  visit: string[]; photoTips: string[]; route: string[]; faq: [string, string][];
+};
+type Place = {
+  slug: NearbySlug; image: string; imageSource: string; imageCredit: string;
+  maps: string; address: string; official: string; admission: string; hours: string;
+  en: Content; zh: Content;
+};
+
+export const nearbyAttractions: Record<NearbySlug, Place> = {
+  'palais-des-nations': {
+    slug: 'palais-des-nations', image: '/gallery/palais-des-nations.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Palais_des_nations.jpg', imageCredit: 'Yann Forget / Wikimedia Commons',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Palais+des+Nations+Geneva+Switzerland',
+    address: 'Palais des Nations, 1211 Genève, Switzerland; guided-tour entrance: 14 Avenue de la Paix',
+    official: 'https://www.ungeneva.org/en/visit', admission: 'Outdoor views from the square: free; UN guided tours: booking and fees apply',
+    hours: 'Exterior visible from public areas; guided tours follow the UN booking calendar',
+    en: {
+      name: 'Palais des Nations', tagline: 'The historic seat of the United Nations Office at Geneva',
+      intro: 'Across Place des Nations from the Broken Chair, the Palais des Nations is one of the defining buildings of International Geneva. Its long wings, formal façades and gardens recall the era of the League of Nations and the evolution of modern multilateral diplomacy.',
+      operator: 'United Nations Office at Geneva (UNOG)',
+      about: 'The Palais des Nations houses the United Nations Office at Geneva, which operates the complex and hosts international meetings. Originally built for the League of Nations, its buildings and landscaped Ariana Park connect the history of interwar diplomacy to today’s United Nations. The public can appreciate its exterior from Place des Nations; entry to the secured grounds and interior is controlled by the UN.',
+      facts: [['Type', 'Historic institutional complex and international diplomacy landmark'], ['Location', 'Ariana Park / Place des Nations, Geneva'], ['Management', 'United Nations Office at Geneva'], ['Tour entrance', 'Pregny Gate, 14 Avenue de la Paix'], ['Suggested time', '15–30 minutes outside; longer with a booked tour']],
+      history: ['The complex was conceived as the headquarters of the League of Nations. After the League dissolved in 1946, its facilities were transferred to the United Nations.', 'The building remains a major venue for international conferences and negotiations, making the Broken Chair’s position opposite it especially significant.'],
+      architecture: ['Observe the long, symmetrical stone façades, ceremonial approach, flag-lined avenue and the relationship between the buildings and Ariana Park.', 'A substantial 20th-century institutional complex, it combines formal architecture with extensive parkland; visitors should distinguish publicly visible exteriors from restricted interior spaces.'],
+      highlights: ['The view across Place des Nations from Broken Chair', 'The long façade and national flags', 'The historic connection between the League of Nations and the UN'],
+      visit: ['Use tram 15 or bus 5 to the Nations stop for the square; verify the current timetable.', 'For a guided UN visit, reserve via the official site and follow the meeting-point instructions. Pregny Gate is at 14 Avenue de la Paix, not the square-facing gate.', 'Bring the identification requested in your confirmation, allow time for security and follow restrictions on bags and photography.'],
+      photoTips: ['Use the wide view from Place des Nations to show the Broken Chair and Palais together.', 'Frame the façade and flags from public viewing areas; do not photograph restricted zones contrary to posted notices.'],
+      route: ['Start at Nations stop and examine Broken Chair.', 'Look across the square at the Palais façade and flag avenue.', 'If a UN tour is booked, walk to Pregny Gate via the public pavements on Avenue de la Paix.'],
+      faq: [['Can I walk into the Palais des Nations?', 'No, not freely. Guided tours and other entries require the UN’s authorization, reservations and security procedures.'], ['Where is the tour entrance?', 'The official guided-tour entrance is Pregny Gate, 14 Avenue de la Paix.'], ['Is the exterior free to see?', 'Yes. The façade can be viewed from the public square without a Palais ticket.']],
+    },
+    zh: {
+      name: '万国宫', tagline: '联合国日内瓦办事处所在的历史建筑群',
+      intro: '万国宫位于断椅正对面的万国广场另一侧，是“国际日内瓦”的标志性建筑。绵长的建筑立面、仪式性入口与园林环境，见证了从国际联盟到现代多边外交的发展。',
+      operator: '联合国日内瓦办事处（UNOG）',
+      about: '万国宫现由联合国日内瓦办事处使用和运营，承担国际会议及外交活动。建筑最初为国际联盟兴建，后来成为联合国的重要办公场所。万国宫与阿丽亚娜公园共同保存了20世纪国际合作的历史记忆。公众可从万国广场欣赏建筑外观，入内及进入受管制园区须遵循联合国规定。',
+      facts: [['景点类型', '历史办公建筑群、国际外交地标'], ['位置', '日内瓦阿丽亚娜公园／万国广场'], ['管理主体', '联合国日内瓦办事处'], ['导览入口', 'Pregny Gate，Avenue de la Paix 14号'], ['建议停留', '外观15至30分钟；参加预约导览需另计时间']],
+      history: ['万国宫最初作为国际联盟总部规划建设。国际联盟于1946年解散后，相关设施移交联合国。', '如今这里仍是重要国际会议与谈判场所，断椅面向万国宫的选址也因此更具象征性。'],
+      architecture: ['值得观察其对称延展的石质立面、入口轴线、旗帜阵列，以及与阿丽亚娜公园的空间关系。', '建筑群兼具20世纪公共机构建筑的庄重感与园林景观；请注意外部公共观赏区与受管制内部区域的区别。'],
+      highlights: ['从断椅看万国宫的经典构图', '建筑立面与各国旗帜', '从国际联盟延续至联合国的历史'],
+      visit: ['乘15路电车或5路公交至 Nations 站，实际班次请查询最新时刻表。', '如需进入联合国导览，请通过官网预约，导览入口为 Avenue de la Paix 14号 Pregny Gate，并非广场正面的入口。', '按预约通知准备身份证明，预留安检时间，并遵循行李及摄影规定。'],
+      photoTips: ['从万国广场远处拍摄断椅与万国宫同框。', '在公共区域取景建筑立面和旗帜，不要违反受管制区域的摄影告示。'],
+      route: ['从 Nations 站步行到断椅。', '转向广场另一侧，欣赏万国宫建筑与旗帜。', '已预约联合国导览者沿公共人行道前往 Avenue de la Paix 的 Pregny 入口。'],
+      faq: [['能直接进入万国宫吗？', '一般游客不能自由进入，导览或其他活动须符合联合国预约及安检规定。'], ['导览入口在哪里？', '官方导览访客入口是 Avenue de la Paix 14号的 Pregny Gate。'], ['只看外观需要门票吗？', '从公共广场欣赏建筑外观不需要万国宫门票。']],
+    },
+  },
+  'red-cross-museum': {
+    slug: 'red-cross-museum', image: '/gallery/red-cross-museum.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Schweiz_Genf_IRK-Museum.jpg', imageCredit: 'Nikolai Schwerg / Wikimedia Commons',
+    maps: 'https://www.google.com/maps/search/?api=1&query=International+Red+Cross+and+Red+Crescent+Museum+17+Avenue+de+la+Paix+Geneva',
+    address: 'Avenue de la Paix 17, 1202 Genève, Switzerland', official: 'https://redcrossmuseum.ch/en/prices-opening-hours-access/',
+    admission: 'Ticketed museum; current prices and reductions on the official site', hours: 'Generally Tuesday–Sunday, 10:00–17:00; check closure dates',
+    en: {
+      name: 'International Red Cross and Red Crescent Museum', tagline: 'A museum of humanitarian action near the Palais des Nations',
+      intro: 'A short walk uphill from Place des Nations, this museum asks visitors to consider what humanitarian action means in real lives. Its exhibitions explore the protection of dignity in conflict and crisis, complementing the Broken Chair’s anti-landmine message.',
+      operator: 'Foundation for the International Red Cross and Red Crescent Museum',
+      about: 'The museum is governed by its museum foundation, established in 1981, with representatives of the Red Cross and Red Crescent Movement involved in its governance. It is a distinct cultural institution near the International Committee of the Red Cross headquarters, not an unrestricted part of the Palais des Nations. Opened in 1988 and extensively renewed in 2013, it interprets humanitarian action through exhibitions and visitor participation.',
+      facts: [['Type', 'Humanitarian history and contemporary issues museum'], ['Address', '17 Avenue de la Paix, 1202 Geneva'], ['Management', 'Museum foundation'], ['Typical opening', 'Tuesday–Sunday, 10:00–17:00'], ['Admission', 'Paid; verify ticket options'], ['Suggested time', '1–2 hours depending on exhibitions']],
+      history: ['The museum project developed in the late 1970s; its foundation was formed in 1981 and the institution opened to the public in October 1988.', 'After a major redesign, the museum reopened in May 2013 with a renewed exhibition approach placing human dignity at the centre.'],
+      architecture: ['The museum is built into the sloping Pregny hillside. Observe the way the entrance, terrace and below-ground galleries relate to the surrounding landscape.', 'Its exhibition design uses immersive and interactive elements rather than a traditional chronological display alone.'],
+      highlights: ['Humanitarian action interpreted through personal experiences', 'The relationship to the nearby Red Cross and UN institutions', 'The museum’s hillside architecture and redesigned galleries'],
+      visit: ['Walk from Place des Nations towards Avenue de la Paix or use the nearby Appia stop.', 'The museum usually opens Tuesday to Sunday, but exhibitions, holidays, tickets and accessibility arrangements should be checked on its website.', 'Allow enough time to read and engage with the galleries; the content may be emotionally challenging for some visitors.'],
+      photoTips: ['Photograph the exterior and entrance from the public approach.', 'Inside, follow the museum’s posted rules on photography, particularly around sensitive displays.'],
+      route: ['Begin at Broken Chair and walk along the public pavement towards Avenue de la Paix.', 'Reach the museum at number 17 and observe how the building sits in the hillside.', 'Visit the exhibitions, then continue to the UN Pregny entrance area if appropriate.'],
+      faq: [['Is the museum free?', 'Ordinary admission is ticketed; check the museum’s official pricing and concession information.'], ['Is it the same as the ICRC headquarters?', 'No. The museum is a separate institution beside the humanitarian organizations in the international district.'], ['How long does a visit take?', 'Plan approximately one to two hours for the exhibitions, depending on personal interest.']],
+    },
+    zh: {
+      name: '国际红十字与红新月博物馆', tagline: '万国宫附近探索人道主义历史的博物馆',
+      intro: '从万国广场沿坡道步行不远，就能抵达国际红十字与红新月博物馆。它通过展览让参观者思考人道行动与个体尊严，和断椅反地雷的公共艺术讯息形成呼应。',
+      operator: '国际红十字与红新月博物馆基金会',
+      about: '博物馆由1981年成立的博物馆基金会治理，红十字与红新月运动的代表参与其治理。这里是邻近国际红十字委员会总部的独立文化机构，不属于可自由进出的万国宫院区。博物馆1988年开放，2013年经过大型改造后重新开馆，以展览及参与式体验讲述人道主义行动。',
+      facts: [['景点类型', '人道主义历史与当代议题博物馆'], ['地址', '瑞士日内瓦 Avenue de la Paix 17号，1202'], ['管理主体', '博物馆基金会'], ['一般开放时间', '周二至周日10:00–17:00'], ['门票', '需购票，优惠信息以官网为准'], ['建议停留', '约1至2小时']],
+      history: ['博物馆筹备可追溯至20世纪70年代末，基金会于1981年成立，1988年10月正式对公众开放。', '2013年经过大规模展陈更新后重新开放，更强调以人的尊严为中心理解人道主义行动。'],
+      architecture: ['建筑依傍 Pregny 山坡而建，可观察入口、露台和下沉式展厅如何与地势衔接。', '展陈设计兼用互动与沉浸式手法，并非单纯以时间顺序展示史料。'],
+      highlights: ['以个体经历理解人道行动', '与红十字及联合国机构相邻的地理背景', '山坡建筑与2013年更新的展陈空间'],
+      visit: ['从万国广场沿 Avenue de la Paix 公共人行道步行，也可利用附近的 Appia 站。', '通常周二至周日开放，但节假日、展览、票价与无障碍安排应查阅官网。', '建议预留时间认真阅读展品；部分战争及危机主题可能令人情绪沉重。'],
+      photoTips: ['从公共入口拍摄建筑外观与坡地关系。', '室内摄影应遵守博物馆现场告示，尤其注意敏感展品。'],
+      route: ['先在断椅停留，再沿公共人行道前往 Avenue de la Paix。', '抵达17号博物馆入口，观察建筑与山坡的关系。', '参观展览后，可视情况继续至联合国 Pregny 入口一带。'],
+      faq: [['博物馆免费吗？', '普通参观需要购票，请以官网公布的现行价格及优惠为准。'], ['博物馆就是国际红十字委员会总部吗？', '不是，博物馆是国际组织区内的独立文化机构。'], ['需要停留多久？', '依兴趣可安排约1至2小时参观展览。']],
+    },
+  },
+  'portail-des-nations': {
+    slug: 'portail-des-nations', image: '/gallery/portail-des-nations.webp',
+    imageSource: 'https://www.geneve.com/en/see-do/history-culture/portail-des-nations-step-inside-the-world-of-global-diplomacy', imageCredit: 'Geneva Tourism',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Portail+des+Nations+Geneva+Palais+des+Nations',
+    address: 'Allée des Drapeaux, entrance to Palais des Nations, Geneva, Switzerland',
+    official: 'https://www.geneve.com/en/see-do/history-culture/portail-des-nations-step-inside-the-world-of-global-diplomacy',
+    admission: 'Check the visitor centre’s current programme and entry details', hours: 'Check current visitor-centre hours and events before travelling',
+    en: {
+      name: 'Portail des Nations', tagline: 'A new public introduction to international cooperation in Geneva',
+      intro: 'The Portail des Nations welcomes visitors near the Alley of Flags at the Palais des Nations. Its exhibitions introduce the people, negotiations and decisions behind the work of the United Nations in a setting designed for a broad public.',
+      operator: 'Project foundation until the end of 2027; planned transition to the United Nations afterwards',
+      about: 'Portail des Nations is a visitor centre associated with the United Nations in Geneva. According to a UN Geneva statement in June 2026, the project foundation operates it through the end of 2027, after which the UN is expected to take over. Its purpose is public learning about diplomacy and multilateral cooperation. It should not be confused with security-controlled guided tours inside the historic Palais des Nations.',
+      facts: [['Type', 'Interpretive visitor centre'], ['Location', 'Palais des Nations entrance, Alley of Flags'], ['Operator', 'Project foundation during the initial operating period'], ['Opened', '2026'], ['Admission / hours', 'Consult current programme'], ['Suggested time', 'Allow approximately 45–90 minutes, depending on exhibits']],
+      history: ['The visitor centre opened in 2026 as part of an effort to bring the work of the UN closer to the public.', 'Its planned transition from foundation operation to UN operation underscores the connection to the Palais while distinguishing its visitor-facing role.'],
+      architecture: ['The centre sits at the entrance route along the Alley of Flags. Observe how the contemporary visitor experience frames the established international-institution complex.', 'The transition between the public approach, flags and historic Palais buildings provides a strong visual narrative about Geneva’s role in diplomacy.'],
+      highlights: ['Interactive introduction to multilateral cooperation', 'The Alley of Flags approach', 'The connection between a modern visitor centre and the historic Palais'],
+      visit: ['Begin at Place des Nations and approach the public entrance route by the Alley of Flags.', 'Check current access, programme, opening hours and booking requirements; do not assume that a visitor-centre ticket includes a guided UN interior tour.', 'Allow time for the interpretive exhibition before photographing the flags and the Palais exterior.'],
+      photoTips: ['Frame the entrance with the flags and the Palais in the background.', 'Keep pathways clear and comply with any restrictions inside the centre.'],
+      route: ['See Broken Chair at Place des Nations.', 'Follow signs for Portail des Nations and the Alley of Flags.', 'Visit the interpretation centre if open, then view the Palais from the designated public area.'],
+      faq: [['Is Portail des Nations the Palais des Nations tour?', 'No. The visitor centre and the guided visit to the historic UN interior are distinct experiences with potentially different arrangements.'], ['Who operates the centre?', 'UN Geneva stated that the foundation operates the centre until the end of 2027, with UN operation planned afterwards.'], ['Does it have its own location?', 'Yes, the centre is at the Palais des Nations entrance along the Alley of Flags, rather than at the Broken Chair itself.']],
+    },
+    zh: {
+      name: '万国之门访客中心', tagline: '从公众视角认识日内瓦的国际合作与联合国',
+      intro: 'Portail des Nations 位于万国宫入口的旗帜大道一带，以适合公众参与的展览介绍联合国工作背后的人物、谈判与决策过程，是探索国际日内瓦的新起点。',
+      operator: '项目基金会运营至2027年底，随后计划移交联合国运营',
+      about: '万国之门是与联合国日内瓦办事处相关的公共访客中心。根据联合国2026年6月的说明，项目基金会负责运营至2027年底，此后计划由联合国接手。中心致力于向公众解释外交、多边合作与国际机构工作，与需通过安检及预约的万国宫历史建筑内部导览是不同的体验。',
+      facts: [['景点类型', '国际合作主题访客中心'], ['位置', '万国宫入口，旗帜大道（Allée des Drapeaux）'], ['运营主体', '项目基金会（初期运营阶段）'], ['开放年份', '2026年'], ['门票与开放时间', '查询现行展览和访客安排'], ['建议停留', '依展览约45至90分钟']],
+      history: ['中心于2026年开放，旨在让更多公众走近联合国日内瓦的工作。', '从基金会初期运营到计划由联合国接手，体现了项目与万国宫的联系，也突出了其面向公众的独立教育功能。'],
+      architecture: ['中心位于旗帜大道入口动线上，可观察当代访客空间如何与历史国际机构建筑相接。', '公共入口、旗帜阵列和万国宫立面组成连续的视觉轴线，呈现日内瓦外交城市的特色。'],
+      highlights: ['了解多边合作的互动展示', '旗帜大道的经典视角', '当代访客中心与历史万国宫的空间联系'],
+      visit: ['可先从万国广场断椅出发，步行寻找旗帜大道及访客中心标识。', '提前查阅开放时间、活动及预约规则；访客中心入场不应自动等同于万国宫内部导览。', '建议先参观解释性展览，再从公共区域欣赏旗帜和万国宫外观。'],
+      photoTips: ['把入口、旗帜和万国宫建筑安排在同一画面。', '不要阻碍访客通道，室内遵守摄影限制。'],
+      route: ['先在万国广场观赏断椅。', '按现场标识前往 Portail des Nations 与旗帜大道。', '若访客中心开放，可参观展览，再从指定公共区域观看万国宫。'],
+      faq: [['万国之门就是万国宫导览吗？', '不是。访客中心和万国宫历史建筑内部导览是不同的参观活动，预约要求也可能不同。'], ['由谁运营？', '联合国在2026年说明，项目基金会运营至2027年底，之后计划由联合国接手。'], ['是否与断椅同一个地点？', '不是。访客中心位于万国宫入口的旗帜大道一带，而断椅在万国广场。']],
+    },
+  },
+};

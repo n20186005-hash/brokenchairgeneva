@@ -1,7 +1,8 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { usePathname, routing, type Locale, Link } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
+import { usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
@@ -12,6 +13,7 @@ const labels: Record<string, string> = {
 export default function LanguageToggle() {
   const locale = useLocale();
   const pathname = usePathname();
+  const currentPath = pathname.replace(/^\/(en|zh)(?=\/|$)/, '') || '';
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -53,10 +55,9 @@ export default function LanguageToggle() {
           style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
         >
           {routing.locales.map((loc) => (
-            <Link
+            <a
               key={loc}
-              href={pathname}
-              locale={loc as Locale}
+              href={`/${loc}${currentPath}`}
               onClick={() => setOpen(false)}
               className="block w-full text-left px-4 py-2.5 text-sm transition-colors"
               style={{
@@ -68,7 +69,7 @@ export default function LanguageToggle() {
               onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
             >
               {labels[loc]}
-            </Link>
+            </a>
           ))}
         </div>
       )}

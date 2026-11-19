@@ -1,4 +1,4 @@
-export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden' | 'centre-william-rappard' | 'science-history-museum';
+export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden' | 'centre-william-rappard' | 'science-history-museum' | 'perle-du-lac-park';
 type Content = {
   name: string; tagline: string; intro: string; operator: string; about: string;
   facts: [string, string][]; history: string[]; architecture: string[]; highlights: string[];
@@ -11,6 +11,43 @@ type Place = {
 };
 
 export const nearbyAttractions: Record<NearbySlug, Place> = {
+  'perle-du-lac-park': {
+    slug: 'perle-du-lac-park', image: '/gallery/perle-du-lac-park.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Parc_de_la_Perle_du_Lac%2C_Geneve_-_panoramio_(1).jpg', imageCredit: 'Wikimedia Commons / Panoramio archive',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Parc+de+la+Perle+du+Lac+Geneva+Switzerland',
+    address: 'Parc de la Perle-du-Lac, Rue de Lausanne 128 area, 1202 Genève, Switzerland',
+    official: 'https://www.geneve.com/en/shops/perle-du-lac-park',
+    admission: 'Public lakeside park: free admission; nearby museum and private services have their own arrangements',
+    hours: 'Public park paths generally accessible throughout the year; follow posted restrictions for individual facilities',
+    en: {
+      name: 'Parc de la Perle-du-Lac', tagline: 'Quiet lakeside lawns and a historic villa in Geneva’s right-bank park chain',
+      intro: 'Between the international district and the waterfront promenade, Perle-du-Lac is a generous green pause with broad views across Lake Geneva. Its open lawn, mature trees and Villa Bartholoni invite a slower walk than the surrounding diplomatic offices.',
+      operator: 'City of Geneva — public parks and green-space services',
+      about: 'Parc de la Perle-du-Lac is part of Geneva’s public right-bank green corridor. The City of Geneva manages the public park landscape and pedestrian routes. Its historic association with the League of Nations and the neighbouring Villa Bartholoni gives the park a cultural dimension beyond its lake views; the museum inside the villa has its own visitor hours.',
+      facts: [['Type', 'Public waterfront park'], ['Setting', 'Right bank of Lake Geneva, near Perle du Lac and Mon Repos'], ['Notable building', 'Villa Bartholoni, home of the History of Science Museum'], ['Management', 'City of Geneva'], ['Entry', 'Free public green space'], ['Suggested time', '30–60 minutes; longer with museum visit']],
+      history: ['The park formed part of the historic lakeside estates on the right bank. Villa Bartholoni was constructed in the early nineteenth century and later became the setting for the Science History Museum.', 'In the interwar period, the land around the international district was reshaped in connection with the League of Nations and the development of public parks. Today Perle-du-Lac remains part of a continuous waterfront walk.'],
+      architecture: ['Look towards the pale neoclassical Villa Bartholoni and note how the building opens onto lawn and lakeside scenery.', 'The main landscape character comes from generous lawns, mature trees and walking paths framing views of Lake Geneva, rather than a formal monument or a ticketed garden enclosure.'],
+      highlights: ['Open views towards Lake Geneva and the opposite shore', 'Villa Bartholoni and its scientific-museum connection', 'Easy continuation to botanical garden and neighbouring lakeside parks'],
+      visit: ['Arrive via Perle du Lac bus stops or the Genève-Sécheron area; walking routes connect with the lakeshore and Villa Bartholoni.', 'This is an outdoor public park, so allow for weather and daylight. Do not confuse open park access with the museum’s Wednesday–Monday timetable.', 'Stay on established paths, protect lawns and planting, and leave room for local walkers and families.'],
+      photoTips: ['Position the lake and trees in layered foreground/background compositions; late afternoon often gives warmer directional light.', 'Photograph Villa Bartholoni from park paths, taking care not to include people prominently without permission.'],
+      route: ['Start near the Perle du Lac bus stop and enter the open lakeside greenery.', 'Walk towards the lakefront, pausing for water and mountain views before turning towards Villa Bartholoni.', 'Visit the exterior of the science museum, then extend the walk north towards the botanical garden or south towards Mon Repos.'],
+      faq: [['Does the park charge admission?', 'No, normal public access to the park is free.'], ['Can I visit the science museum on the same walk?', 'Yes, the museum occupies Villa Bartholoni in the park, but it has its own opening days and hours.'], ['Is it the same as the Botanical Garden?', 'No. Perle-du-Lac is a separate lakeside public park; the botanical garden lies farther along the right-bank green corridor.']],
+    },
+    zh: {
+      name: '珍珠湖畔公园', tagline: '日内瓦右岸的湖畔草坪、古老树木与历史别墅',
+      intro: 'Perle-du-Lac 位于国际组织区与湖滨步道之间，草坪开阔、树木成熟，可以远眺日内瓦湖另一岸。相比周边办公机构，这里更适合放慢脚步，在 Bartholoni 别墅外感受城市绿地与科学文化的联系。',
+      operator: '日内瓦市政府—公共公园与绿地管理部门',
+      about: '珍珠湖畔公园是日内瓦右岸公共绿地走廊的一部分，由日内瓦市政府维护公园景观与步行路线。园区与国际联盟时代的土地变迁及 Bartholoni 历史别墅相关，不只是湖景休憩场所；别墅中的科学史博物馆另有独立开放时段。',
+      facts: [['景点类型', '公共湖畔公园'], ['位置', '日内瓦湖右岸，Perle du Lac 与 Mon Repos 一带'], ['代表建筑', 'Bartholoni 别墅（科学史博物馆）'], ['管理主体', '日内瓦市政府'], ['入园费用', '公共绿地免费'], ['建议停留', '约30–60分钟；博物馆另计']],
+      history: ['这里原属日内瓦湖右岸的历史湖畔庄园区域。Bartholoni 别墅建于19世纪初，后来成为科学史博物馆所在地。', '两次世界大战之间，国际联盟及公共公园建设改变了周边土地的使用方式；如今 Perle-du-Lac 已融入连续的湖岸漫步网络。'],
+      architecture: ['可观察浅色新古典主义 Bartholoni 别墅如何朝向草坪和湖景展开。', '景观设计的重点是开阔草坪、成熟树木及连接湖景的路径，而非收费花园或单一大型纪念碑。'],
+      highlights: ['日内瓦湖及对岸风景', 'Bartholoni 别墅与科学史文化', '衔接植物园和右岸其他湖滨公园的步行路线'],
+      visit: ['可由 Perle du Lac 公交站或 Genève-Sécheron 一带前往，公共步道连接湖滨与 Bartholoni 别墅。', '公园主要为户外空间，需留意天气与日照；园区开放不等于科学史博物馆每天开放。', '使用既有步道，爱护草坪及植物，并为当地散步者和家庭留出通行空间。'],
+      photoTips: ['把湖水、树木和远岸安排为前中后景，傍晚斜光有利于表现层次。', '可从公园步道拍摄 Bartholoni 别墅，注意不要未经同意突出拍摄其他游客。'],
+      route: ['从 Perle du Lac 公交站附近进入湖畔绿地。', '走向湖岸欣赏水景及山景，随后转向 Bartholoni 别墅。', '在科学史博物馆外停留后，可向北接植物园，或向南走向 Mon Repos。'],
+      faq: [['公园需要门票吗？', '公共园区正常进入免费。'], ['可以顺便参观科学史博物馆吗？', '可以，博物馆位于园内的 Bartholoni 别墅，但开放时间与公园不同。'], ['这里就是日内瓦植物园吗？', '不是。珍珠湖畔公园是独立的公共湖畔公园，植物园位于右岸绿地走廊更远处。']],
+    },
+  },
   'centre-william-rappard': {
     slug: 'centre-william-rappard', image: '/gallery/centre-william-rappard.jpg',
     imageSource: 'https://commons.wikimedia.org/wiki/File:Centre_William-Rappard_1.jpg', imageCredit: 'Jérémy Toma / Wikimedia Commons',

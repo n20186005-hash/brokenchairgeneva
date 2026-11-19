@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && opennextjs-cloudflare build --skipNextBuild",
     "start": "next start",
-    "deploy": "wrangler deploy",
+    "deploy": "opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare preview",
     "lint": "next lint"
   },
   "dependencies": {

@@ -4,7 +4,7 @@ export default function Hero() {
   const t = useTranslations('hero');
   const a11y = useTranslations('accessibilityLabels');
 
-  const mapsLink = t('mapsLink') || 'https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7';
+  const mapsLink = t('mapsLink') || 'https://maps.google.com/?cid=2401392834066059427';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">

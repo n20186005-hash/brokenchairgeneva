@@ -2,7 +2,7 @@ export const siteConfig = {
   baseUrl: 'https://brokenchairgeneva.com',
   siteName: 'Broken Chair Geneva Visitor Guide',
   brandName: 'Broken Chair',
-  mapsUrl: 'https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7',
+  mapsUrl: 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed',
   mapsEmbedSrc:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4909.736435512783!2d6.138844199999999!3d46.2228092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64e410886e1d%3A0x2153760f38ad10a3!2sBroken%20Chair!5e1!3m2!1szh-CN!2s!4v1788182579238!5m2!1szh-CN!2s',
   address: {
@@ -28,7 +28,7 @@ export const siteConfig = {
     landmark2: 'International Red Cross and Red Crescent Museum',
   },
   /** Latest Google rating snapshot (keep in sync with messages hero/basicInfo). */
-  rating: { value: 4.5, reviewCount: 9512 },
+  rating: { value: 4.5, reviewCount: 9623 },
 } as const;
 
 export type AppLocale = 'en' | 'zh';

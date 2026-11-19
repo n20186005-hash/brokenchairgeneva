@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const a11y = useTranslations('accessibilityLabels');
 
   const mapsLink = t('mapsLink') || 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed';
 
@@ -11,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/broken-chair-geneva-02.jpg"
-          alt="Broken Chair - Main view of the giant three-legged chair in Geneva at Place des Nations, Switzerland"
+          alt={a11y('heroImage')}
           className="w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"

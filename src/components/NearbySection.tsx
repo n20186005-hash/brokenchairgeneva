@@ -1,5 +1,7 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { siteConfig } from '@/lib/site';
+import Image from 'next/image';
+import { nearbyAttractions } from '@/lib/nearbyAttractions';
 
 type Landmark = { title: string; description: string };
 
@@ -10,6 +12,8 @@ type Landmark = { title: string; description: string };
  */
 export default function NearbySection() {
   const t = useTranslations('nearby');
+  const locale = useLocale();
+  const zh = locale === 'zh';
   const messages = useMessages() as any;
   const data = messages?.nearby || {};
   const mapsLink = messages?.hero?.mapsLink || siteConfig.mapsUrl;
@@ -50,6 +54,29 @@ export default function NearbySection() {
                 {landmark.description}
               </p>
             </div>
+          ))}
+        </div>
+
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href={`/${locale}/sculpture-facts`} className="rounded-xl p-5 hover:underline" style={{ border: '1px solid var(--border-color)', color: 'var(--accent)' }}>
+            <span className="block font-semibold">{zh ? '断椅雕塑详解：作者、尺寸与象征' : 'Broken Chair sculpture: artist, size & symbolism'}</span>
+            <span className="block mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{zh ? '从断裂的椅腿读懂作品设计' : 'Explore the artwork’s construction and meaning'}</span>
+          </a>
+          <a href={`/${locale}/place-des-nations-walk`} className="rounded-xl p-5 hover:underline" style={{ border: '1px solid var(--border-color)', color: 'var(--accent)' }}>
+            <span className="block font-semibold">{zh ? '万国广场周边步行路线' : 'Place des Nations self-guided walk'}</span>
+            <span className="block mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{zh ? '断椅、万国宫与红十字博物馆' : 'Broken Chair, UN buildings and Red Cross Museum'}</span>
+          </a>
+        </div>
+
+        <h3 className="font-display text-2xl font-semibold mt-12 mb-5" style={{ color: 'var(--text-primary)' }}>
+          {zh ? '更多周边景点专页' : 'Explore nearby landmarks'}
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          {Object.values(nearbyAttractions).map((place) => (
+            <a key={place.slug} href={`/${locale}/attractions/${place.slug}`} className="block overflow-hidden rounded-xl hover:underline" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <div className="relative aspect-[4/3]"><Image src={place.image} alt={place[zh ? 'zh' : 'en'].name} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" /></div>
+              <div className="p-4"><h4 className="font-semibold" style={{ color: 'var(--text-primary)' }}>{place[zh ? 'zh' : 'en'].name}</h4><p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>{place[zh ? 'zh' : 'en'].tagline}</p></div>
+            </a>
           ))}
         </div>
 

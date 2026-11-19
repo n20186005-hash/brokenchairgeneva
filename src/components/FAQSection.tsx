@@ -2,6 +2,7 @@ import { useTranslations, useMessages } from 'next-intl';
 
 export default function FAQSection() {
   const t = useTranslations('faq');
+  const a11y = useTranslations('accessibilityLabels');
   const messages = useMessages() as any;
   const items = (messages?.faq?.items || []) as Array<{ question: string; answer: string }>;
 
@@ -27,14 +28,14 @@ export default function FAQSection() {
                 className="font-display text-xl font-semibold mb-3 flex items-start gap-3"
                 style={{ color: 'var(--text-primary)' }}
               >
-                <span className="text-[var(--accent)] font-bold">Q:</span>
+                <span className="text-[var(--accent)] font-bold">{a11y('questionPrefix')}</span>
                 {item.question}
               </h3>
               <div
                 className="text-lg leading-relaxed flex items-start gap-3"
                 style={{ color: 'var(--text-secondary)' }}
               >
-                <span className="text-[var(--accent)] font-bold">A:</span>
+                <span className="text-[var(--accent)] font-bold">{a11y('answerPrefix')}</span>
                 <p>{item.answer}</p>
               </div>
             </div>

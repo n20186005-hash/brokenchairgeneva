@@ -4,6 +4,7 @@ import { siteConfig } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const a11y = useTranslations('accessibilityLabels');
   const messages = useMessages() as any;
   const mapsLink = messages?.hero?.mapsLink || 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed';
 
@@ -36,7 +37,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Broken Chair - Google Maps location at Place des Nations, Geneva"
+            title={a11y('mapFrame')}
           />
         </div>
 

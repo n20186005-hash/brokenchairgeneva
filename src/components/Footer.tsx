@@ -28,22 +28,22 @@ export default function Footer() {
             </h3>
             <div className="flex flex-col gap-2">
               <a href="https://www.myswitzerland.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.myswitzerland || 'Switzerland Tourism'}
+                {officialLinks.myswitzerland}
               </a>
               <a href="https://www.geneve.com/en" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.geneve || 'Geneva Tourism'}
+                {officialLinks.geneve}
               </a>
               <a href="https://www.geneve.ch/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.geneve_ch || 'Geneva City Government'}
+                {officialLinks.geneve_ch}
               </a>
               <a href="https://www.ungeneva.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.ungeneva || 'UN Geneva (UNOG)'}
+                {officialLinks.ungeneva}
               </a>
               <a href="https://www.hi.org/en/news/no-to-the-return-of-antipersonnel-landmines" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.hi || 'Handicap International'}
+                {officialLinks.hi}
               </a>
               <a href="https://www.swiss-visa.ch/ivis2/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.visa || 'Swiss-Visa System'}
+                {officialLinks.visa}
               </a>
             </div>
           </div>
@@ -57,6 +57,15 @@ export default function Footer() {
             <a href={`${prefix}/visitor-guide`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('guideVisitor')}
             </a>
+            <a href={`${prefix}/sculpture-facts`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {locale === 'zh' ? '断椅雕塑详解' : 'Sculpture Facts'}
+            </a>
+            <a href={`${prefix}/place-des-nations-walk`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {locale === 'zh' ? '万国广场步行路线' : 'Place des Nations Walk'}
+            </a>
+            <a href={`${prefix}/attractions/palais-des-nations`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '万国宫' : 'Palais des Nations'}</a>
+            <a href={`${prefix}/attractions/red-cross-museum`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '国际红十字与红新月博物馆' : 'Red Cross Museum'}</a>
+            <a href={`${prefix}/attractions/portail-des-nations`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>{locale === 'zh' ? '万国之门访客中心' : 'Portail des Nations'}</a>
             <a href={`${prefix}/privacy-policy`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('privacy')}
             </a>

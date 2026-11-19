@@ -32,7 +32,9 @@ export async function generateMetadata({
       template: `%s | ${siteName}`,
     },
     description,
-    keywords: [
+    keywords: (locale === 'zh' ? [
+      '日内瓦断椅', '断椅', '日内瓦三腿椅', '万国广场', '断椅象征意义', '日内瓦景点',
+    ] : [
       'Broken Chair',
       'Broken Chair Geneva',
       'three-legged chair Geneva',
@@ -41,10 +43,7 @@ export async function generateMetadata({
       'Daniel Berset',
       'Place des Nations Geneva',
       'Geneva landmarks',
-      '日内瓦断椅',
-      '断椅',
-      '日内瓦三腿椅',
-    ],
+    ]),
     authors: [{ name: siteName }],
     creator: siteName,
     publisher: siteName,
@@ -61,7 +60,7 @@ export async function generateMetadata({
           url: ogImage,
           width: 1200,
           height: 900,
-          alt: 'The Broken Chair monument on Place des Nations in Geneva',
+          alt: locale === 'zh' ? '日内瓦万国广场的断椅纪念雕塑' : 'The Broken Chair monument on Place des Nations in Geneva',
         },
       ],
     },

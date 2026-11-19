@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/site';
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
   const messages = useMessages() as any;
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7';
+  const mapsLink = messages?.hero?.mapsLink || 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed';
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>

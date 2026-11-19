@@ -18,10 +18,10 @@
     "title": "Broken Chair (Geneva)",
     "subtitle": "The 12-metre three-legged chair at Place des Nations, opposite the United Nations",
     "rating": "4.5",
-    "reviewCount": "9,512 reviews",
+    "reviewCount": "9,623 reviews",
     "type": "Tourist Attraction",
     "openMaps": "View on Google Maps",
-    "mapsLink": "https://maps.app.goo.gl/ox5EXQDdKs4Yc7Nb7"
+    "mapsLink": "https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed"
   },
   "intro": {
     "title": "Explore Broken Chair",
@@ -131,7 +131,7 @@
     "city": "City",
     "cityValue": "Geneva",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.5 (9,512)",
+    "googleRatingValue": "4.5 (9,623)",
     "address": "Address",
     "addressValue": "1202 Geneva, Switzerland",
     "accessibility": "Accessibility",

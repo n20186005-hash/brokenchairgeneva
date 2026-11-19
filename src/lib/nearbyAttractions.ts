@@ -1,4 +1,4 @@
-export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden';
+export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden' | 'centre-william-rappard' | 'science-history-museum';
 type Content = {
   name: string; tagline: string; intro: string; operator: string; about: string;
   facts: [string, string][]; history: string[]; architecture: string[]; highlights: string[];
@@ -11,6 +11,79 @@ type Place = {
 };
 
 export const nearbyAttractions: Record<NearbySlug, Place> = {
+  'centre-william-rappard': {
+    slug: 'centre-william-rappard', image: '/gallery/centre-william-rappard.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Centre_William-Rappard_1.jpg', imageCredit: 'Jérémy Toma / Wikimedia Commons',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Centre+William+Rappard+Rue+de+Lausanne+154+Geneva',
+    address: 'Rue de Lausanne 154, 1202 Genève, Switzerland',
+    official: 'https://www.wto.org/english/thewto_e/cwr_e/cwr_e.htm',
+    admission: 'Exterior views from public space: free; guided visits require advance arrangement with WTO',
+    hours: 'Working headquarters, not an open-access museum; guided visits by advance arrangement',
+    en: {
+      name: 'Centre William Rappard', tagline: 'A century of international cooperation at the WTO’s Geneva headquarters',
+      intro: 'On the lakeside edge of the international district, the Centre William Rappard connects the history of the International Labour Organization, GATT and the World Trade Organization. Its formal architecture and landscaped setting make a rewarding stop even when interior access is unavailable.',
+      operator: 'World Trade Organization (WTO), occupant and operator; property owned by FIPOI',
+      about: 'The Centre William Rappard is the headquarters of the World Trade Organization, which occupies and manages access to the working building. The property is owned by the Fondation des immeubles pour les organisations internationales (FIPOI), a Geneva public-interest foundation. Visitors can appreciate publicly visible exterior views, while WTO-led guided visits require advance contact and confirmation.',
+      facts: [['Type', 'Historic international-organization headquarters'], ['First opened', '1926, originally for the International Labour Office'], ['Current institution', 'World Trade Organization since 1995'], ['Architect', 'Georges Épitaux'], ['Property owner', 'FIPOI'], ['Suggested time', '15–30 minutes for exterior; about one hour for a confirmed tour']],
+      history: ['Built between 1923 and 1926, the building was the first in Geneva designed specifically for an international organization and initially housed the International Labour Office.', 'Later occupants included the GATT secretariat and other international institutions. The World Trade Organization has been based here since its creation in 1995; the building marked its centenary in 2026.'],
+      architecture: ['Look for the restrained classical composition, the extended façade and the relationship of the building to the lakeside grounds.', 'The heritage interiors contain artworks associated with international cooperation. They can be viewed only under a confirmed visitor arrangement, not as part of an ordinary walk through the district.'],
+      highlights: ['The 1926 architecture built for an international institution', 'The transition from the ILO and GATT to the WTO', 'Lakeside setting near the botanical garden'],
+      visit: ['From Place des Nations, reach Rue de Lausanne by public routes or local transit and locate number 154; the Geneva-Sécheron rail stop can be useful.', 'Treat this as an exterior architectural stop unless the WTO has confirmed a guided visit. Contact the WTO beforehand for tour availability and identity/security requirements.', 'The grounds and offices are not freely accessible; use designated public viewpoints and respect security signage.'],
+      photoTips: ['Frame the exterior from a lawful public vantage point, showing its symmetrical massing rather than shooting through security barriers.', 'On a longer walk, photograph the contrast between the international architecture and the surrounding greenery without entering restricted grounds.'],
+      route: ['Begin at Broken Chair and identify the Palais des Nations across the square.', 'Continue on public streets towards Rue de Lausanne and the Centre William Rappard at number 154.', 'Study the façade from public space, then continue towards the botanical garden or the Perle-du-Lac lakeshore.'],
+      faq: [['Can I enter without a reservation?', 'No. It is an active WTO headquarters; guided access needs advance confirmation.'], ['Who owns the building?', 'FIPOI owns the premises; the WTO is the current occupant and manages working access.'], ['Is an exterior visit free?', 'Views from permitted public spaces require no admission ticket.']],
+    },
+    zh: {
+      name: '威廉·拉帕德中心', tagline: '从国际劳工组织到世界贸易组织的百年建筑',
+      intro: '在日内瓦国际组织区靠近日内瓦湖的一侧，威廉·拉帕德中心见证了国际劳工组织、关贸总协定与世界贸易组织的发展。即使无法入内，建筑严整的外观及湖畔环境也值得纳入周边步行路线。',
+      operator: '世界贸易组织（使用与运营）；建筑产权属于 FIPOI 国际组织房产基金会',
+      about: '威廉·拉帕德中心现为世界贸易组织总部，由世贸组织使用并管理办公及访客出入。建筑产权属于由日内瓦州设立的国际组织房产基金会 FIPOI。一般游客可从合法公共位置欣赏建筑外观；如希望参加内部导览，须事先联系世贸组织并取得确认。',
+      facts: [['景点类型', '历史国际组织办公建筑'], ['启用年份', '1926年，最初供国际劳工局使用'], ['现用机构', '世界贸易组织（1995年至今）'], ['建筑师', 'Georges Épitaux'], ['产权主体', 'FIPOI'], ['建议停留', '外观15–30分钟；预约导览约一小时']],
+      history: ['建筑建于1923至1926年，是日内瓦首座专门为国际组织设计建造的建筑，最初容纳国际劳工局。', '之后曾有关贸总协定秘书处等机构进驻；1995年世界贸易组织成立后以此为总部。建筑于2026年迎来启用百年。'],
+      architecture: ['可观察其古典式对称构图、延展立面与湖畔绿地之间的关系。', '建筑内部保存着与国际合作相关的艺术装饰，但仅可在获得确认的参观活动中欣赏，不能当作普通开放博物馆。'],
+      highlights: ['1926年的国际机构建筑语言', '国际劳工组织、GATT 与 WTO 的历史延续', '靠近日内瓦植物园的湖畔环境'],
+      visit: ['从万国广场沿公共路线前往 Rue de Lausanne 154号，亦可结合 Genève-Sécheron 火车站安排交通。', '没有获得世贸组织确认时，请将此处安排为外观观赏点；若需导览，提前了解预约和身份安检要求。', '园区和办公室不对一般游客自由开放，应在指定公共位置停留并遵守安保告示。'],
+      photoTips: ['从合法公共机位拍摄建筑对称立面，避免越过安全围栏取景。', '若接续湖畔步行，可尝试把建筑、树木和周边绿地纳入构图。'],
+      route: ['先在断椅及万国广场认识联合国建筑群。', '沿公共道路走向 Rue de Lausanne 154号的威廉·拉帕德中心。', '在公共区域观察建筑外观，再前往植物园或 Perle-du-Lac 湖岸继续散步。'],
+      faq: [['可以不预约就进入吗？', '不能。这里是正常办公的世贸组织总部，内部导览须提前确认。'], ['谁拥有这栋建筑？', '产权属于 FIPOI，世贸组织是目前使用和管理办公出入的机构。'], ['只看外观需要付费吗？', '从允许停留的公共位置观赏外观不需要门票。']],
+    },
+  },
+  'science-history-museum': {
+    slug: 'science-history-museum', image: '/gallery/science-history-museum.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Villa_Bartholoni%2C_Gen%C3%A8ve.jpg', imageCredit: 'MHM55 / Wikimedia Commons',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+d%27histoire+des+sciences+Rue+de+Lausanne+128+Gen%C3%A8ve',
+    address: 'Rue de Lausanne 128, 1202 Genève, Switzerland',
+    official: 'https://museesdegeneve.ch/musee/musee-dhistoire-des-sciences-de-geneve/',
+    admission: 'Free general admission', hours: 'Wednesday–Monday 10:00–17:00; closed Tuesdays; holiday exceptions apply',
+    en: {
+      name: 'Museum of the History of Science', tagline: 'Historic scientific instruments inside the lakeside Villa Bartholoni',
+      intro: 'At the edge of the Perle-du-Lac park, the Museum of the History of Science brings together Geneva’s scientific heritage and an elegant nineteenth-century villa. Displays of astronomy, meteorology and microscopy help visitors see how researchers once measured and understood the natural world.',
+      operator: 'City of Geneva — Museum of the History of Science / Natural History Museum institution',
+      about: 'This free public museum is run by the City of Geneva as part of its natural-history museum institutions. Its displays and educational activities preserve scientific instruments associated with Geneva researchers. The museum occupies the historic Villa Bartholoni in the public Perle-du-Lac park, separate from the nearby United Nations and WTO buildings.',
+      facts: [['Type', 'Scientific heritage museum'], ['Building', 'Villa Bartholoni, an early-nineteenth-century neoclassical villa'], ['Museum opened', '1964'], ['Collection focus', 'Scientific instruments from the seventeenth to nineteenth centuries'], ['Managing body', 'City of Geneva'], ['Suggested time', '45–75 minutes']],
+      history: ['Built around 1828–1830 for François Bartholoni to designs by Félix-Emmanuel Callet, the villa reflects nineteenth-century Geneva’s lakeside estate culture.', 'The science-history museum opened in 1964, displaying instruments linked to Geneva’s research traditions, including astronomy, the study of weather and optics.'],
+      architecture: ['Look at the neoclassical villa’s colonnades, arcades, façade rhythm and park setting before entering.', 'Inside, compare the historic rooms with the precise shapes of the instruments: each device had to make an otherwise invisible physical phenomenon measurable.'],
+      highlights: ['Historic telescopes and astronomical devices', 'Microscopes and meteorological measuring tools', 'Villa Bartholoni and the Perle-du-Lac lakeside landscape'],
+      visit: ['Public transport options include buses 1 and 25 to Perle du Lac, tram 15 at Butini or France, or Genève-Sécheron rail; confirm current services.', 'The museum normally opens Wednesday to Monday 10:00–17:00 and is free; check holiday changes. It is closed on Tuesdays.', 'Because the villa is historic, accessibility arrangements are limited; contact the museum ahead of time if step-free access is essential.'],
+      photoTips: ['Photograph the pale villa façade with its columns and lawn from the park without blocking the entrance.', 'If indoor photography is permitted, pair an instrument with its display caption and avoid glare on glass.'],
+      route: ['From Broken Chair or the botanical garden, reach Perle-du-Lac via public paths and transit.', 'Pause outside Villa Bartholoni to see its neoclassical façade and relationship to the lakeside park.', 'Enter the free museum, focus on two or three instrument families, then continue along the public lakeshore.'],
+      faq: [['Is admission free?', 'Yes, general entry to the Museum of the History of Science is free.'], ['Which day is the museum closed?', 'Tuesday; ordinary opening is Wednesday through Monday from 10:00 to 17:00.'], ['Is the villa wheelchair accessible?', 'The historic building presents limitations. Contact the museum for current accessibility support before visiting.']],
+    },
+    zh: {
+      name: '日内瓦科学史博物馆', tagline: '在湖畔新古典主义别墅里探索早期科学仪器',
+      intro: '科学史博物馆位于 Perle-du-Lac 公园边缘的 Villa Bartholoni 历史别墅内，结合日内瓦科学传统与19世纪建筑。天文学、气象学和显微观察仪器展现研究者如何测量并理解自然现象。',
+      operator: '日内瓦市政府—科学史博物馆（自然历史博物馆体系）',
+      about: '这家免费开放的公共博物馆由日内瓦市政府管理，属于市立自然历史博物馆相关机构。馆内保存并展示日内瓦科学家使用过的仪器，开展公众教育活动。博物馆坐落于公共湖畔公园中的 Bartholoni 别墅，与周边联合国和世贸组织办公建筑分属不同管理主体。',
+      facts: [['景点类型', '科学仪器与科学史博物馆'], ['建筑', '19世纪初的新古典主义 Villa Bartholoni'], ['博物馆开放', '1964年'], ['馆藏重点', '17至19世纪科学仪器'], ['管理主体', '日内瓦市政府'], ['建议停留', '约45至75分钟']],
+      history: ['别墅约建于1828至1830年，由建筑师 Félix-Emmanuel Callet 为 François Bartholoni 设计，保存了19世纪日内瓦湖畔宅邸的建筑风貌。', '科学史博物馆于1964年开放，展示与日内瓦科学传统相关的天文、气象、光学等历史仪器。'],
+      architecture: ['入馆前从公园观察新古典主义立面、柱廊、拱廊节奏与草坪布局。', '在室内将历史空间与仪器精密结构对照观看：这些装置把原本难以直接观察的自然现象转化为可测量的数据。'],
+      highlights: ['历史望远镜及天文仪器', '显微镜与气象测量工具', 'Bartholoni 别墅及 Perle-du-Lac 湖岸景观'],
+      visit: ['可搭乘1、25路公交至 Perle du Lac，或15路电车至 Butini／France，也可使用 Genève-Sécheron 火车站；班次请查当天公告。', '通常周三至周一10:00–17:00开放，周二闭馆，普通入场免费；节假日另行核对。', '历史别墅的无障碍条件有限，如需要无台阶通行安排，请提前联系馆方。'],
+      photoTips: ['从公园草坪一侧拍摄浅色别墅、柱廊和绿地，不阻挡入口。', '如允许室内摄影，可让仪器和说明牌同框，并留意玻璃展柜的反光。'],
+      route: ['从断椅或植物园出发，经公共步道与交通抵达 Perle-du-Lac。', '先在 Villa Bartholoni 外观察新古典主义立面与湖畔公园布局。', '入馆选择两三类历史仪器细看，之后沿开放的湖岸步道继续游览。'],
+      faq: [['需要门票吗？', '科学史博物馆普通入场免费。'], ['哪一天闭馆？', '周二；一般开放时间为周三至周一10:00–17:00。'], ['轮椅可以无障碍进入吗？', '历史建筑存在通行限制，建议参观前联系博物馆确认辅助设施。']],
+    },
+  },
   'musee-ariana': {
     slug: 'musee-ariana', image: '/gallery/musee-ariana.jpg',
     imageSource: 'https://commons.wikimedia.org/wiki/File:Musee_Ariana_1_Geneve.JPG', imageCredit: 'Gfuerst / Wikimedia Commons',

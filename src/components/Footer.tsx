@@ -57,6 +57,12 @@ export default function Footer() {
             <a href={`${prefix}/visitor-guide`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('guideVisitor')}
             </a>
+            <a href={`${prefix}/sculpture-facts`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {locale === 'zh' ? '断椅雕塑详解' : 'Sculpture Facts'}
+            </a>
+            <a href={`${prefix}/place-des-nations-walk`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {locale === 'zh' ? '万国广场步行路线' : 'Place des Nations Walk'}
+            </a>
             <a href={`${prefix}/privacy-policy`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
               {t('privacy')}
             </a>

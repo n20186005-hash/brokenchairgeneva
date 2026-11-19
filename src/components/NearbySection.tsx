@@ -1,4 +1,4 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { siteConfig } from '@/lib/site';
 
 type Landmark = { title: string; description: string };
@@ -10,6 +10,8 @@ type Landmark = { title: string; description: string };
  */
 export default function NearbySection() {
   const t = useTranslations('nearby');
+  const locale = useLocale();
+  const zh = locale === 'zh';
   const messages = useMessages() as any;
   const data = messages?.nearby || {};
   const mapsLink = messages?.hero?.mapsLink || siteConfig.mapsUrl;
@@ -51,6 +53,17 @@ export default function NearbySection() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href={`/${locale}/sculpture-facts`} className="rounded-xl p-5 hover:underline" style={{ border: '1px solid var(--border-color)', color: 'var(--accent)' }}>
+            <span className="block font-semibold">{zh ? '断椅雕塑详解：作者、尺寸与象征' : 'Broken Chair sculpture: artist, size & symbolism'}</span>
+            <span className="block mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{zh ? '从断裂的椅腿读懂作品设计' : 'Explore the artwork’s construction and meaning'}</span>
+          </a>
+          <a href={`/${locale}/place-des-nations-walk`} className="rounded-xl p-5 hover:underline" style={{ border: '1px solid var(--border-color)', color: 'var(--accent)' }}>
+            <span className="block font-semibold">{zh ? '万国广场周边步行路线' : 'Place des Nations self-guided walk'}</span>
+            <span className="block mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{zh ? '断椅、万国宫与红十字博物馆' : 'Broken Chair, UN buildings and Red Cross Museum'}</span>
+          </a>
         </div>
 
         {/* Authoritative outbound link to official tourism portal (template §5) */}

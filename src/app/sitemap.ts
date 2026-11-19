@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '', priority: 1, changeFrequency: 'weekly' as const },
     { path: '/history-and-meaning', priority: 0.9, changeFrequency: 'monthly' as const },
     { path: '/visitor-guide', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/sculpture-facts', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/place-des-nations-walk', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/privacy-policy', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/terms-of-service', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/cookie-settings', priority: 0.2, changeFrequency: 'yearly' as const },

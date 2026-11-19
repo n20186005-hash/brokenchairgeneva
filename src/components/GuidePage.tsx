@@ -1,4 +1,4 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Header from './Header';
 import Footer from './Footer';
@@ -16,6 +16,7 @@ type RelatedLink = { label: string; href: string };
 export default function GuidePage({ ns }: Props) {
   const t = useTranslations(ns);
   const ht = useTranslations('header');
+  const locale = useLocale();
   const messages = useMessages() as any;
   const data = messages?.[ns] || {};
   const sections = (data.sections || []) as Section[];
@@ -122,6 +123,15 @@ export default function GuidePage({ ns }: Props) {
               </div>
             </div>
           )}
+
+          <div className="mt-8 flex flex-col gap-3 text-sm font-medium">
+            <Link href="/sculpture-facts" className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {locale === 'zh' ? '断椅雕塑详解：作者与象征' : 'Broken Chair sculpture facts and symbolism'}
+            </Link>
+            <Link href="/place-des-nations-walk" className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {locale === 'zh' ? '万国广场周边步行路线' : 'Place des Nations walking route'}
+            </Link>
+          </div>
 
           <div className="mt-10">
             <Link

@@ -11,6 +11,8 @@ export const routing = defineRouting({
     '/': '/',
     '/history-and-meaning': '/history-and-meaning',
     '/visitor-guide': '/visitor-guide',
+    '/sculpture-facts': '/sculpture-facts',
+    '/place-des-nations-walk': '/place-des-nations-walk',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

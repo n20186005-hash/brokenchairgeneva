@@ -1,4 +1,4 @@
-export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations';
+export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden';
 type Content = {
   name: string; tagline: string; intro: string; operator: string; about: string;
   facts: [string, string][]; history: string[]; architecture: string[]; highlights: string[];
@@ -11,6 +11,77 @@ type Place = {
 };
 
 export const nearbyAttractions: Record<NearbySlug, Place> = {
+  'musee-ariana': {
+    slug: 'musee-ariana', image: '/gallery/musee-ariana.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Musee_Ariana_1_Geneve.JPG', imageCredit: 'Gfuerst / Wikimedia Commons',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Ariana+Avenue+de+la+Paix+10+Gen%C3%A8ve',
+    address: 'Avenue de la Paix 10, 1202 Genève, Switzerland', official: 'https://www.musee-ariana.ch/',
+    admission: 'Permanent collection is generally free; temporary exhibitions may be ticketed (check current rates)',
+    hours: 'Tuesday–Sunday 10:00–17:00; closed Mondays; verify exceptions',
+    en: {
+      name: 'Musée Ariana', tagline: 'Ceramics and glass inside an ornate nineteenth-century Geneva museum',
+      intro: 'A few minutes from Broken Chair, Musée Ariana pairs decorative arts with an extraordinary architectural setting. Its collections trace ceramic and glassmaking traditions across places and centuries, while the building itself is one of the most photogenic landmarks in the international district.',
+      operator: 'City of Geneva — Musée Ariana',
+      about: 'Musée Ariana is a public museum of the City of Geneva dedicated to ceramics and glass. Collector and patron Gustave Revilliod commissioned the museum in the late nineteenth century to house his collections. Today it is maintained as a cultural institution with exhibitions, research and public programmes; it is not part of the nearby United Nations compound.',
+      facts: [['Type', 'Ceramics and glass museum'], ['Founded by', 'Gustave Revilliod'], ['Architecture', 'Late-nineteenth-century eclectic, Italian-inspired museum'], ['Collection', 'Over 28,000 ceramic and glass objects'], ['Managing body', 'City of Geneva'], ['Suggested time', '45–90 minutes']],
+      history: ['Gustave Revilliod created the museum to present his art collection, naming it Ariana in memory of his mother, Ariane. The purpose-built museum was completed in the late nineteenth century.', 'Its later focus on ceramics and glass distinguishes it from a general art museum. Looking at individual objects reveals changing trade routes, technical skills and tastes across societies.'],
+      architecture: ['Step back to study the symmetrical façade, richly worked surfaces and domed central volume. The building draws on Italian Renaissance and Baroque vocabulary rather than the restrained institutional style of the nearby Palais des Nations.', 'Inside, look up at the monumental hall and ornamental details as well as the display cases. The architectural space is part of the museum experience.'],
+      highlights: ['Ceramic and glass objects spanning many periods', 'The richly ornamented exterior and dome', 'The grand central interior and collection displays'],
+      visit: ['From Broken Chair, follow Avenue de la Paix towards the museum at number 10, using marked crossings.', 'The museum is usually open Tuesday through Sunday from 10:00 to 17:00; check special exhibition access, holiday hours and ticket rules before leaving.', 'Start with the building’s central hall, then choose a gallery by medium or period. Allow extra time for a temporary exhibition.'],
+      photoTips: ['Photograph the dome and façade from a position that includes the entrance landscaping.', 'Inside the central hall, use a wide vertical composition if permitted; check exhibition-specific camera rules.'],
+      route: ['Begin at Broken Chair and look back towards the United Nations façade.', 'Walk along Avenue de la Paix to Musée Ariana at number 10; pause to observe the museum’s dome and ornate exterior.', 'Explore the central hall and ceramics/glass collection, then return towards Place des Nations or continue to nearby international-district museums.'],
+      faq: [['What does Musée Ariana exhibit?', 'Its specialism is ceramics and glass, with collections from many places and periods.'], ['Is the museum free?', 'The permanent collection is generally free; temporary exhibitions may have a charge. Confirm current policy on the official site.'], ['Is it managed by the United Nations?', 'No. It is a City of Geneva museum, separate from the nearby UN premises.']],
+    },
+    zh: {
+      name: '阿丽亚娜博物馆', tagline: '在19世纪华丽建筑中探索陶瓷与玻璃艺术',
+      intro: '从断椅步行不远即可抵达阿丽亚娜博物馆。馆藏横跨不同地区与时代的陶瓷、玻璃艺术，博物馆的穹顶、装饰立面和中央大厅也值得专程观赏，是国际组织区里风格鲜明的文化景点。',
+      operator: '日内瓦市政府—阿丽亚娜博物馆',
+      about: '阿丽亚娜博物馆是日内瓦市政府管理的公共陶瓷与玻璃艺术博物馆。收藏家兼赞助人古斯塔夫·雷维利奥于19世纪末兴建此馆，用以收藏与展示艺术品。如今馆方持续开展展览、研究和公众教育，管理主体与附近的联合国机构并不相同。',
+      facts: [['景点类型', '陶瓷与玻璃艺术博物馆'], ['创办人', '古斯塔夫·雷维利奥（Gustave Revilliod）'], ['建筑年代与风格', '19世纪末，融合意大利文艺复兴和巴洛克元素'], ['馆藏规模', '超过28,000件陶瓷及玻璃藏品'], ['管理主体', '日内瓦市政府'], ['建议停留', '约45至90分钟']],
+      history: ['雷维利奥为展示私人艺术收藏建造了这座博物馆，并以母亲 Ariane 的名字命名。专门设计的建筑在19世纪末落成。', '其后博物馆逐步集中于陶瓷与玻璃艺术。对照不同展品的材料、纹样和制作技法，可以发现工艺传播及审美变化。'],
+      architecture: ['建议退后几步观察对称立面、穹顶及繁复装饰。其意大利文艺复兴与巴洛克语汇，与不远处万国宫的机构建筑风格形成对照。', '入馆后别只看展柜，中央大厅的尺度、顶部结构与装饰本身也是参观重点。'],
+      highlights: ['跨时代、跨地域的陶瓷和玻璃藏品', '装饰丰富的外立面与穹顶', '中央大厅及专题展陈'],
+      visit: ['由断椅沿 Avenue de la Paix 前往10号博物馆，过马路时使用正规人行横道。', '通常周二至周日10:00–17:00开放；节假日、特展入场及票价以官网当日信息为准。', '可先参观中央大厅，再按材质或年代挑选展厅；如有特展可增加停留时间。'],
+      photoTips: ['从入口前方结合绿植拍摄穹顶与整座建筑立面。', '如馆内允许摄影，可在中央大厅尝试竖向广角构图；留意特展另行规定。'],
+      route: ['先在断椅看向万国宫，了解国际组织区环境。', '沿 Avenue de la Paix 步行至10号，观察博物馆的穹顶及建筑装饰。', '入馆参观中央大厅、陶瓷与玻璃展品，之后可返回万国广场或继续周边博物馆行程。'],
+      faq: [['主要看什么展品？', '核心是跨地区、跨时期的陶瓷和玻璃艺术。'], ['需要门票吗？', '常设展通常免费，临时特展可能收费；以官网最新安排为准。'], ['博物馆由联合国管理吗？', '不是，这是一家日内瓦市政府管理的博物馆。']],
+    },
+  },
+  'geneva-botanical-garden': {
+    slug: 'geneva-botanical-garden', image: '/gallery/geneva-botanical-garden.jpg',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Geneva_botanical_garden_greenhouse.jpg', imageCredit: 'Wikimedia Commons contributor',
+    maps: 'https://www.google.com/maps/search/?api=1&query=Conservatoire+et+Jardin+botaniques+Chemin+de+l%27Imp%C3%A9ratrice+1+Gen%C3%A8ve',
+    address: 'Chemin de l’Impératrice 1, 1292 Pregny-Chambésy, Switzerland', official: 'https://www.cjbg.ch/',
+    admission: 'Free admission to the botanical garden', hours: 'Daily 08:00–19:00 in summer and 08:00–17:00 in winter; greenhouse hours may differ',
+    en: {
+      name: 'Geneva Botanical Garden', tagline: 'A green retreat of living collections and historic glasshouses',
+      intro: 'North of Place des Nations, the Conservatory and Botanical Garden offers a quieter side of Geneva. Paths wind through living plant collections, themed gardens and greenhouses, turning a short international-district walk into a nature-focused visit.',
+      operator: 'City of Geneva — Conservatoire et Jardin botaniques',
+      about: 'The Conservatory and Botanical Garden is a scientific and public institution of the City of Geneva. Its work covers the study, documentation, conservation and presentation of plant diversity. The garden welcomes the public free of charge, while its collections and facilities are cared for by specialist staff; it is distinct from the adjacent diplomatic and institutional campuses.',
+      facts: [['Type', 'Public botanical garden and scientific collection'], ['Area', 'Approximately 28 hectares'], ['Plants', 'More than 11,000 species in the living collections'], ['Origins', 'Founded in 1817; moved to the current site in 1904'], ['Management', 'City of Geneva'], ['Suggested time', '60–120 minutes']],
+      history: ['Geneva’s botanical garden was founded in 1817 at the Parc des Bastions with the involvement of botanist Augustin-Pyramus de Candolle.', 'The garden moved to its present site in 1904 and grew into a landscape for both scientific botanical work and everyday public discovery.'],
+      architecture: ['Observe the glasshouse structure, its relationship to the seasonal planting beds and the different ways sunlight is managed for cultivated species.', 'The garden is not one single building: the arrangement of thematic collections, paths, greenhouses and open lawns is the central landscape design to read.'],
+      highlights: ['Historic greenhouse forms and living collections', 'Themed planting beds and seasonal botanical changes', 'A calm walk between the lake-side district and international Geneva'],
+      visit: ['From the Broken Chair, travel north along the public routes towards the garden or use buses 1, 11, 22 or 25 for the Jardin botanique stop; verify routes on the day.', 'The outdoor garden is free and opens daily. Winter hours are shorter; greenhouses and individual facilities may have separate times.', 'Wear comfortable shoes, allow for changing weather and follow plant-protection signs. Bicycles and dogs are generally not permitted, except authorized assistance dogs.'],
+      photoTips: ['Use the greenhouse framework as a natural frame for foliage, without blocking access.', 'Look for soft light on leaves and seasonal flower beds; remain on marked paths and do not touch sensitive collections.'],
+      route: ['Start at Broken Chair and head north via the public streets or transit towards Jardin botanique.', 'Enter the garden and follow a main path through the themed outdoor collections.', 'Visit the accessible greenhouses during their posted hours, then finish with a quiet circuit through the lawns and seasonal displays.'],
+      faq: [['Do I need a ticket?', 'No, general entrance to the botanical garden is free.'], ['Who runs the garden?', 'The City of Geneva operates the Conservatory and Botanical Garden as a scientific and public institution.'], ['Is it open all year?', 'The garden normally opens daily, with shorter winter hours; check official announcements and individual greenhouse times.']],
+    },
+    zh: {
+      name: '日内瓦植物园', tagline: '在温室与植物收藏间探索城市里的绿色科学园地',
+      intro: '万国广场北侧的日内瓦植物园提供了与国际组织区截然不同的慢游体验。步道连接主题植物收藏、花坛与温室，可以把一段市区散步延伸为认识植物多样性的自然旅程。',
+      operator: '日内瓦市政府—植物园及植物研究所',
+      about: '日内瓦植物园及植物研究所由日内瓦市政府管理，是兼具科研、植物保育、知识传播与公众游览功能的机构。园区免费向公众开放，由专业人员维护植物收藏和温室设施；它与毗邻的国际组织及外交园区是不同的管理单位。',
+      facts: [['景点类型', '公共植物园与科研植物收藏'], ['面积', '约28公顷'], ['植物收藏', '超过11,000种植物'], ['历史', '1817年创立，1904年迁至现址'], ['管理主体', '日内瓦市政府'], ['建议停留', '约60至120分钟']],
+      history: ['植物园于1817年在巴斯蒂昂公园创立，植物学家奥古斯丁·皮拉姆·德康多尔参与了早期建设。', '1904年植物园迁至现址，逐渐成为兼具植物科学研究与公共休憩的园林。'],
+      architecture: ['观察玻璃温室的结构、透光方式以及建筑与周边季节性种植区的关系。', '植物园的空间特色也体现在主题植物区、路径、温室与草坪的组织方式，而不只是某一栋建筑。'],
+      highlights: ['历史温室与多样活体植物收藏', '主题花坛及随季节变化的景观', '连接湖畔与国际组织区的安静绿地'],
+      visit: ['从断椅沿公共道路向北步行，或乘1、11、22、25路公交至 Jardin botanique 站；实际线路请核对当日时刻。', '户外园区免费且通常每日开放，冬季闭园较早，温室和部分设施另有时间安排。', '建议穿便于步行的鞋，遵守植物保护标识；通常不允许骑行及携犬入园，符合规定的辅助犬除外。'],
+      photoTips: ['利用温室框架和植物层次构图，拍摄时不要阻挡通道。', '选柔和光线拍叶片和花坛；保持在标示步道上，不触碰敏感植物。'],
+      route: ['从断椅沿公共步行路线或乘公交前往 Jardin botanique 一带。', '进入植物园后沿主路游览户外主题植物收藏。', '在公布的开放时段参观温室，最后沿草坪与季节花坛完成一圈慢行。'],
+      faq: [['入园要门票吗？', '植物园一般免费入园。'], ['由谁管理？', '日内瓦市政府运营植物园及植物研究所，兼顾科研与公众开放。'], ['全年开放吗？', '通常每日开放，但冬季时间较短；请核对官方临时公告及温室时段。']],
+    },
+  },
   'palais-des-nations': {
     slug: 'palais-des-nations', image: '/gallery/palais-des-nations.jpg',
     imageSource: 'https://commons.wikimedia.org/wiki/File:Palais_des_nations.jpg', imageCredit: 'Yann Forget / Wikimedia Commons',

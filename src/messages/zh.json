@@ -3,6 +3,20 @@
     "title": "日内瓦断椅旅游指南｜历史、含义与参观攻略",
     "description": "探索位于日内瓦万国宫广场的断椅雕塑：了解它反对地雷与集束炸弹的象征意义、艺术家丹尼尔·伯塞特与1997年的历史由来，以及交通、拍照、周边联游等实用参观攻略。"
   },
+  "accessibilityLabels": {
+    "heroImage": "日内瓦万国广场的断椅雕塑实景",
+    "mapFrame": "日内瓦万国广场断椅的地图",
+    "previousPhoto": "上一张照片",
+    "nextPhoto": "下一张照片",
+    "closeLightbox": "关闭照片预览",
+    "photoFallback": "日内瓦断椅照片第 {number} 张",
+    "toggleTheme": "切换页面主题",
+    "switchLanguage": "切换语言",
+    "breadcrumb": "当前位置导航",
+    "toggleCookie": "切换{label}设置",
+    "questionPrefix": "问：",
+    "answerPrefix": "答："
+  },
   "contentUpdated": "2026年8月31日",
   "header": {
     "home": "首页",
@@ -105,6 +119,10 @@
       {
         "question": "广场附近有吃饭或买食物的地方吗？",
         "answer": "有的。广场步行几分钟内有咖啡馆、小酒馆、餐厅与自助快餐等各类餐饮，市中心及火车站附近的超市和杂货店也可乘电车几分钟到达。"
+      },
+      {
+        "question": "日内瓦断椅代表什么？",
+        "answer": "它是一座反对杀伤人员地雷与集束弹药的纪念碑。断裂的椅腿代表受害者失去的肢体，剩余三条腿与高耸椅背象征幸存者的坚韧和尊严；作品面向联合国所在的万国宫，向国际社会发出和平呼吁。"
       },
       {
         "question": "为什么日内瓦断椅只有三条腿？",

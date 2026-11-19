@@ -79,7 +79,7 @@ export default async function NearbyAttractionPage({ params }: { params: Promise
       <Header />
       <main className="pt-16">
         <article className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
-          <nav aria-label="Breadcrumb" className="text-sm mb-8"><a href={`/${locale}`} className="hover:underline" style={{ color: 'var(--accent)' }}>{zh ? '断椅首页' : 'Broken Chair home'}</a><span className="mx-2">/</span>{content.name}</nav>
+          <nav aria-label={zh ? '当前位置导航' : 'Breadcrumb navigation'} className="text-sm mb-8"><a href={`/${locale}`} className="hover:underline" style={{ color: 'var(--accent)' }}>{zh ? '断椅首页' : 'Broken Chair home'}</a><span className="mx-2">/</span>{content.name}</nav>
           <h1 className="font-display text-3xl sm:text-5xl font-bold mb-4">{content.name}</h1>
           <p className="text-lg mb-5" style={{ color: 'var(--text-secondary)' }}>{content.tagline}</p>
           <div className="flex flex-wrap gap-3 mb-8 text-sm"><span className="rounded-full px-4 py-2" style={{ background: 'var(--bg-tertiary)' }}>{localizedHours}</span><span className="rounded-full px-4 py-2" style={{ background: 'var(--bg-tertiary)' }}>{place.address}</span><a href="#visitor-reviews" className="rounded-full px-4 py-2 hover:underline" style={{ background: 'var(--bg-tertiary)' }}>{zh ? '查看游客评价' : 'Visitor reviews'}</a><a href={place.maps} target="_blank" rel="noopener noreferrer" className="rounded-full px-4 py-2 font-semibold hover:underline" style={{ background: 'var(--accent)', color: '#fff' }}>{zh ? 'Google 地图导航' : 'Google Maps directions'} ↗</a></div>

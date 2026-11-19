@@ -3,6 +3,20 @@
     "title": "Broken Chair Geneva: Meaning, History & How to Visit",
     "description": "Discover the Broken Chair in Geneva at Place des Nations — a 12m three-legged wooden sculpture. Learn what it represents, its 1997 history, and how to visit it."
   },
+  "accessibilityLabels": {
+    "heroImage": "Broken Chair sculpture at Place des Nations in Geneva, Switzerland",
+    "mapFrame": "Map of Broken Chair at Place des Nations in Geneva",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "closeLightbox": "Close photo viewer",
+    "photoFallback": "Broken Chair Geneva photo {number}",
+    "toggleTheme": "Toggle colour theme",
+    "switchLanguage": "Switch language",
+    "breadcrumb": "Breadcrumb navigation",
+    "toggleCookie": "Toggle {label}",
+    "questionPrefix": "Question:",
+    "answerPrefix": "Answer:"
+  },
   "contentUpdated": "August 31, 2026",
   "header": {
     "home": "Home",

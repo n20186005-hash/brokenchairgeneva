@@ -3,6 +3,7 @@ import { useTranslations, useMessages } from 'next-intl';
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
+  const a11y = useTranslations('accessibilityLabels');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
@@ -12,7 +13,7 @@ export default function Intro() {
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
         {breadcrumb.length > 0 && (
-          <nav aria-label="Breadcrumb" className="mb-6 text-sm" style={{ color: 'var(--text-muted)' }}>
+          <nav aria-label={a11y('breadcrumb')} className="mb-6 text-sm" style={{ color: 'var(--text-muted)' }}>
             <ol className="flex flex-wrap items-center gap-2">
               {breadcrumb.map((crumb, i) => (
                 <li key={i} className="flex items-center gap-2">

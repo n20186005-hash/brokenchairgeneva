@@ -28,22 +28,22 @@ export default function Footer() {
             </h3>
             <div className="flex flex-col gap-2">
               <a href="https://www.myswitzerland.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.myswitzerland || 'Switzerland Tourism'}
+                {officialLinks.myswitzerland}
               </a>
               <a href="https://www.geneve.com/en" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.geneve || 'Geneva Tourism'}
+                {officialLinks.geneve}
               </a>
               <a href="https://www.geneve.ch/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.geneve_ch || 'Geneva City Government'}
+                {officialLinks.geneve_ch}
               </a>
               <a href="https://www.ungeneva.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.ungeneva || 'UN Geneva (UNOG)'}
+                {officialLinks.ungeneva}
               </a>
               <a href="https://www.hi.org/en/news/no-to-the-return-of-antipersonnel-landmines" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.hi || 'Handicap International'}
+                {officialLinks.hi}
               </a>
               <a href="https://www.swiss-visa.ch/ivis2/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.visa || 'Swiss-Visa System'}
+                {officialLinks.visa}
               </a>
             </div>
           </div>

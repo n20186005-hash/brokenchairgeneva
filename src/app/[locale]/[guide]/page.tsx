@@ -80,7 +80,7 @@ export default async function ExtraGuidePage({ params }: { params: Promise<{ loc
       <Header />
       <main className="pt-16">
         <article className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
-          <nav className="text-sm mb-8" aria-label="Breadcrumb">
+          <nav className="text-sm mb-8" aria-label={zh ? '当前位置导航' : 'Breadcrumb navigation'}>
             <a className="hover:underline" style={{ color: 'var(--accent)' }} href={`/${locale}`}>{zh ? '首页' : 'Home'}</a>
             <span className="mx-2">/</span>{content.title}
           </nav>

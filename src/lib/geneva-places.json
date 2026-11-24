@@ -1,0 +1,2238 @@
+{
+  "jet-deau": {
+    "slug": "jet-deau",
+    "image": "/gallery/jet-deau.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jet_d%27eau_de_Gen%C3%A8ve_%28swiss%29.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Jet+d%E2%80%99Eau%2C+Jet%C3%A9e+des+Eaux-Vives%2C+1207+Gen%C3%A8ve",
+    "address": "Jetée des Eaux-Vives, 1207 Genève",
+    "official": "https://rapport-annuel.sig-ge.ch/en/a-propos-de-sig/nous-connaitre/sites_expositions/jet_deau",
+    "hours": "The jet follows SIG’s seasonal programme and may stop due to wind or maintenance.",
+    "admission": "Free viewing from the public waterfront.",
+    "hoursZh": "运行时段以SIG季节表为准，遇风或维护可能暂停。",
+    "admissionZh": "公共湖岸观赏免费。",
+    "cluster": "lake",
+    "en": {
+      "name": "Jet d’Eau",
+      "tagline": "A former hydraulic pressure outlet, now the emblem of Geneva’s harbour",
+      "about": "Geneva’s first water jet relieved pressure from the hydraulic network in 1886. A decorative jet moved to the harbour in 1891, turning a feature of industrial infrastructure into a landmark seen from both shores.",
+      "operator": "Services industriels de Genève (SIG)",
+      "architecture": [
+        "At the Eaux-Vives pier, notice how the white column breaks into spray and how the arc changes with a crosswind. From Jardin Anglais the harbour gives the jet a wider setting."
+      ],
+      "route": [
+        "Walk from Jardin Anglais along Quai Gustave-Ador.",
+        "At the Eaux-Vives jetty, continue only as far as the public path and conditions allow. The surface near the spray can get wet.",
+        "Return to the quay and walk toward the Plage des Eaux-Vives for a view back across the water."
+      ],
+      "photoTips": [
+        "Aim a longer lens across the harbour from Quai du Mont-Blanc to frame the jet beside its breakwater."
+      ],
+      "visit": [
+        "Check SIG before crossing the harbour on a windy day. You can see the setting even when the pumps are off."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "20–30 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I still visit if the pier is wet?",
+          "Yes. Stay on Quai Gustave-Ador or in Jardin Anglais for a view from land."
+        ],
+        [
+          "Is the jet always running?",
+          "Check SIG’s schedule and conditions on the day. Weather can interrupt operation."
+        ],
+        [
+          "Can I photograph the jet without getting spray on the lens?",
+          "Use the shore before the jetty or photograph across the harbour from the right bank."
+        ]
+      ],
+      "transit": "From the Rive area, walk down to the lake on the signed city streets. The jetty is well east of the bridge-side Flower Clock, so use the waterfront to stay oriented."
+    },
+    "zh": {
+      "name": "日内瓦大喷泉",
+      "tagline": "从工业水压释放装置变成日内瓦港湾地标",
+      "about": "1886年，日内瓦最早的喷流用于释放水压管网的压力。1891年，装饰性喷泉移至港湾，工业设施的一个部件由此变成两岸都能看见的城市地标。",
+      "operator": "日内瓦工业服务局（SIG）",
+      "architecture": [
+        "在欧维夫栈桥一侧，可留意白色水柱如何化成水雾，以及横风怎样改变喷流的弧线。从英式花园看，水柱背后是更开阔的港湾。"
+      ],
+      "route": [
+        "从英式花园沿居斯塔夫－阿多尔河岸大道步行。",
+        "到欧维夫栈桥后，按天气和开放情况决定走多远。靠近水雾的地面可能湿滑。",
+        "返回湖岸后可往欧维夫公共沙滩方向走，回望湖上水柱。"
+      ],
+      "photoTips": [
+        "从勃朗峰湖岸用长焦隔港取景，可把水柱与防波堤收进同一画面。"
+      ],
+      "visit": [
+        "有风时先查SIG再决定是否过桥。即使停喷，仍能看到港湾和栈桥。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "20–30 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "栈桥湿滑时还值得去吗？",
+          "可留在居斯塔夫－阿多尔河岸或英式花园，从陆地观赏。"
+        ],
+        [
+          "大喷泉一直运行吗？",
+          "出发前看SIG时刻表和当天公告，天气可能导致暂停。"
+        ],
+        [
+          "哪里拍照能避开水雾？",
+          "在进入栈桥前的湖岸拍摄，或走到右岸隔着港湾取景。"
+        ]
+      ],
+      "transit": "由里沃一带按市区标识下行至湖边。栈桥在靠桥花钟的东面，沿湖岸走较容易辨认方向。"
+    }
+  },
+  "saint-pierre-cathedral": {
+    "slug": "saint-pierre-cathedral",
+    "image": "/gallery/saint-pierre-cathedral.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:St_Pierre_Cathedral_%2846717064755%29.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cath%C3%A9drale+Saint-Pierre%2C+Cour+de+Saint-Pierre%2C+1204+Gen%C3%A8ve",
+    "address": "Cour de Saint-Pierre, 1204 Genève",
+    "official": "https://cathedrale-geneve.ch/",
+    "hours": "Check cathedral and tower hours separately, and allow for worship services.",
+    "admission": "Ordinary cathedral entry is free. The towers and archaeological site are separately ticketed.",
+    "hoursZh": "大教堂与塔楼的时间分别查询，礼拜可能影响游览。",
+    "admissionZh": "教堂普通参观免费，塔楼和考古遗址单独售票。",
+    "cluster": "old-town",
+    "en": {
+      "name": "St. Pierre Cathedral",
+      "tagline": "A medieval church, Reformation landmark and lookout over the Old Town",
+      "about": "The cathedral took its medieval form beginning in the twelfth century. It became Protestant during Geneva’s Reformation in 1536. Compare the classical entrance front with the medieval fabric you see from the side of the church.",
+      "operator": "Fondation des Clefs de Saint-Pierre and the Protestant Church of Geneva",
+      "architecture": [
+        "The Chapel of the Maccabees offers a richly decorated counterpoint to the nave. The north tower route is an option for visitors comfortable with 157 narrow steps and offers a view over the tiles and the harbour."
+      ],
+      "route": [
+        "Climb from Bourg-de-Four to Cour de Saint-Pierre.",
+        "Visit the nave and chapel as worship and access permit, then check the tower desk inside the church.",
+        "If you have more time, follow signs separately for the archaeological site beneath the cathedral."
+      ],
+      "photoTips": [
+        "Frame the portico from the back of Cour de Saint-Pierre. On the tower, use the openings for views across the Old Town roofs."
+      ],
+      "visit": [
+        "Allow time for the uphill cobbled streets, and check the cathedral’s combination-ticket options only if you want the additional sites."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–75 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the tower climb step-free?",
+          "No. The cathedral lists 157 steps in the north tower with a narrow staircase."
+        ],
+        [
+          "Where should I go for the archaeology site?",
+          "The separate entrance is outside at Cour Saint-Pierre 6, to the right of the portico. The site is ticketed."
+        ],
+        [
+          "Where can I see the change in architectural styles?",
+          "Look at the main portico from Cour de Saint-Pierre, then round the building for the medieval masonry."
+        ]
+      ],
+      "transit": "From the lower city, choose the public street climb if you want to avoid the stair shortcuts. The cathedral forecourt is above Bourg-de-Four."
+    },
+    "zh": {
+      "name": "圣彼得大教堂",
+      "tagline": "老城山丘上的中世纪教堂、宗教改革遗址与观景点",
+      "about": "大教堂从12世纪起逐渐形成中世纪时的面貌，1536年日内瓦宗教改革后改为新教教堂。从入口先看古典式门廊，再走到侧面比较中世纪砌体。",
+      "operator": "圣彼得大教堂钥匙基金会与日内瓦新教教会",
+      "architecture": [
+        "马加比礼拜堂的华丽装饰和中殿形成对照。能步行爬157级狭窄台阶的话，可上北塔俯瞰老城屋瓦与湖港。"
+      ],
+      "route": [
+        "从布尔德富尔广场上坡，到圣彼得大教堂前庭。",
+        "在礼拜和开放安排允许时参观中殿和礼拜堂，再去教堂内查看登塔售票处。",
+        "时间充裕的话，按独立标识前往大教堂下方的考古遗址。"
+      ],
+      "photoTips": [
+        "从圣彼得前庭后方拍整个柱廊。登塔后可从开口取景老城屋瓦。"
+      ],
+      "visit": [
+        "老城上坡石路可多留时间。若还要看其他附属景点，再查联票。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–75 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "上塔有没有无台阶路线？",
+          "没有。教堂指引列出北塔有157级台阶，楼梯狭窄。"
+        ],
+        [
+          "考古遗址怎么进？",
+          "独立入口在教堂外圣彼得前庭6号，正门廊右侧。参观另需门票。"
+        ],
+        [
+          "在哪能看出建筑风格的变化？",
+          "先从前庭看主门廊，再绕到教堂侧面观察中世纪砌体。"
+        ]
+      ],
+      "transit": "从下城出发，若要避开台阶近路，可沿公共街道上坡。大教堂前庭在布尔德富尔广场上方。"
+    }
+  },
+  "reformation-wall": {
+    "slug": "reformation-wall",
+    "image": "/gallery/reformation-wall.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ReformationsdenkmalGenf2.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mur+des+R%C3%A9formateurs%2C+Promenade+des+Bastions%2C+1204+Gen%C3%A8ve",
+    "address": "Promenade des Bastions, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/mur-des-reformateurs",
+    "hours": "Outdoor monument in Parc des Bastions. Follow posted park access and work notices.",
+    "admission": "Free from the public park paths.",
+    "hoursZh": "纪念碑位于公园内，开放和临时施工以现场公告为准。",
+    "admissionZh": "从公共园路免费观赏。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Reformation Wall",
+      "tagline": "An open-air account of the Reformation set into the Bastions’ old defences",
+      "about": "The wall was built from 1909 to 1917 against Geneva’s former fortifications. Its central group represents Guillaume Farel, Jean Calvin, Théodore de Bèze and John Knox. The wider programme sets Geneva’s story alongside events elsewhere in Europe and across the Atlantic.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Start at the centre to take in the four figures, then read the reliefs and inscriptions to either side. The low forecourt allows you to step back and see the sculpture in relation to the retaining wall."
+      ],
+      "route": [
+        "Enter Parc des Bastions from Place de Neuve and go past the outdoor chessboards.",
+        "Angle toward the Old Town wall and walk along the full length of the monument.",
+        "Leave toward the park’s university side or climb back to the Old Town by a signed public street."
+      ],
+      "photoTips": [
+        "Use a near-parallel view in front of the four central figures to keep their proportions in the frame."
+      ],
+      "visit": [
+        "Read the side reliefs before leaving. They put the four better-known figures in a wider historical context."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "20–35 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Where are the four large statues?",
+          "They are in the middle of the wall. Start there and work outward through the inscriptions and reliefs."
+        ],
+        [
+          "Is there an indoor exhibition here?",
+          "The wall is outdoors. The International Museum of the Reformation is a separate Old Town visit."
+        ],
+        [
+          "Where can I fit the whole wall into a photo?",
+          "Step back across the open area in front of the monument while keeping the path clear."
+        ]
+      ],
+      "transit": "Use the public transport stops at Place de Neuve for the lower park entrance. The route from the cathedral descends the hill to the park."
+    },
+    "zh": {
+      "name": "宗教改革纪念墙",
+      "tagline": "沿巴斯蒂翁公园旧城防布置的露天宗教改革纪念碑",
+      "about": "纪念墙在1909至1917年间依托日内瓦旧防御工事修建。中央四人是纪尧姆·法雷尔、让·加尔文、泰奥多尔·德贝兹和约翰·诺克斯。两边还叙述欧洲与大西洋对岸发生的相关事件。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "先站在中央看四人雕像，再沿墙读两边的浮雕和题铭。从墙前低处退几步看，可辨认雕塑如何嵌入挡墙。"
+      ],
+      "route": [
+        "从新广场进入巴斯蒂翁公园，经过露天国际象棋区。",
+        "转向老城城墙，沿纪念碑从一端走到另一端。",
+        "接下来可往公园的大学一侧走，或经有标识的公共街道上坡回老城。"
+      ],
+      "photoTips": [
+        "从中央四人像前方接近平行的位置取景，比例较自然。"
+      ],
+      "visit": [
+        "离开前读一读侧面的浮雕，可了解中央四人以外的历史。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "20–35 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "四尊大雕像在哪里？",
+          "在墙正中，可先看雕像，再向两侧看题铭和浮雕。"
+        ],
+        [
+          "这里有室内展览吗？",
+          "纪念墙在室外，老城的国际宗教改革博物馆有单独的室内展览。"
+        ],
+        [
+          "哪里能拍下整面墙？",
+          "在碑前开阔区域往后退，给通行的人留出空间。"
+        ]
+      ],
+      "transit": "可在新广场一带下车，从地势较低的园门进入。由大教堂出发则要下坡到公园。"
+    },
+    "historySource": "https://www.geneve.ch/sites/default/files/fileadmin/public/Departement_2/Plans_pietons/de-site-en-musee-plan-original-ville-de-geneve.pdf"
+  },
+  "bastions-park": {
+    "slug": "bastions-park",
+    "image": "/gallery/bastions-park.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Parc_des_Bastions_2007-09-06.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Parc+des+Bastions%2C+Promenade+des+Bastions%2C+1204+Gen%C3%A8ve",
+    "address": "Promenade des Bastions, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/parc-des-bastions",
+    "hours": "Public park. Check posted gate arrangements and any event restrictions.",
+    "admission": "Free entry to the park. Events or private venues may have their own terms.",
+    "hoursZh": "公共公园，若有活动或门禁，请看现场安排。",
+    "admissionZh": "公园免费进入，活动或私人场所可能有独立规定。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Parc des Bastions",
+      "tagline": "A public promenade between Geneva’s fortification line and university buildings",
+      "about": "The park occupies land beside the former defences and was laid out as a public promenade in the eighteenth century. Its landscape has also accommodated Geneva’s early botanical garden. Today it links the city institutions and university buildings at the foot of the Old Town.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Look at the outdoor chess area by Place de Neuve, then follow the long tree-lined promenade toward the university. Detour to the Reformation Wall for the sculpture, and look back from there to see the depth of the park."
+      ],
+      "route": [
+        "Enter through the Place de Neuve gate opposite the Grand Théâtre.",
+        "Walk past the chessboards into the tree-lined centre and branch off to the Reformation Wall.",
+        "Follow the park path past Uni Bastions towards the southeast exit, using the street route uphill if you are continuing into the Old Town."
+      ],
+      "photoTips": [
+        "Stand on the main promenade and frame the trees in lines toward the university."
+      ],
+      "visit": [
+        "For a gentler arrival, use Place de Neuve at the foot of the Old Town rather than the uphill streets around the cathedral."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "35–60 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I see the Reformation Wall inside the park?",
+          "Yes. It follows the Old Town edge of the grounds."
+        ],
+        [
+          "Where is the outdoor chess?",
+          "Near the Place de Neuve gate. Leave room for people playing."
+        ],
+        [
+          "Where can I start with the easiest orientation?",
+          "Place de Neuve gives you a direct view along the main promenade from the entrance."
+        ]
+      ],
+      "transit": "The Place de Neuve public transport stop serves the formal gate. The park also has approaches from the university side if you arrive via Plainpalais."
+    },
+    "zh": {
+      "name": "巴斯蒂翁公园",
+      "tagline": "旧城防线旁连接公共绿地、大学与市政建筑的林荫步道",
+      "about": "公园占据旧防御工事旁的土地，18世纪辟为公共散步场地，也曾容纳日内瓦早期的植物园。现在它把老城山脚的市政与大学建筑串在一起。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从新广场门口先看露天棋盘，再沿林荫主路往大学走。绕到宗教改革纪念墙看雕像，然后回头看公园的纵深。"
+      ],
+      "route": [
+        "从大剧院对面的新广场园门进入。",
+        "经过棋盘，走主林荫道，在靠老城一侧转向宗教改革纪念墙。",
+        "经巴斯蒂翁大学楼向东南出口走；若去老城，可出园后沿街上坡。"
+      ],
+      "photoTips": [
+        "在主散步道上朝大学方向拍，两列树会形成清晰的纵深。"
+      ],
+      "visit": [
+        "若想少走坡道，从老城山脚的新广场入园，避免先经过大教堂一带再下坡。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "35–60 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "纪念墙就在公园里吗？",
+          "在园内靠老城的一侧，可沿园路到达。"
+        ],
+        [
+          "露天国际象棋在什么位置？",
+          "在新广场园门附近，经过时给下棋的人留出空间。"
+        ],
+        [
+          "从哪里进园最易辨认方向？",
+          "由新广场入园，从园门就能顺着主林荫道观察布局。"
+        ]
+      ],
+      "transit": "公共交通新广场站可到主门。从普兰帕莱来，也可由大学一侧步行进园。"
+    },
+    "historySource": "https://www.geneve.ch/sites/default/files/fileadmin/public/Departement_3/Autres_fichiers/cultural-trail-plainpalais-culture-ville-geneve.pdf"
+  },
+  "bains-des-paquis": {
+    "slug": "bains-des-paquis",
+    "image": "/gallery/bains-des-paquis.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bains_de_Paquis_7.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bains+des+P%C3%A2quis%2C+Quai+du+Mont-Blanc+30%2C+1201+Gen%C3%A8ve",
+    "address": "Quai du Mont-Blanc 30, 1201 Genève",
+    "official": "https://www.bains-des-paquis.ch/information-pratiques/",
+    "hours": "Swimming, saunas and the refreshment stand keep different hours. Check the baths’ current programme.",
+    "admission": "Swimming and wellness activities may charge separately. Check current prices with AUBP.",
+    "hoursZh": "游泳、桑拿和餐饮时段各异，请查浴场当期安排。",
+    "admissionZh": "游泳与康体项目可能分别收费，查询协会公布的价格。",
+    "cluster": "lake",
+    "en": {
+      "name": "Bains des Pâquis",
+      "tagline": "A working public lake bath at the end of the Pâquis jetty",
+      "about": "The current baths took shape in the early twentieth century. Local users organised when the site was threatened with demolition and their association now runs it. The changing rooms and swimming areas still make it a place for daily bathing as well as a harbour viewpoint.",
+      "operator": "Association des usagers des Bains des Pâquis (AUBP)",
+      "architecture": [
+        "Walk along the narrow pier to see how the bath sits between open lake and protected harbour. From the public promenade the jetty makes a foreground for the Jet d’Eau across the bay."
+      ],
+      "route": [
+        "From Quai du Mont-Blanc take the signed causeway toward the Pâquis lighthouse.",
+        "Check the counter for the swimming or sauna session you want before changing.",
+        "Return along the causeway and turn toward the Brunswick Monument for a walk back to Cornavin."
+      ],
+      "photoTips": [
+        "From the shore, frame the Pâquis jetty and its lighthouse together rather than photographing people bathing."
+      ],
+      "visit": [
+        "Bring what you need for your chosen activity and check each opening time separately. The causeway can feel exposed in wind."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–90 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Are the sauna and summer bathing the same visit?",
+          "They have different schedules and access arrangements. Check the activity you want first."
+        ],
+        [
+          "Can I see the Jet d’Eau from here?",
+          "Yes, look across from the Pâquis side. Keep the access route clear when you stop."
+        ],
+        [
+          "Can I walk to the baths from Cornavin?",
+          "Head down rue du Mont-Blanc, then follow Quai du Mont-Blanc to the signed causeway."
+        ]
+      ],
+      "transit": "From Cornavin, follow rue du Mont-Blanc and then stay on the north shore. Do not cross Pont du Mont-Blanc if your destination is the baths."
+    },
+    "zh": {
+      "name": "帕基公共浴场",
+      "tagline": "帕基堤道尽头仍供市民使用的湖上公共浴场",
+      "about": "现有浴场在20世纪初期形成。浴场面临拆除时，当地使用者组织起来，后来由该协会负责运营。更衣室与游泳区保留了日常入湖游泳的功能，堤道也能打开港湾视野。",
+      "operator": "帕基浴场使用者协会（AUBP）",
+      "architecture": [
+        "沿窄堤步行时，一边是开阔湖面，另一边是较受遮蔽的港湾。站在公共湖岸，可把浴场的堤道放在前景，取景对岸的大喷泉。"
+      ],
+      "route": [
+        "从勃朗峰湖岸路找通往帕基灯塔方向的浴场堤道。",
+        "先到入口核对想参加的游泳或桑拿时段，再去更衣。",
+        "沿堤道返回，可经布伦瑞克纪念碑一带走回科尔纳万站。"
+      ],
+      "photoTips": [
+        "从湖岸把帕基堤道和灯塔拍在一起，避免拍摄正在洗浴的人。"
+      ],
+      "visit": [
+        "按所选活动带好用品，分别查开放时段。堤道无遮挡，风大时体感明显。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–90 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "桑拿和夏季游泳按同一时段开放吗？",
+          "两者有各自的时段与入场安排，请先确定想参加的活动。"
+        ],
+        [
+          "这里能看到大喷泉吗？",
+          "可以，从帕基一侧隔港向对岸看，停留时让出通道。"
+        ],
+        [
+          "从科尔纳万站能步行去吗？",
+          "沿勃朗峰街走到湖边，再沿勃朗峰湖岸路找浴场堤道。"
+        ]
+      ],
+      "transit": "从科尔纳万站沿勃朗峰街到湖边后，继续留在北岸，不必走过勃朗峰桥。"
+    },
+    "imageCaption": {
+      "en": "Entrance to Bains des Pâquis",
+      "zh": "帕基浴场入口"
+    }
+  },
+  "brunswick-monument": {
+    "slug": "brunswick-monument",
+    "image": "/gallery/brunswick-monument.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Brunswick_Monument_%2832688931467%29.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Brunswick+Monument%2C+Jardin+des+Alpes%2C+Quai+du+Mont-Blanc%2C+1201+Gen%C3%A8ve",
+    "address": "Jardin des Alpes, Quai du Mont-Blanc, 1201 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/monument-brunswick",
+    "hours": "Outdoor viewing from public paths, subject to temporary barriers.",
+    "admission": "Free exterior viewing.",
+    "hoursZh": "从公共园路观赏外观，有临时围挡时以现场为准。",
+    "admissionZh": "外观免费。",
+    "cluster": "lake",
+    "en": {
+      "name": "Brunswick Monument",
+      "tagline": "A neo-Gothic mausoleum in a small garden beside the harbour",
+      "about": "Charles II, Duke of Brunswick, died in Geneva in 1873 and left his fortune to the city on condition that he receive a monument. The resulting mausoleum drew on the Scaliger tombs in Verona.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "From the garden path, look up through the tiers of pointed arches toward the canopy. Moving to the quay side opens up the contrast between the monument’s vertical lines and the flat harbour horizon."
+      ],
+      "route": [
+        "Walk down rue du Mont-Blanc from Cornavin toward the lake.",
+        "Turn along Quai du Mont-Blanc into Jardin des Alpes to see the monument from more than one side.",
+        "Continue along the quay toward Bains des Pâquis or return to Pont du Mont-Blanc for the left bank."
+      ],
+      "photoTips": [
+        "Frame the mausoleum from a garden path rather than from the busy carriageway of the quay."
+      ],
+      "visit": [
+        "Walk past the front and look at a second side. The canopy and carvings read differently from a diagonal angle."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "15–25 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the tomb open to visitors?",
+          "Plan for exterior viewing from the public garden paths."
+        ],
+        [
+          "How can I see the Gothic details clearly?",
+          "Use the garden paths to move around the monument. Looking up from one side reveals the stacked arches."
+        ],
+        [
+          "Can I combine it with the Pâquis baths?",
+          "Yes. Continue along the same quay to the causeway, then check the baths’ own hours."
+        ]
+      ],
+      "transit": "The Cornavin approach follows downhill streets to the right-bank promenade. If you cross from Jardin Anglais, turn toward the Pâquis waterfront at the north end of Pont du Mont-Blanc."
+    },
+    "zh": {
+      "name": "布伦瑞克纪念碑",
+      "tagline": "港湾小花园内的新哥特式陵墓纪念碑",
+      "about": "布伦瑞克公爵查理二世于1873年在日内瓦去世，遗嘱要求筑碑，并将财产留给市政府。建成的陵墓借鉴了维罗纳的斯卡利杰里家族陵墓。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从园路抬头，看尖拱逐层向上托起顶盖。再换到湖岸一侧，比一比纪念碑的竖线与平展湖面的反差。"
+      ],
+      "route": [
+        "从科尔纳万站沿勃朗峰街下行去湖边。",
+        "沿勃朗峰湖岸路走进阿尔卑斯花园，从不同角度看碑。",
+        "可沿湖继续去帕基浴场，也可回勃朗峰桥步行到左岸。"
+      ],
+      "photoTips": [
+        "在园路上拍陵墓，避开湖岸车流。"
+      ],
+      "visit": [
+        "看完正面后再到一侧，斜看顶盖和石雕会呈现另一层次。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "15–25 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "墓室能进入吗？",
+          "按可从公共园路观看外观来安排。"
+        ],
+        [
+          "怎样看清哥特式细节？",
+          "沿园路换角度，从一侧抬头看层叠的尖拱。"
+        ],
+        [
+          "能与帕基浴场安排一起吗？",
+          "可以，沿同一段湖岸走到堤道，再核对浴场自己的时段。"
+        ]
+      ],
+      "transit": "从科尔纳万出发可一路下坡去右岸步道。若从英式花园过桥，在勃朗峰桥北端转往帕基湖岸。"
+    }
+  },
+  "flower-clock": {
+    "slug": "flower-clock",
+    "image": "/gallery/flower-clock.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Horloge_Fleurie_Geneve.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Horloge+fleurie%2C+Jardin+Anglais%2C+Quai+du+G%C3%A9n%C3%A9ral-Guisan%2C+1204+Gen%C3%A8ve",
+    "address": "Jardin Anglais, Quai du Général-Guisan, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/horloge-fleurie",
+    "hours": "Visible from the outdoor garden path. The planting can change during maintenance.",
+    "admission": "Free public viewing.",
+    "hoursZh": "可从户外园路观看，维护期间花卉布置会变动。",
+    "admissionZh": "公共空间免费观赏。",
+    "cluster": "lake",
+    "en": {
+      "name": "Flower Clock",
+      "tagline": "A functioning clock planted into the lakeside garden",
+      "about": "The city introduced its flower clock in 1955, bringing Geneva’s watchmaking identity into its public planting. The design changes over time as gardeners renew the seasonal display around the working hands.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "From the public path, look along the slope of the planted face. Its tilt makes the dial visible from the entrance, and the moving hands distinguish it from an ordinary flower bed."
+      ],
+      "route": [
+        "From the left-bank end of Pont du Mont-Blanc follow the entrance to Jardin Anglais.",
+        "See the clock from the path without stepping into the planting or blocking the entrance.",
+        "Walk inward to the National Monument or follow the waterfront toward the Jet d’Eau."
+      ],
+      "photoTips": [
+        "From the upper side of the public path, use the slope to show the face and hands together."
+      ],
+      "visit": [
+        "A planting change can briefly alter the display. Photograph from outside the bed and leave clearance by the garden entrance."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "10–20 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Does the clock work?",
+          "Yes. Its hands show the time and the planted face changes with the seasons."
+        ],
+        [
+          "Where is it inside Jardin Anglais?",
+          "Near the garden entrance at the left-bank end of Pont du Mont-Blanc."
+        ],
+        [
+          "What should I do if the approach is crowded?",
+          "Wait along the garden path or make a circuit to the fountain and return later."
+        ]
+      ],
+      "transit": "The clock sits beside the left-bank bridge approach. For a walk from Rive, head toward the shoreline before looking for the garden gate."
+    },
+    "zh": {
+      "name": "日内瓦花钟",
+      "tagline": "以季节花卉为表盘的湖畔时钟",
+      "about": "市政府于1955年设置花钟，把日内瓦钟表业的城市特色融入公共花园。园艺工人随季节更新表盘周围的花卉，指针仍然走时。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从公共园路看顺坡栽种的表盘，斜面使访客入园时就能看清刻度，转动的指针也让人看出这里是一座真正的时钟。"
+      ],
+      "route": [
+        "从勃朗峰桥左岸桥头进入英式花园。",
+        "留在园路上看表盘，避开花坛和入园通道。",
+        "可往园内的国家纪念碑走，也可沿湖岸继续去大喷泉。"
+      ],
+      "photoTips": [
+        "站在公共园路较高的一边，可借坡度把花卉和指针一同拍入。"
+      ],
+      "visit": [
+        "换植可能暂时改变样式。拍照留在花坛外，别堵住园门。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "10–20 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "花钟真的走时吗？",
+          "会，指针显示时间，花卉表盘按季节更换。"
+        ],
+        [
+          "花钟在公园哪边？",
+          "靠近勃朗峰桥左岸桥头的英式花园入口。"
+        ],
+        [
+          "入口人多时怎么安排？",
+          "在不妨碍通行的园路上等待，或先去看园内喷泉再回来。"
+        ]
+      ],
+      "transit": "花钟在桥头左岸一侧。从里沃步行时，先往湖边，再找花园入口。"
+    }
+  },
+  "jardin-anglais": {
+    "slug": "jardin-anglais",
+    "image": "/gallery/jardin-anglais.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jardin_Anglais%2C_Geneva.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Jardin+Anglais%2C+Quai+du+G%C3%A9n%C3%A9ral-Guisan+34%2C+1204+Gen%C3%A8ve",
+    "address": "Quai du Général-Guisan 34, 1204 Genève",
+    "official": "https://www.geneve.com/fr/boutiques/jardin-anglais",
+    "hours": "Public outdoor paths. Follow notices during city events.",
+    "admission": "Free public garden access.",
+    "hoursZh": "公共户外园路，举办城市活动时遵循现场公告。",
+    "admissionZh": "公共花园免费。",
+    "cluster": "lake",
+    "en": {
+      "name": "Jardin Anglais",
+      "tagline": "An urban lakeside garden with a fountain, public sculpture and views of the harbour",
+      "about": "An earlier public space on the site was laid out in 1854 as the Promenade du Lac. The garden grew into a central lakefront outing. The National Monument, unveiled in 1869, commemorates Geneva’s entry into the Swiss Confederation.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Look at the central fountain and how the paths bring you back to the lake edge. The flower clock occupies the bridge-side entrance while the view east widens along the waterfront."
+      ],
+      "route": [
+        "Enter from Pont du Mont-Blanc on the left bank and pass the flower clock.",
+        "Turn into the garden for the fountain and the National Monument, then reach the lakeside path.",
+        "Continue along the shore to Quai Gustave-Ador for the Jet d’Eau approach."
+      ],
+      "photoTips": [
+        "At the lake edge leave open water in the foreground and put the Jet d’Eau to one side of the frame."
+      ],
+      "visit": [
+        "On a short walk, give the main fountain and the National Monument their own stops beyond the bridge-side flower clock."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "25–45 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the flower clock part of this garden?",
+          "Yes, it is near the bridge-side entrance. Allow more time for the other monuments and the harbour walk."
+        ],
+        [
+          "Is there a view of the Jet d’Eau without walking to the pier?",
+          "Yes. Use the lakeside edge for a wide view across the harbour."
+        ],
+        [
+          "What does the National Monument commemorate?",
+          "The two bronze figures represent Geneva and Switzerland. The monument was unveiled in 1869."
+        ]
+      ],
+      "transit": "Approach at street level from Rive or cross Pont du Mont-Blanc from the right bank. The bridge-side flower clock marks one entrance, while the waterfront gives an alternative approach."
+    },
+    "zh": {
+      "name": "英式花园",
+      "tagline": "有喷泉、公共雕塑和港景的市中心湖畔花园",
+      "about": "1854年，此地开辟为名叫“湖滨步道”的早期公共空间，后来逐渐发展为市中心湖岸花园。园内国家纪念碑于1869年揭幕，纪念日内瓦加入瑞士联邦。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "可以先看园内中央喷泉，然后观察各条园路如何把人引回湖边。花钟在靠桥的入口，沿湖向东时视野逐渐展开。"
+      ],
+      "route": [
+        "从勃朗峰桥左岸入园，经过花钟。",
+        "绕进园里看喷泉和国家纪念碑，再接湖边步道。",
+        "沿岸继续走到居斯塔夫－阿多尔湖岸路，可继续前往大喷泉。"
+      ],
+      "photoTips": [
+        "从湖边取景，把水面留在前景，大喷泉放在画面一侧。"
+      ],
+      "visit": [
+        "若只安排短停，看完桥边花钟后，可分别到中央喷泉和国家纪念碑稍作停留。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "25–45 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "花钟在这个花园里面吗？",
+          "在靠桥的入口附近，园内其他纪念物和湖边步道可以另留一点时间。"
+        ],
+        [
+          "可以不走到栈桥就看见大喷泉吗？",
+          "可以，在花园靠湖一侧能看见宽阔的港景。"
+        ],
+        [
+          "国家纪念碑纪念什么？",
+          "两尊铜像分别代表日内瓦和瑞士。纪念碑于1869年揭幕。"
+        ]
+      ],
+      "transit": "可从里沃沿街步行，或从右岸经勃朗峰桥过来。桥边花钟标志一个入口，也能沿湖边步道从另一端进园。"
+    },
+    "historySource": "https://www.geneve.ch/sites/default/files/fileadmin/public/Departement_2/Publications/Jardin-Anglais-fontaine-etude-historique-2007-ville-geneve.pdf"
+  },
+  "maison-tavel": {
+    "slug": "maison-tavel",
+    "image": "/gallery/maison-tavel.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Maison_Tavel_Geneve.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Maison+Tavel%2C+Rue+du+Puits-Saint-Pierre+6%2C+1204+Gen%C3%A8ve",
+    "address": "Rue du Puits-Saint-Pierre 6, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/maison-tavel-mah",
+    "hours": "Check the MAH opening calendar and inquire about access between levels if needed.",
+    "admission": "Check the MAH’s current exhibition or admission policy before visiting.",
+    "hoursZh": "参观前查艺术与历史博物馆的开放日历，需要时咨询楼层通行。",
+    "admissionZh": "入场或展览收费以艺术与历史博物馆当前安排为准。",
+    "cluster": "old-town",
+    "en": {
+      "name": "Maison Tavel",
+      "tagline": "A medieval house with a metal model of Geneva before its walls came down",
+      "about": "The house was rebuilt after the fire of 1334. It has housed the city’s museum of everyday and urban history since 1986. Inside, Auguste Magnin’s metal relief shows the city before its nineteenth-century fortifications were removed.",
+      "operator": "Musée d’art et d’histoire (City of Geneva)",
+      "architecture": [
+        "Read the façade from the street, then notice how the visitor route climbs through a historic domestic building. In the attic model find the former walls before tracing the routes back to modern streets."
+      ],
+      "route": [
+        "Reach rue du Puits-Saint-Pierre from Cour de Saint-Pierre and look for number 6.",
+        "Start with the building and domestic objects, then work upward to the Magnin model if the upper rooms are accessible.",
+        "Step outside and return to the cathedral or walk downhill to Bourg-de-Four."
+      ],
+      "photoTips": [
+        "Frame the old façade from the opposite side of the narrow street where the pavement permits."
+      ],
+      "visit": [
+        "Allow extra time for stairs or ask about the route to the attic before making the Magnin relief the main reason for your visit."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–75 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Where is the model of Geneva?",
+          "The Magnin relief is in the attic. Ask about upper-floor access on arrival."
+        ],
+        [
+          "How does it connect with modern Geneva?",
+          "Find the old walls and follow their line on the model, then compare it with streets around the Old Town."
+        ],
+        [
+          "Is this the main Art and History Museum?",
+          "Maison Tavel is a separate MAH site on rue du Puits-Saint-Pierre."
+        ]
+      ],
+      "transit": "From the cathedral follow the narrow street beside the forecourt. The entrance is among the Old Town façades rather than on the main museum’s Charles-Galland frontage."
+    },
+    "zh": {
+      "name": "塔韦尔故居",
+      "tagline": "中世纪旧宅里保存着拆城墙前的日内瓦金属模型",
+      "about": "旧宅在1334年火灾后重建，自1986年起用于展示日内瓦的城市生活史。奥古斯特·马尼安制作的金属地形模型呈现了19世纪拆除城防前的城市。",
+      "operator": "日内瓦市艺术与历史博物馆",
+      "architecture": [
+        "先在街上观察屋面和立面，再留意参观路线如何穿过层叠的住宅空间。在阁楼的模型里找原先的城墙，再把模型上的路线与如今街巷对应起来。"
+      ],
+      "route": [
+        "从圣彼得大教堂前庭转入圣彼得井街，找6号。",
+        "先看旧宅和生活器物，楼上开放时再上阁楼看马尼安模型。",
+        "出馆后可回大教堂，或下坡往布尔德富尔广场。"
+      ],
+      "photoTips": [
+        "在窄街对面可通行的人行区域取景旧宅正面。"
+      ],
+      "visit": [
+        "如果主要为马尼安模型而来，可先问阁楼如何到达，并为楼层间通行多留一点时间。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–75 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "日内瓦模型在哪里？",
+          "马尼安立体模型在阁楼，上楼方式可入馆询问。"
+        ],
+        [
+          "怎样把模型和现在的日内瓦联系起来？",
+          "先找到城墙，在模型上沿着它走一遍，再与老城周边实际街道对照。"
+        ],
+        [
+          "这里是艺术与历史博物馆主馆吗？",
+          "塔韦尔故居是该馆的一处独立馆舍，在圣彼得井街。"
+        ]
+      ],
+      "transit": "从大教堂前庭沿旁边的窄街走。故居入口在老城房屋之间，与夏尔－加朗街的主馆分开。"
+    },
+    "historySource": "https://www.mahmah.ch/sites/default/files/pdf/2024-05/prod_VisitorGuide_Tavel_EN_V3.pdf"
+  },
+  "museum-art-history": {
+    "slug": "museum-art-history",
+    "image": "/gallery/museum-art-history.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:BdEmileJaquesDalcroze-Mus%C3%A9eHistoire-Gen%C3%A8ve.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+d%E2%80%99Art+et+d%E2%80%99Histoire%2C+Rue+Charles-Galland+2%2C+1206+Gen%C3%A8ve",
+    "address": "Rue Charles-Galland 2, 1206 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/musee-dart-et-dhistoire-mah",
+    "hours": "Check current gallery access, last admission and exhibition schedules.",
+    "admission": "Confirm the MAH’s current admission policy and separate conditions for special shows or events.",
+    "hoursZh": "查看当前展厅开放、最后入场时刻和展览安排。",
+    "admissionZh": "按艺术与历史博物馆当前入场规则，专题展或活动可能有独立规定。",
+    "cluster": "old-town",
+    "en": {
+      "name": "Museum of Art and History",
+      "tagline": "Geneva’s municipal art, archaeology and applied arts collections under one roof",
+      "about": "Designed by Marc Camoletti and made possible by Charles Galland’s bequest, the museum opened in 1910. Its collections bring together works that were once housed at different sites, including painting and sculpture from Musée Rath.",
+      "operator": "Musée d’art et d’histoire (City of Geneva)",
+      "architecture": [
+        "Look at the entrance massing from rue Charles-Galland before the galleries. Inside, try one route across the archaeological objects, furniture and fine arts to see how everyday and ceremonial objects differ by period."
+      ],
+      "route": [
+        "Use the rue Charles-Galland entrance above the Tranchées streets.",
+        "Read the current floor plan and choose archaeology, applied arts or painting as your first stop.",
+        "Continue on foot toward Saint-Pierre Cathedral or the Russian Church after leaving the museum."
+      ],
+      "photoTips": [
+        "Use the street-facing view to record the museum entrance before going inside. Follow gallery photography notices."
+      ],
+      "visit": [
+        "If a collection matters most, check the current floor plan or gallery notice. The museum is large enough to split over more than one visit."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "75–120 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is this the same site as Maison Tavel?",
+          "The main museum is at 2 rue Charles-Galland. Maison Tavel has its own house museum in the Old Town."
+        ],
+        [
+          "How do I plan a one-hour visit?",
+          "Choose one collection on the map at entry and reserve a short pause to look at the building exterior."
+        ],
+        [
+          "Which outdoor landmark is easy to pair with it?",
+          "The Russian Church is also in the Tranchées district and is an easy walking continuation."
+        ]
+      ],
+      "transit": "The Musée d’Art et d’Histoire stop is near the main building. From the Old Town, use the uphill streets toward the Tranchées edge and look for rue Charles-Galland."
+    },
+    "zh": {
+      "name": "日内瓦艺术与历史博物馆",
+      "tagline": "一座馆舍集中展示日内瓦的美术、考古与应用艺术收藏",
+      "about": "博物馆由马克·卡莫莱蒂设计，依靠夏尔·加朗的遗赠建成，于1910年开馆。馆藏集合了原来分散在不同馆址的艺术品，包括拉斯博物馆的绘画和雕塑。",
+      "operator": "日内瓦市艺术与历史博物馆",
+      "architecture": [
+        "从夏尔－加朗街先看入口的建筑体量，再进展厅。如果串看考古器物、家具和美术作品，可比较不同时期的日用器物与礼仪器物。"
+      ],
+      "route": [
+        "走特朗谢街区上方的夏尔－加朗街入口。",
+        "到馆先看最新楼层图，选考古、应用艺术或绘画中的一类。",
+        "出馆后可步行前往圣彼得大教堂或俄罗斯教堂。"
+      ],
+      "photoTips": [
+        "进馆前可在街边拍入口立面。馆内按展厅摄影告示。"
+      ],
+      "visit": [
+        "若主要想看某类藏品，先对照楼层图和展厅公告。馆舍较大，可以分几次看。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "75–120 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "它与塔韦尔故居是同一个馆址吗？",
+          "主馆在夏尔－加朗街2号，塔韦尔故居是老城里单独的旧宅博物馆。"
+        ],
+        [
+          "只有一小时怎么安排？",
+          "进馆先看平面图，选一个馆藏主题，最后留一点时间看建筑外观。"
+        ],
+        [
+          "附近有什么室外景点可以顺路看？",
+          "俄罗斯教堂也在特朗谢街区，适合出馆后继续步行前往。"
+        ]
+      ],
+      "transit": "艺术与历史博物馆站靠近主馆。从老城步行可沿街上坡往特朗谢街区边缘，去夏尔－加朗街找入口。"
+    },
+    "historySource": "https://www.mahmah.ch/print/pdf/node/31894"
+  },
+  "natural-history-museum": {
+    "slug": "natural-history-museum",
+    "image": "/gallery/natural-history-museum.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9um_d%27Histoire_Naturelle_de_Gen%C3%A8ve.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9um+d%E2%80%99histoire+naturelle%2C+Route+de+Malagnou+1%2C+1208+Gen%C3%A8ve",
+    "address": "Route de Malagnou 1, 1208 Genève",
+    "official": "https://museesdegeneve.ch/musee/museum-dhistoire-naturelle-de-geneve/",
+    "hours": "Closed for renovation and remediation. The museum network currently expects public reopening in 2028.",
+    "admission": "No gallery admission during closure. Check updated policy before a future museum visit.",
+    "hoursZh": "翻修与环境整治期间闭馆，日内瓦博物馆网络目前预计2028年重开。",
+    "admissionZh": "闭馆期间无法进入展厅，未来到访前请复核票务政策。",
+    "cluster": "old-town",
+    "en": {
+      "name": "Natural History Museum of Geneva",
+      "tagline": "Geneva’s Malagnou museum and its collections during a major refurbishment",
+      "about": "Genevan naturalists built the collections over generations. At the Malagnou site, galleries historically occupied four floors and covered regional and global fauna and earth sciences. The current renovation and remediation has paused public access.",
+      "operator": "Muséum d’histoire naturelle, City of Geneva",
+      "architecture": [
+        "Observe the museum only from the public street while work continues. Published images and collection notes can provide context for the building and specimens that are currently unavailable to see inside."
+      ],
+      "route": [
+        "Use the Muséum or Tranchées stop for the public approach to Route de Malagnou.",
+        "Check the exterior from the pavement and stay clear of fenced work areas.",
+        "For an open indoor alternative, consider the Art and History Museum or check the Science History Museum’s own calendar."
+      ],
+      "photoTips": [
+        "Use a public pavement angle for the façade and keep the work barriers outside your frame if possible."
+      ],
+      "visit": [
+        "Treat any exterior stop as brief. Consult the museum for programming off site during the closure."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "15–25 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I see the specimens now?",
+          "The Malagnou galleries are closed. Check current museum announcements before planning an indoor visit."
+        ],
+        [
+          "When is it expected to reopen?",
+          "The Geneva museum network lists a planned reopening in 2028. Check the operator for progress."
+        ],
+        [
+          "Is the Science History Museum the same site?",
+          "It operates separately at Villa Bartholoni in Parc de la Perle-du-Lac."
+        ]
+      ],
+      "transit": "The Muséum and Tranchées stops are the closest named approaches. During the closure, check whether the public pavement reaches the side you want to view."
+    },
+    "zh": {
+      "name": "日内瓦自然史博物馆",
+      "tagline": "马拉尼乌馆在大型翻修期间的到访指引及馆藏背景",
+      "about": "日内瓦的博物学家经过数代建立了馆藏。马拉尼乌馆的展览曾分布在四层，包含本地和全球动物以及地球科学。翻修与环境整治期间暂停公众入馆。",
+      "operator": "日内瓦市自然史博物馆",
+      "architecture": [
+        "施工期间只从公共街道观察外观。可借博物馆公开图片和藏品说明了解馆舍与目前无法进馆查看的标本。"
+      ],
+      "route": [
+        "可从博物馆站或特朗谢站沿公共道路去马拉尼乌路。",
+        "在人行道观看外观，与施工围挡保持距离。",
+        "想看室内展，可考虑艺术与历史博物馆，或查询科学史博物馆自己的开放日历。"
+      ],
+      "photoTips": [
+        "可从公共人行道拍外立面，取景时尽量绕开施工围挡。"
+      ],
+      "visit": [
+        "外观可安排短停。闭馆期间是否有馆外活动可查询馆方公告。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "15–25 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "现在能看到自然标本吗？",
+          "马拉尼乌馆暂时关闭，安排室内参观前请先查博物馆最新消息。"
+        ],
+        [
+          "预计哪年重新开放？",
+          "日内瓦博物馆网络列明预计2028年重开，进展以馆方消息为准。"
+        ],
+        [
+          "科学史博物馆也是这个馆址吗？",
+          "科学史博物馆单独设在珍珠湖畔公园的巴托洛尼别墅。"
+        ]
+      ],
+      "transit": "博物馆站和特朗谢站是在这一带下车的选项。闭馆期间，先确认公共人行道能否通到想看的那一面。"
+    }
+  },
+  "ethnography-museum": {
+    "slug": "ethnography-museum",
+    "image": "/gallery/ethnography-museum.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Ethno_Museum_Geneva.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+d%E2%80%99ethnographie+de+Gen%C3%A8ve%2C+Boulevard+Carl-Vogt+65%E2%80%9367%2C+1205+Gen%C3%A8ve",
+    "address": "Boulevard Carl-Vogt 65–67, 1205 Genève",
+    "official": "https://www.geneve.com/fr/compagnies/musee-dethnographie-de-geneve-meg",
+    "hours": "The regular schedule is Tuesday to Sunday. Confirm holiday exceptions and current exhibitions.",
+    "admission": "The reference exhibition has free admission. Temporary exhibitions can be ticketed.",
+    "hoursZh": "通常周二至周日开放，节假日与展览安排出发前确认。",
+    "admissionZh": "基准展览免费，临时展览可能收费。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Geneva Ethnography Museum (MEG)",
+      "tagline": "The MEG’s collections and exhibitions at the contemporary Plainpalais site",
+      "about": "Geneva’s municipal ethnography museum moved its visitor galleries into the new Plainpalais building that opened in 2014. Its reference exhibition draws from collections relating to cultures around the globe. Current labels and programming provide context about the objects and their collection histories.",
+      "operator": "Musée d’ethnographie de Genève, City of Geneva",
+      "architecture": [
+        "From boulevard Carl-Vogt look for the distinctive pitched roof of the new exhibition wing beside the older building. Inside, choose a small group of objects and read their dates, materials and provenance before moving to the next section."
+      ],
+      "route": [
+        "Walk from the Plainpalais area along boulevard Carl-Vogt to the numbered MEG entrance.",
+        "Use the signed current reception, then follow the gallery directions for the reference exhibition.",
+        "Check temporary exhibition access separately before returning to Plainpalais or the nearby Patek Philippe Museum."
+      ],
+      "photoTips": [
+        "From boulevard Carl-Vogt, compare the roof of the present gallery building with the older exterior shown here."
+      ],
+      "visit": [
+        "If you have limited time, focus on a single area of the reference exhibition and read how its objects reached Geneva."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "60–90 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Are the galleries inside the older building in the photograph?",
+          "Follow the signed entrance to the contemporary MEG premises. The photographed older building is part of the site’s history."
+        ],
+        [
+          "How can I plan a free visit?",
+          "Choose the reference exhibition and verify whether any special exhibition you want has a separate ticket."
+        ],
+        [
+          "What should I look for on the labels?",
+          "Look for where and when an object was made and how it came into the collection."
+        ]
+      ],
+      "transit": "From the Plainpalais transport interchange, walk southwest to boulevard Carl-Vogt. Look for the present galleries at numbers 65–67 before using the map photo as an entrance cue."
+    },
+    "zh": {
+      "name": "日内瓦民族学博物馆（MEG）",
+      "tagline": "普兰帕莱街区新馆的跨文化馆藏与展览",
+      "about": "日内瓦市民族学博物馆于2014年启用普兰帕莱新馆展厅，基准展览选自涉及世界各地文化的馆藏。当期展签和活动提供物件背景及其入藏过程。",
+      "operator": "日内瓦市民族学博物馆",
+      "architecture": [
+        "从卡尔－沃格特大道可找旧馆旁边有特色的坡屋顶新展馆。入内后不妨挑一小组器物，先仔细读年代、材质和来源，再进下一个展区。"
+      ],
+      "route": [
+        "从普兰帕莱一带沿卡尔－沃格特大道走到博物馆门牌。",
+        "按现用入口标识到接待处，再依导览前往基准展览。",
+        "如要看临展，先另外核对入场条件，再返回普兰帕莱或去附近的百达翡丽博物馆。"
+      ],
+      "photoTips": [
+        "从卡尔－沃格特大道对照现在展馆的屋顶与照片中的旧馆立面。"
+      ],
+      "visit": [
+        "时间有限时可挑基准展览的一个部分，细读这些器物如何来到日内瓦。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "60–90 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "照片里的旧馆就是展厅吗？",
+          "请按标识进入现用的新馆。照片里的旧建筑是馆址历史的一部分。"
+        ],
+        [
+          "怎样安排免费参观？",
+          "先选择基准展览，若还想看某个专题临展，再查是否另需门票。"
+        ],
+        [
+          "展签上有什么值得读？",
+          "留意物件的制作地点、年代，以及它是如何进入馆藏的。"
+        ]
+      ],
+      "transit": "从普兰帕莱换乘点向西南走至卡尔－沃格特大道。请按65至67号的新馆标识辨认入口。"
+    },
+    "historySource": "https://www.meg.ch/fr/media/3267/download?attachment=",
+    "imageCaption": {
+      "en": "Former MEG building on boulevard Carl-Vogt",
+      "zh": "卡尔－沃格特大道上的民族学博物馆旧馆"
+    }
+  },
+  "musee-rath": {
+    "slug": "musee-rath",
+    "image": "/gallery/musee-rath.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Rath_-_panoramio.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Rath%2C+Place+de+Neuve%2C+1204+Gen%C3%A8ve",
+    "address": "Place de Neuve, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/musee-rath-mah",
+    "hours": "Check whether a temporary exhibition is running before making an indoor visit.",
+    "admission": "Exhibition dates and prices are set by the MAH programme.",
+    "hoursZh": "安排室内参观前，先查是否有临时展览。",
+    "admissionZh": "展期与票价跟随艺术与历史博物馆当期活动安排。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Musée Rath",
+      "tagline": "A purpose-built 1826 art museum now used for temporary exhibitions",
+      "about": "Musée Rath opened in 1826 thanks to the Rath sisters. It was conceived as a dedicated fine arts museum. The MAH now uses the building for temporary exhibitions, while the main permanent collections are elsewhere.",
+      "operator": "Musée d’art et d’histoire (City of Geneva)",
+      "architecture": [
+        "View the portico from Place de Neuve and compare its temple-like front with the theatre façade across the square. Inside, the current exhibition changes how the rooms are used."
+      ],
+      "route": [
+        "Approach Place de Neuve opposite Parc des Bastions and locate the museum portico.",
+        "Read the current exhibition board before joining any queue.",
+        "Afterward cross at the marked crossing for the park, or continue across the square for the Grand Théâtre façade."
+      ],
+      "photoTips": [
+        "Use the opposite public pavement at Place de Neuve for a frontal view of the portico."
+      ],
+      "visit": [
+        "Check the title and end date of the current exhibition. The exhibition programme determines whether there is anything to see indoors."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–90 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I visit between exhibitions?",
+          "Arrange an exterior stop when the museum has no active exhibition."
+        ],
+        [
+          "Where are the main permanent art collections?",
+          "At the MAH main site on rue Charles-Galland. Musée Rath has temporary exhibitions."
+        ],
+        [
+          "Can I see the portico from Parc des Bastions?",
+          "You can see it from the Place de Neuve side of the park entrance, then cross at the marked crossing."
+        ]
+      ],
+      "transit": "Alight at Place de Neuve for the museum frontage. If approaching from the Old Town, use the park-side crossings and look across the square for the low portico."
+    },
+    "zh": {
+      "name": "拉斯博物馆",
+      "tagline": "1826年建成的专用美术馆，如今用于临时展览",
+      "about": "在拉斯姐妹的资助下，拉斯博物馆于1826年开放，从设计开始就专门用于美术。日内瓦艺术与历史博物馆现在以此举办临展，主要常设藏品在另一馆址。",
+      "operator": "日内瓦市艺术与历史博物馆",
+      "architecture": [
+        "从新广场看博物馆门廊，把类似古典神庙的正面与广场另一边的大剧院立面对照。馆内空间的布置随当期展览而变。"
+      ],
+      "route": [
+        "到巴斯蒂翁公园对面的新广场，认出拉斯博物馆的门廊。",
+        "排队前先看当期展览告示。",
+        "结束后可走过街处进入公园，或继续在广场看大剧院立面。"
+      ],
+      "photoTips": [
+        "从新广场对面的公共人行道拍完整门廊。"
+      ],
+      "visit": [
+        "先查当期展览的名称与结束日期，能否进馆参观取决于展览安排。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–90 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "没有展览时能参观吗？",
+          "无展期时可安排从广场看建筑外观。"
+        ],
+        [
+          "主要常设艺术藏品在哪里？",
+          "在夏尔－加朗街的艺术与历史博物馆主馆，拉斯博物馆展出临时展览。"
+        ],
+        [
+          "能从巴斯蒂翁公园看见门廊吗？",
+          "从公园靠新广场的入口就能看见，也可经人行横道走近。"
+        ]
+      ],
+      "transit": "公共交通在新广场下车可看见馆舍正面。从老城步行可利用公园边的过街处，然后隔广场找较低的柱廊。"
+    }
+  },
+  "grand-theatre": {
+    "slug": "grand-theatre",
+    "image": "/gallery/grand-theatre.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Gen%C3%A8ve_%2846658466335%29.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Grand+Th%C3%A9%C3%A2tre+de+Gen%C3%A8ve%2C+Place+de+Neuve+5%2C+1204+Gen%C3%A8ve",
+    "address": "Place de Neuve 5, 1204 Genève",
+    "official": "https://www.gtg.ch/contacts-acces/",
+    "hours": "The Place de Neuve building is closed for works from 1 January 2026 until the end of June 2027 according to the operator.",
+    "admission": "Public exterior viewing is free. Performance tickets and venues are published by the Grand Théâtre.",
+    "hoursZh": "剧院方公告新广场馆舍于2026年1月1日至2027年6月底因施工关闭。",
+    "admissionZh": "从公共广场看外观免费；演出票及演出地点由剧院发布。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Grand Théâtre de Genève",
+      "tagline": "The opera house on Place de Neuve, with performances temporarily elsewhere",
+      "about": "The opera house opened in 1879. A 1951 fire destroyed much of the interior, and the reconstructed theatre reopened in 1962. The monumental exterior remains a defining part of Place de Neuve.",
+      "operator": "Grand Théâtre de Genève",
+      "architecture": [
+        "From the public square look for the steps, columns and sculpted frontage, then compare the opera house with the simpler front of Musée Rath. Performances may take place elsewhere during the current work."
+      ],
+      "route": [
+        "From the Bastions gate use the marked crossing toward the opera house.",
+        "View the façade from Place de Neuve without approaching blocked work entrances.",
+        "If attending a show, verify the venue on the ticket before setting off toward the Bâtiment des Forces Motrices."
+      ],
+      "photoTips": [
+        "From a safe pavement on Place de Neuve, frame the theatre’s entrance with the upper sculpted façade."
+      ],
+      "visit": [
+        "For the temporary stage, use the address on your booking. Arriving at Place de Neuve by habit can take you to the wrong venue."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "15–30 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is my opera performance at Place de Neuve?",
+          "Check the performance address. The company has temporarily moved its stage to the Bâtiment des Forces Motrices."
+        ],
+        [
+          "When does the work end?",
+          "The theatre currently gives the end of June 2027. Check its updates before planning a visit."
+        ],
+        [
+          "Can I still see the façade?",
+          "Yes, from the public square while respecting work barriers."
+        ]
+      ],
+      "transit": "Use Place de Neuve for the original theatre façade. For a performance at Bâtiment des Forces Motrices, use the performance address beside the Rhône instead."
+    },
+    "zh": {
+      "name": "日内瓦大剧院",
+      "tagline": "新广场上的歌剧院，施工期间演出临时移至他处",
+      "about": "剧院于1879年开幕，1951年的火灾严重破坏内部，重建后于1962年重新开放。剧院宏大的外立面仍是新广场的重要组成部分。",
+      "operator": "日内瓦大剧院",
+      "architecture": [
+        "从公共广场看台阶、柱子和雕刻立面，再与拉斯博物馆更简洁的正面比较。施工期间，演出地点可能在其他场馆。"
+      ],
+      "route": [
+        "从巴斯蒂翁公园门口经人行横道走向歌剧院。",
+        "在新广场看外观，避开封闭的施工入口。",
+        "持票看演出时，先按票面核对地址，再决定是否前往动力大楼剧场。"
+      ],
+      "photoTips": [
+        "在新广场可通行的人行道上，把剧院入口与上方雕刻立面放在同一画面。"
+      ],
+      "visit": [
+        "去临时演出场馆以订单地址为准，照习惯去新广场可能走错。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "15–30 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "我的歌剧演出在新广场吗？",
+          "请看演出地址。剧团已临时把舞台移到动力大楼剧场。"
+        ],
+        [
+          "预计何时完工？",
+          "剧院目前公布到2027年6月底，到访前请看最新公告。"
+        ],
+        [
+          "还能看外立面吗？",
+          "可以在公共广场观赏，并遵循施工围挡。"
+        ]
+      ],
+      "transit": "去看旧剧院立面可在新广场下车。若演出安排在动力大楼剧场，则按演出地址往罗讷河边走。"
+    },
+    "historySource": "https://archives.gtg.ch/histoire-du-grand-theatre/"
+  },
+  "basilica-notre-dame": {
+    "slug": "basilica-notre-dame",
+    "image": "/gallery/basilica-notre-dame.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Notre_Dame_in_Geneva.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Basilique+Notre-Dame%2C+Place+de+Cornavin%2C+1201+Gen%C3%A8ve",
+    "address": "Place de Cornavin, 1201 Genève",
+    "official": "https://www.basilique.ch/contact-infos",
+    "hours": "Check the parish schedule for services and visitor access.",
+    "admission": "Ordinary respectful church visits are free when available. Special events may have their own terms.",
+    "hoursZh": "礼拜与访客时段请查堂区安排。",
+    "admissionZh": "开放时普通参观免费，特别活动可能另有安排。",
+    "cluster": "right-bank",
+    "en": {
+      "name": "Basilica of Notre-Dame",
+      "tagline": "A neo-Gothic Catholic church directly beside Cornavin station",
+      "about": "The basilica was built in the nineteenth century, when local Catholics worked to establish a new church near the district beyond Geneva’s former walls. The building is dedicated to the Immaculate Conception and remains a working parish church.",
+      "operator": "Paroisse de la Basilique Notre-Dame de Genève",
+      "architecture": [
+        "Look at the pointed arches outside before entering. When services permit, let your eyes adjust inside and look along the nave toward the stained glass, keeping clear of areas reserved for prayer."
+      ],
+      "route": [
+        "Exit Cornavin station toward Place de Cornavin and identify the church across the station forecourt area.",
+        "Enter only through the public door when open and check the service notices.",
+        "Return to Cornavin for a train or take rue du Mont-Blanc downhill to the harbour."
+      ],
+      "photoTips": [
+        "From a public pavement at Cornavin, look for a view of the pointed entrance without stepping into the tram tracks."
+      ],
+      "visit": [
+        "Allow a few minutes to orient yourself around the station crossings, especially if visiting between trains."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "20–35 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "How close is the church to the station?",
+          "It faces Place de Cornavin and can be visited without going into the Old Town."
+        ],
+        [
+          "Can I walk around inside during a service?",
+          "Keep to parish guidance. Schedule sightseeing outside services where possible."
+        ],
+        [
+          "Is this St. Pierre Cathedral?",
+          "Notre-Dame is the Catholic basilica beside Cornavin. St. Pierre is the cathedral in the hilltop Old Town."
+        ]
+      ],
+      "transit": "From Cornavin platforms head toward the main forecourt. Use the marked pedestrian crossings around the tram stops as you approach the church."
+    },
+    "zh": {
+      "name": "日内瓦圣母圣殿",
+      "tagline": "科尔纳万火车站旁的新哥特式天主教圣殿",
+      "about": "圣殿建于19世纪，当时当地天主教会致力于在旧城墙外街区附近兴建新的教堂。圣殿奉献给圣母无原罪始胎，至今仍是举行礼拜的堂区教堂。",
+      "operator": "日内瓦圣母圣殿堂区",
+      "architecture": [
+        "进门前先观察外部尖拱。若礼拜安排允许进入，可等眼睛适应室内光线后沿中殿看彩窗，并避开专供祈祷的区域。"
+      ],
+      "route": [
+        "从科尔纳万火车站朝科尔纳万广场出站，在站前广场一带辨认教堂。",
+        "开放时走访客入口，先确认宗教活动告示。",
+        "可以回站换乘，或沿勃朗峰街下行去湖港。"
+      ],
+      "photoTips": [
+        "从科尔纳万人行道找角度拍尖拱入口，别走进电车轨道。"
+      ],
+      "visit": [
+        "若在火车换乘期间参观，可多留几分钟找站前过街处。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "20–35 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "这里离火车站近吗？",
+          "教堂就在科尔纳万广场一侧，无须先上老城。"
+        ],
+        [
+          "礼拜时能在里面走动吗？",
+          "请遵循堂区指引，尽量把观光安排在礼拜之外。"
+        ],
+        [
+          "它是圣彼得大教堂吗？",
+          "这是火车站旁的天主教圣母圣殿，圣彼得大教堂在老城山顶。"
+        ]
+      ],
+      "transit": "由科尔纳万的站台往主站前广场走，去教堂时经电车站附近的人行横道。"
+    },
+    "historySource": "https://www.basilique.ch/histoire-de-la-basilique-notre-dame-de-geneve"
+  },
+  "russian-church": {
+    "slug": "russian-church",
+    "image": "/gallery/russian-church.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89glise_orthodoxe_russe_%28Gen%C3%A8ve%29_2025-05-11_%281%29.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%C3%89glise+orthodoxe+russe%2C+Rue+Rodolphe-T%C5%93pffer+9%2C+1206+Gen%C3%A8ve",
+    "address": "Rue Rodolphe-Tœpffer 9, 1206 Genève",
+    "official": "https://www.geneve.com/en/attractions/detail/russian-orthodox-church",
+    "hours": "Exterior visible from public streets. Interior access depends on worship and the parish’s arrangements.",
+    "admission": "Exterior viewing is free. Check church notices for any special visit arrangements.",
+    "hoursZh": "外观可从公共街道观看，室内取决于堂区安排与礼拜活动。",
+    "admissionZh": "从街上免费观赏，特别参观条件请看教堂公告。",
+    "cluster": "old-town",
+    "en": {
+      "name": "Russian Orthodox Church",
+      "tagline": "Golden onion domes above the streets of the Tranchées district",
+      "about": "Geneva’s Orthodox community received permission to build its church in 1859. It was built from 1863 to 1866 on the former Benedictine priory site in the Tranchées district and remains an active church.",
+      "operator": "Russian Orthodox parish and Société de l’Église russe",
+      "architecture": [
+        "Stand back on the public pavement to see the gilded domes above the lighter masonry. From the corner, the different domes overlap less than they do immediately in front of the entrance."
+      ],
+      "route": [
+        "Walk from the Art and History Museum toward rue Rodolphe-Tœpffer.",
+        "Check the entrance notices before attempting to go inside. Give services and worshippers priority.",
+        "Continue toward Malagnou or return to the Old Town through the Tranchées streets."
+      ],
+      "photoTips": [
+        "Use the wider street corner to frame several domes above the pale masonry."
+      ],
+      "visit": [
+        "Choose an exterior visit as the default, and leave room for worshippers by the church door."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "15–30 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Where can I see the golden domes most clearly?",
+          "Step back from the entrance along the public pavement, then try a corner view."
+        ],
+        [
+          "Is the interior always open?",
+          "Check parish arrangements and the door notices on arrival. Services take priority."
+        ],
+        [
+          "Can I combine it with the Art and History Museum?",
+          "Yes. Both are in the Tranchées area. Check the museum timetable if you want to go inside."
+        ]
+      ],
+      "transit": "From the city centre, approach through the Tranchées streets. The domes can help you orient yourself as you near rue Rodolphe-Tœpffer."
+    },
+    "zh": {
+      "name": "日内瓦俄罗斯东正教堂",
+      "tagline": "特朗谢街区街道上方的金色洋葱形穹顶",
+      "about": "日内瓦的东正教团体于1859年获准兴建教堂，并于1863至1866年在特朗谢街区原本笃会小修道院所在地建造。教堂如今仍举行宗教活动。",
+      "operator": "俄罗斯东正教堂区及教堂协会",
+      "architecture": [
+        "沿公共人行道向后退一些，可看到浅色墙体上方的镀金圆顶。从街角观察时，圆顶之间的遮挡比正对大门时少。"
+      ],
+      "route": [
+        "从艺术与历史博物馆往鲁道夫－托普费尔街走。",
+        "先看门口的访客告示，再决定是否入内。礼拜安排与信众通行优先。",
+        "可继续去马拉尼乌一带，也可经特朗谢街区回老城。"
+      ],
+      "photoTips": [
+        "在较宽的街角取景，可把浅色墙体上方的几个金顶一起拍下。"
+      ],
+      "visit": [
+        "可先按外观安排，在教堂门口为礼拜者留出通道。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "15–30 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "哪里能看清金色圆顶？",
+          "从入口沿公共人行道后退，再换到街角看。"
+        ],
+        [
+          "教堂内部总是开放吗？",
+          "到前可查询堂区安排，到门口再看当天告示。礼拜优先。"
+        ],
+        [
+          "能顺路参观艺术与历史博物馆吗？",
+          "两处都在特朗谢街区。若想进馆，请先核对博物馆开放时间。"
+        ]
+      ],
+      "transit": "从市中心可经特朗谢街区走来。接近鲁道夫－托普费尔街时，可用金色圆顶辨认方向。"
+    },
+    "historySource": "https://www.geneve.ch/sites/default/files/filecm/CM/objets/PR-1369-177/pr-1369.pdf"
+  },
+  "saint-gervais-church": {
+    "slug": "saint-gervais-church",
+    "image": "/gallery/saint-gervais-church.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Ancient_fresco_in_the_St_Gervais_Temple_in_Geneva_Ausschnitt.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Temple+de+Saint-Gervais%2C+Rue+des+Terreaux-du-Temple+12%2C+1201+Gen%C3%A8ve",
+    "address": "Rue des Terreaux-du-Temple 12, 1201 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/temple-de-saint-gervais",
+    "hours": "Check parish and venue announcements for interior access and events.",
+    "admission": "Exterior viewing is free. Consult organisers for individual events or guided interior visits.",
+    "hoursZh": "室内开放与活动请看教会及场地公告。",
+    "admissionZh": "外观免费，个别活动或室内导览向主办方查询。",
+    "cluster": "right-bank",
+    "en": {
+      "name": "Temple de Saint-Gervais",
+      "tagline": "A Gothic right-bank church with older archaeological layers",
+      "about": "Saint-Gervais is one of Geneva’s oldest sacred sites. The standing church was rebuilt in the first half of the fifteenth century, and excavations documented older occupation around the building. Its layers help explain the history of this right-bank neighbourhood.",
+      "operator": "Église protestante de Genève for worship; City of Geneva heritage services for the site",
+      "architecture": [
+        "From the forecourt notice the stone walls and the church’s position on a small rise. If the interior is open, follow posted visitor guidance for historic decoration such as the surviving painted fragments shown in the photograph."
+      ],
+      "route": [
+        "From Cornavin follow the streets toward the Rhône through Saint-Gervais.",
+        "Go uphill to rue des Terreaux-du-Temple 12 and pause in the forecourt.",
+        "Descend toward the river by the public streets or continue back toward Cornavin."
+      ],
+      "photoTips": [
+        "Take an exterior picture from the forecourt. Photograph historic interior decoration only with permission."
+      ],
+      "visit": [
+        "Check whether a concert or service is taking place and whether visitors can enter independently."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "20–35 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I see the fresco anytime?",
+          "The image shows an interior detail. Check the church’s current opening or event conditions before planning to see it."
+        ],
+        [
+          "Is it in the Old Town above the left bank?",
+          "It is on the right bank in Saint-Gervais, reached from Cornavin or the Rhône quays."
+        ],
+        [
+          "What can I see without entering?",
+          "Use the public forecourt to see the Gothic building and its setting above the neighbourhood streets."
+        ]
+      ],
+      "transit": "The temple is within walking distance of Cornavin. From the river, the surrounding streets climb toward the forecourt."
+    },
+    "zh": {
+      "name": "圣热尔韦新教教堂",
+      "tagline": "罗讷河右岸哥特式教堂及更早的考古地层",
+      "about": "圣热尔韦是日内瓦最早的宗教地点之一。现存教堂在15世纪上半叶重建，建筑周边的考古调查还发现更早的活动痕迹，有助了解右岸街区的发展。",
+      "operator": "礼拜由日内瓦新教教会安排，场地遗产事务涉及市政府",
+      "architecture": [
+        "在前庭先看石墙和略高于周边街道的位置。内部开放时可依现场指示看历史装饰，照片展示的是教堂内留存的壁画细节。"
+      ],
+      "route": [
+        "从科尔纳万站经圣热尔韦街区往罗讷河方向走。",
+        "上坡至特罗迪唐普勒街12号，在教堂前庭停留。",
+        "再经公共街道下坡回河岸，或沿街返回科尔纳万。"
+      ],
+      "photoTips": [
+        "可在前庭拍建筑外观；拍摄历史内饰前请先问是否允许。"
+      ],
+      "visit": [
+        "先查是否正举办音乐会或礼拜，再确认是否接待自由参观。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "20–35 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "壁画什么时候都能看吗？",
+          "照片记录的是室内细节，专程到访前请先核对开放或活动条件。"
+        ],
+        [
+          "它在左岸山上的老城吗？",
+          "教堂在右岸圣热尔韦，可从科尔纳万站或罗讷河岸前往。"
+        ],
+        [
+          "不进教堂能看什么？",
+          "从公共前庭看哥特式建筑与周围街道的高差。"
+        ]
+      ],
+      "transit": "从科尔纳万站可步行到教堂。若从河边过来，周围街道上坡通往教堂前庭。"
+    },
+    "historySource": "https://www.geneve.ch/sites/default/files/filecm/CM/objets/PR-491-164/PR-491.pdf",
+    "imageCaption": {
+      "en": "Historic fresco inside Saint-Gervais",
+      "zh": "圣热尔韦教堂内部的历史壁画"
+    }
+  },
+  "parc-la-grange": {
+    "slug": "parc-la-grange",
+    "image": "/gallery/parc-la-grange.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Villa_La_Grange.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Parc+La+Grange%2C+Quai+Gustave-Ador%2C+1207+Gen%C3%A8ve",
+    "address": "Quai Gustave-Ador, 1207 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/parc-la-grange",
+    "hours": "Public park with seasonal gate hours. Verify current closures and event arrangements.",
+    "admission": "Free park entry. Performances and private services follow their own terms.",
+    "hoursZh": "公共公园，园门时段按季节变化，封闭及活动另查。",
+    "admissionZh": "公园免费，演出和私人服务有各自条件。",
+    "cluster": "lake",
+    "en": {
+      "name": "Parc La Grange",
+      "tagline": "A former lakeside estate with a villa, rose garden and open lawns",
+      "about": "La Grange was a private estate before William Favre gave it to the city in the early twentieth century. The villa and lawns preserve the outline of the former property, while the public rose garden and outdoor theatre add different reasons to visit.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "From paths below the villa, compare the lawn’s slope toward the lake with the more enclosed rose garden. In flowering season, walk the rose beds from their paths and leave their labels visible for other visitors."
+      ],
+      "route": [
+        "Follow Quai Gustave-Ador toward Eaux-Vives and take a signed park gate.",
+        "Walk up through the lawns toward the villa, detouring to the rose garden when open.",
+        "Return to the lakeside or continue to neighbouring Parc des Eaux-Vives if its connecting path is open."
+      ],
+      "photoTips": [
+        "Photograph the villa from below so the slope of the lawns remains visible."
+      ],
+      "visit": [
+        "Use the lakeside gate for a gradual uphill walk and set aside separate time to see the rose garden."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–75 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the villa open like a museum?",
+          "Plan for views from the park. Check city notices for any event or visit that includes the building."
+        ],
+        [
+          "When should I go for the roses?",
+          "Flowering depends on the season and weather. Check current garden notices if you are visiting specifically to see blooms."
+        ],
+        [
+          "Can I reach the park from the Jet d’Eau on foot?",
+          "Yes. Follow Quai Gustave-Ador toward Eaux-Vives and look for the park gate."
+        ]
+      ],
+      "transit": "The lakeside approach follows Quai Gustave-Ador from the jetty area. With limited mobility, check the grades between the waterfront gates and the villa before choosing a circuit."
+    },
+    "zh": {
+      "name": "拉格朗日公园",
+      "tagline": "保留别墅、月季园和草坪的原湖畔庄园",
+      "about": "拉格朗日原是私人庄园，20世纪初由威廉·法夫尔捐赠市政府。别墅与大草坪保留原庄园的空间轮廓，公共月季园和露天剧场则带来不同的到访理由。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从别墅下方的园路，看草坪向湖面展开的坡度，再与边界较为明确的月季园对照。花开时可沿小径看不同花坛，并让其他访客也能读到品种牌。"
+      ],
+      "route": [
+        "沿居斯塔夫－阿多尔湖岸路往欧维夫方向，走有标识的园门。",
+        "穿过草坪向别墅上坡，月季园开放时可绕去看花。",
+        "可返回湖岸，也可在连接通道开放时步行去相邻欧维夫公园。"
+      ],
+      "photoTips": [
+        "从别墅下方拍摄，可将草坪坡度留在画面内。"
+      ],
+      "visit": [
+        "从湖岸园门入园可逐渐上坡，月季园值得另留一点时间。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–75 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "别墅像博物馆一样开放吗？",
+          "通常安排为从园内看外观。若想入内，查市政府是否有开放活动。"
+        ],
+        [
+          "什么时候来看月季？",
+          "花期随季节和天气变化，若专程看花可先查当前园艺消息。"
+        ],
+        [
+          "能从大喷泉步行到这里吗？",
+          "可以，沿居斯塔夫－阿多尔湖岸路往欧维夫走，留意公园入口。"
+        ]
+      ],
+      "transit": "从大喷泉栈桥一带沿居斯塔夫－阿多尔湖岸路可步行到达。若在意坡度，先核对湖岸园门与别墅间的路线再选环线。"
+    },
+    "imageCaption": {
+      "en": "Villa La Grange in the park",
+      "zh": "拉格朗日公园内的别墅"
+    }
+  },
+  "ile-rousseau": {
+    "slug": "ile-rousseau",
+    "image": "/gallery/ile-rousseau.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Geneve_Ile_Rousseau_Bergues_2011-09-10_10_13_56_PICT4588.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%C3%8Ele+Rousseau%2C+Pont+des+Bergues%2C+1201+Gen%C3%A8ve",
+    "address": "Pont des Bergues, 1201 Genève",
+    "official": "https://www.myswitzerland.com/fr/decouvrir/rousseau/",
+    "hours": "Outdoor public access via Pont des Bergues, subject to temporary barriers.",
+    "admission": "Free public access. Private services on the island may have separate hours.",
+    "hoursZh": "公共户外小岛经贝尔格桥进入，有临时围挡时按标识。",
+    "admissionZh": "公共区域免费，岛上私人服务可能另有营业时间。",
+    "cluster": "lake",
+    "en": {
+      "name": "Île Rousseau",
+      "tagline": "A small Rhône island reached via Pont des Bergues",
+      "about": "The island was formerly known as Île des Barques. It acquired its current name after a bronze statue of Jean-Jacques Rousseau was erected in 1835. The public island offers a view back toward the opening of the Rhône as it leaves the lake.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Walk around the statue and compare the current and moorings on the Rhône side with the open view toward Pont du Mont-Blanc. The island is small enough to take in both perspectives on one circuit."
+      ],
+      "route": [
+        "Reach Pont des Bergues from either bank.",
+        "Take the short branching pedestrian link to the island and walk around the statue.",
+        "Return by the same link and continue along the opposite bank toward the Old Town or Cornavin."
+      ],
+      "photoTips": [
+        "From Pont des Bergues, frame the island with water on both sides before taking its entrance link."
+      ],
+      "visit": [
+        "Pair the island with the quays for a short walk and leave room where the narrow branch leaves the bridge."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "15–30 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the entrance on Pont du Mont-Blanc?",
+          "Use the branch from Pont des Bergues. Pont du Mont-Blanc gives a view of the island."
+        ],
+        [
+          "Who is the statue of?",
+          "Jean-Jacques Rousseau. The bronze was erected in 1835."
+        ],
+        [
+          "Can I exit from the other end of the island?",
+          "The public approach is the short link from Pont des Bergues. Return via that link to cross toward either bank."
+        ]
+      ],
+      "transit": "Look for Pont des Bergues between the larger Mont-Blanc bridge and the bridges further downstream. The island entrance branches from the bridge rather than either quay."
+    },
+    "zh": {
+      "name": "卢梭岛",
+      "tagline": "可经贝尔格桥步行到达的罗讷河小岛",
+      "about": "小岛过去称为“小船岛”。1835年岛上竖立让－雅克·卢梭铜像，之后以卢梭命名。站在这座公共小岛上可清楚看到罗讷河从湖中流出的河口。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "绕铜像走一圈，比较罗讷河一侧的水流和泊位，与朝勃朗峰桥方向的开阔景观。岛很小，一圈就可以比较两个方向。"
+      ],
+      "route": [
+        "由任一岸走上贝尔格桥。",
+        "从桥上转入通岛的短支桥，绕铜像走一圈。",
+        "经同一支桥回桥面，可到对岸继续往老城或科尔纳万方向走。"
+      ],
+      "photoTips": [
+        "在贝尔格桥上先取景小岛两侧的水，再走支桥上岛。"
+      ],
+      "visit": [
+        "可把上岛与两岸步道串起来，在桥上狭窄的分岔处让出通道。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "15–30 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "入口在勃朗峰桥上吗？",
+          "走贝尔格桥的支桥可上岛。勃朗峰桥适合看小岛全景。"
+        ],
+        [
+          "岛上雕像是谁？",
+          "让－雅克·卢梭，青铜雕像于1835年立起。"
+        ],
+        [
+          "能从岛的另一端出去吗？",
+          "公共通道是连接贝尔格桥的短支桥，原路回去可选择往哪一岸走。"
+        ]
+      ],
+      "transit": "从勃朗峰大桥往下游找贝尔格桥。小岛入口从桥面分出，不在任一岸的步道上。"
+    }
+  },
+  "patek-philippe-museum": {
+    "slug": "patek-philippe-museum",
+    "image": "/gallery/patek-philippe-museum.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Patek_Philippe_Museum.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Patek+Philippe+Museum%2C+Rue+des+Vieux-Grenadiers+7%2C+1205+Gen%C3%A8ve",
+    "address": "Rue des Vieux-Grenadiers 7, 1205 Genève",
+    "official": "https://www.patek.com/en/museum/plan-your-visit",
+    "hours": "Check the museum’s official visiting days, holiday exceptions and last entry.",
+    "admission": "Ticketed admission. Consult the museum for current rates, discounts and guided visits.",
+    "hoursZh": "请查官网开放日期、节假日例外与最晚入场。",
+    "admissionZh": "博物馆需购票，价格、优惠和导览以馆方公告为准。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Patek Philippe Museum",
+      "tagline": "Five centuries of watchmaking in a former workshop building",
+      "about": "The museum occupies a restored Art Deco industrial building dating from 1919–1920. Patek Philippe acquired it in 1975 for workshops linked to Geneva’s goldsmithing traditions. Today collections bring together historic timepieces and work made by Patek Philippe.",
+      "operator": "Patek Philippe Museum",
+      "architecture": [
+        "Use the collection layout to compare portable watches from different periods. Read labels for the materials, mechanisms and decoration, and look for changes in scale as instruments became small enough to wear."
+      ],
+      "route": [
+        "From Plainpalais follow rue des Vieux-Grenadiers to number 7.",
+        "Check the ticket desk rules and start with either the historic watches or the Patek Philippe collection.",
+        "If you are continuing to the MEG, return to the street and head toward boulevard Carl-Vogt."
+      ],
+      "photoTips": [
+        "Use the opposite street pavement for an exterior photograph of the workshop building. Check the rules inside."
+      ],
+      "visit": [
+        "Plan around the museum’s own visiting calendar. If you want both collections, allow longer than a single short stop."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "75–120 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is this a watch shop?",
+          "It is a museum with historical collections at rue des Vieux-Grenadiers 7."
+        ],
+        [
+          "Which gallery works if I have limited time?",
+          "Choose either the historic watchmaking collection or the Patek Philippe collection before going upstairs."
+        ],
+        [
+          "Can I take photographs?",
+          "Check the museum’s current visitor rules before using a camera inside."
+        ]
+      ],
+      "transit": "Use the Plainpalais transport hub and take the local streets toward rue des Vieux-Grenadiers. The museum address is a separate stop from brand shops elsewhere in Geneva."
+    },
+    "zh": {
+      "name": "百达翡丽博物馆",
+      "tagline": "原工坊建筑内展示五个世纪的制表工艺",
+      "about": "博物馆设在一座建于1919至1920年、后经修复的装饰艺术风格工业建筑里。百达翡丽于1975年购入该建筑，曾用于与日内瓦传统金工相关的工坊。馆内现有历史钟表和百达翡丽作品。",
+      "operator": "百达翡丽博物馆",
+      "architecture": [
+        "可以按馆藏布局比较不同时代的便携钟表，读材料、机芯与装饰说明，观察计时器逐渐缩小到能佩戴在身上时的变化。"
+      ],
+      "route": [
+        "从普兰帕莱沿老掷弹兵街走到7号。",
+        "核对售票处入场规则，可先看历史钟表或百达翡丽品牌馆藏。",
+        "若还去民族学博物馆，出馆后朝卡尔－沃格特大道走。"
+      ],
+      "photoTips": [
+        "可从街对面人行道拍原工坊外观，馆内摄影先查规则。"
+      ],
+      "visit": [
+        "按馆方开放日历安排行程。若两大馆藏都看，就留出比短停更长的时间。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "75–120 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "这里是钟表商店吗？",
+          "这是老掷弹兵街7号的博物馆，展示历史馆藏。"
+        ],
+        [
+          "时间有限先看哪部分？",
+          "上楼前可先选历史钟表收藏或百达翡丽品牌馆藏中的一个主题。"
+        ],
+        [
+          "馆内可以拍照吗？",
+          "使用相机前查馆方现行参观规则。"
+        ]
+      ],
+      "transit": "可由普兰帕莱换乘站经街区走到老掷弹兵街。博物馆门牌与日内瓦其他地方的品牌门店分开。"
+    }
+  },
+  "international-reformation-museum": {
+    "slug": "international-reformation-museum",
+    "image": "/gallery/international-reformation-museum.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Entree_MiR_2023.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+international+de+la+R%C3%A9forme%2C+Cour+de+Saint-Pierre+10%2C+1204+Gen%C3%A8ve",
+    "address": "Cour de Saint-Pierre 10, 1204 Genève",
+    "official": "https://www.musee-reforme.ch/informations-pratiques/",
+    "hours": "Check the current visitor timetable and holiday closures before going up to the Old Town.",
+    "admission": "Museum admission is ticketed. Check individual and combined-ticket conditions.",
+    "hoursZh": "上老城前请核对当前参观时段和节假日闭馆安排。",
+    "admissionZh": "博物馆需购票，单馆及联票条件以公告为准。",
+    "cluster": "old-town",
+    "en": {
+      "name": "International Museum of the Reformation",
+      "tagline": "A museum of Protestant Reformation history beside St. Pierre Cathedral",
+      "about": "The museum opened in 2005 in Maison Mallet, a house built in 1723 on the former Saint-Pierre cloister site. Geneva adopted the Reformation there in 1536. The exhibition reaches beyond Geneva to explain ideas and practices across Protestant movements.",
+      "operator": "Fondation du Musée international de la Réforme",
+      "architecture": [
+        "Look at how the rooms use books, prints, portraits and audiovisual interpretation to tell a story that is difficult to read from monuments alone. On leaving, compare the museum’s domestic-scale entrance with the adjacent cathedral."
+      ],
+      "route": [
+        "In the Old Town walk up from Bourg-de-Four to Cour de Saint-Pierre.",
+        "Find the museum entrance marked MIR and allow time for the displayed sequence before going to the cathedral.",
+        "If adding the cathedral tower or archaeology, check the separate entrance and any current combined-ticket option."
+      ],
+      "photoTips": [
+        "Photograph the Maison Mallet entrance from the cathedral forecourt without blocking visitors."
+      ],
+      "visit": [
+        "An indoor museum visit pairs well with the cathedral, but choose the tower only if you are comfortable with its narrow stairs."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "60–90 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is it inside the cathedral?",
+          "The museum is in Maison Mallet next to the cathedral and has its own entrance."
+        ],
+        [
+          "How does it differ from the Reformation Wall?",
+          "The indoor galleries develop the history through documents and interpretation. The public wall is an outdoor monument in the Bastions."
+        ],
+        [
+          "Can I visit both museum and cathedral tower in one trip?",
+          "Yes, but check opening times and admission for each before you go."
+        ]
+      ],
+      "transit": "The museum lists the Cathédrale bus stop and a ramp entrance from rue de l’Évêché. If you need assistance with the ramp access, contact reception ahead."
+    },
+    "zh": {
+      "name": "国际宗教改革博物馆",
+      "tagline": "圣彼得大教堂旁讲述新教宗教改革的博物馆",
+      "about": "博物馆于2005年在马莱宅邸开馆。宅邸建于1723年，位于圣彼得旧回廊所在地，日内瓦曾于1536年在此采纳宗教改革。展览由日内瓦出发，介绍不同新教运动的思想与实践。",
+      "operator": "国际宗教改革博物馆基金会",
+      "architecture": [
+        "留意展览怎样通过书籍、版画、肖像和视听讲解叙述纪念碑上看不到的历史。离开时可比较旧宅尺度的入口与旁边更宏大的大教堂。"
+      ],
+      "route": [
+        "在老城从布尔德富尔广场上坡到圣彼得教堂前庭。",
+        "找标有MIR的博物馆入口，留出时间依次看展，再去大教堂。",
+        "若还想登塔或看考古遗址，另查入口以及当天是否有联票。"
+      ],
+      "photoTips": [
+        "从大教堂前庭拍马莱宅邸入口，并让出访客通道。"
+      ],
+      "visit": [
+        "室内博物馆与大教堂适合同游，登塔前再考虑狭窄楼梯是否合适。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "60–90 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "博物馆在教堂里面吗？",
+          "它设在相邻的马莱宅邸，有单独入口。"
+        ],
+        [
+          "它与宗教改革纪念墙有什么区别？",
+          "室内展厅用文献与讲解展开历史。纪念墙是巴斯蒂翁公园里的公共户外纪念碑。"
+        ],
+        [
+          "能同一天参观博物馆并登教堂塔吗？",
+          "可以，出发前分别核对开放时间和入场条件。"
+        ]
+      ],
+      "transit": "馆方列出大教堂公交站，以及由主教街进入的坡道。如需坡道通行协助，可提前联系接待处。"
+    },
+    "historySource": "https://www.musee-reforme.ch/la-fondation/"
+  },
+  "place-du-bourg-de-four": {
+    "slug": "place-du-bourg-de-four",
+    "image": "/gallery/place-du-bourg-de-four.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Genf_25_Pl-B-d-Four.JPG",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Place+du+Bourg-de-Four%2C+Place+du+Bourg-de-Four%2C+1204+Gen%C3%A8ve",
+    "address": "Place du Bourg-de-Four, 1204 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/place-du-bourg-de-four",
+    "hours": "Public square year-round. Café opening follows each business.",
+    "admission": "Free public access. Terrace seating belongs to its operators.",
+    "hoursZh": "公共广场全年可到访，咖啡馆营业各有安排。",
+    "admissionZh": "公共区域免费，露台座位由商户管理。",
+    "cluster": "old-town",
+    "en": {
+      "name": "Place du Bourg-de-Four",
+      "tagline": "A market square where the Old Town’s uphill streets come together",
+      "about": "Bourg-de-Four is one of Geneva’s oldest public squares and served as a market in the historic town. Streets leading to shops, the former city approaches and the cathedral converge here. Later civic buildings and cafés continued its role as a meeting place.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Stand back from the central area to see the irregular square framed by buildings of different heights. Notice which streets climb toward the cathedral and which descend toward the lower city."
+      ],
+      "route": [
+        "Approach from the Old Town by rue de l’Hôtel-de-Ville or climb from the lower streets by a public route.",
+        "Walk around the square, stopping beyond the café terraces to look back toward the merging streets.",
+        "Take the uphill route to Saint-Pierre or head toward the Art and History Museum through the Tranchées area."
+      ],
+      "photoTips": [
+        "From the edge of the square, frame the converging façades and streets without entering a café terrace."
+      ],
+      "visit": [
+        "Choose the approach by gradient. The Old Town is hilly and the quickest shortcuts may include stairs."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "20–35 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Can I sit in the square without buying anything?",
+          "Use available public space. Tables and chairs on café terraces are for their customers."
+        ],
+        [
+          "Is the cathedral far uphill from the square?",
+          "It is close. Follow signs for Saint-Pierre via the ascending street."
+        ],
+        [
+          "Can I avoid steep steps on the way into the Old Town?",
+          "Use signed public streets and plan for a slope. Some pedestrian shortcuts use stairs."
+        ]
+      ],
+      "transit": "From the Rive area choose a mapped street route up to the Old Town. Lanes from the cathedral side reach the square near the high end."
+    },
+    "zh": {
+      "name": "布尔德富尔广场",
+      "tagline": "老城坡道交汇处的历史市场广场",
+      "about": "布尔德富尔是日内瓦最古老的公共广场之一，早期曾是城市市场。通往商铺、旧城入口与大教堂的道路在这里交汇，后来市政建筑和咖啡馆延续了聚会功能。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从广场中央区域退开一些，可以看出高低不一的建筑如何围出不规则的公共空间。留意哪些街道上行通往大教堂，哪些下行到低处的街区。"
+      ],
+      "route": [
+        "可从老城的市政厅街走来，也可由较低街区经公共道路上坡。",
+        "绕广场走，在咖啡座以外找空处回望交汇的街巷。",
+        "可走上坡街道去圣彼得大教堂，或经特朗谢街区到艺术与历史博物馆。"
+      ],
+      "photoTips": [
+        "从广场边缘取景交汇的街道与房屋，避开咖啡座。"
+      ],
+      "visit": [
+        "可以按坡度选择来路。老城地势起伏，最短的小路有时要走台阶。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "20–35 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "能不消费在广场停留吗？",
+          "可以使用开放的公共区域。咖啡馆露台的桌椅供顾客使用。"
+        ],
+        [
+          "从广场还要上坡走很远才到大教堂吗？",
+          "教堂就在附近，沿上坡街道按圣彼得标识走。"
+        ],
+        [
+          "去老城能避开陡梯吗？",
+          "选有标识的公共街道，仍需考虑坡度。部分步行近路有台阶。"
+        ]
+      ],
+      "transit": "从里沃一带可按地图沿街上坡去老城。从大教堂来的小巷接到广场地势较高的一端。"
+    }
+  },
+  "batie-woods": {
+    "slug": "batie-woods",
+    "image": "/gallery/batie-woods.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bois_de_la_B%C3%A2tie.jpg",
+    "imageCredit": "Wikimedia Commons",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bois+de+la+B%C3%A2tie%2C+Chemin+de+la+B%C3%A2tie%2C+1202+Gen%C3%A8ve",
+    "address": "Chemin de la Bâtie, 1202 Genève",
+    "official": "https://www.geneve.com/fr/attractions/detail/bois-de-la-batie",
+    "hours": "Woodland public paths and animal park access may differ. Check facility hours and works.",
+    "admission": "Woodland access is free. Check on-site arrangements for individual facilities.",
+    "hoursZh": "公共林径与动物园区的开放可能不同，请查设施时段与施工。",
+    "admissionZh": "林地免费，个别设施以现场安排为准。",
+    "cluster": "plainpalais",
+    "en": {
+      "name": "Bois de la Bâtie",
+      "tagline": "A wooded hill above the Rhône with public trails and an animal park",
+      "about": "Bois de la Bâtie preserves about 12 hectares of woodland in the city. High above the Rhône, the hill has developed into a public recreation area. Municipal archives document work to lay out the animal enclosures in the early 1980s.",
+      "operator": "City of Geneva",
+      "architecture": [
+        "Walk between shaded forest paths and the more open animal-park area. On the hillside, notice the drop toward the river and plan the return route before following a steep path downhill."
+      ],
+      "route": [
+        "From La Jonction use the signed public crossing and walk uphill toward chemin de la Bâtie, or approach along the road if you need to avoid woodland shortcuts.",
+        "Choose a woodland circuit and visit the animal park only during its posted opening hours.",
+        "Return by the signed route and allow for uphill or downhill sections on the way back."
+      ],
+      "photoTips": [
+        "At a clear opening on a public path, use tree trunks to frame the wooded slope without approaching drop-offs."
+      ],
+      "visit": [
+        "The shaded paths may remain muddy after rain. Allow extra time for gradients and use the posted paths around enclosures."
+      ],
+      "facts": [
+        [
+          "Suggested time",
+          "45–90 minutes"
+        ]
+      ],
+      "faq": [
+        [
+          "Is the walk mostly flat?",
+          "Some approaches to the hill are steep. Use a street approach and check the gradients if that matters for your visit."
+        ],
+        [
+          "Are the animal enclosures the whole attraction?",
+          "The woodland paths are a separate part of the outing. Check animal-park access separately."
+        ],
+        [
+          "What should I do after wet weather?",
+          "Prefer the surfaced routes and avoid muddy or steep woodland shortcuts."
+        ]
+      ],
+      "transit": "Allow time for the climb from the Rhône side. Look for the signed Chemin de la Bâtie approach rather than treating the nearest riverside point as the entrance."
+    },
+    "zh": {
+      "name": "巴蒂树林",
+      "tagline": "罗讷河上方兼有公共林径与动物园区的城市山林",
+      "about": "巴蒂树林保留约12公顷城市林地，位于罗讷河上方的高地，后来成为公共休闲场所。市政档案记载20世纪80年代初曾规划动物围场。",
+      "operator": "日内瓦市政府",
+      "architecture": [
+        "从阴凉林径走到较开阔的动物园区，观察山坡如何向河面落下。选陡峭下坡小路前，先考虑原路折返的坡度。"
+      ],
+      "route": [
+        "从容克雄街区按标识走公共通道，再上坡去巴蒂路；想避开林间近道时可走道路入口。",
+        "选一条林间环线，动物园区按现场开放时段进入。",
+        "按公共路线标识折返，给上坡或下坡路段多留时间。"
+      ],
+      "photoTips": [
+        "在公共林径的开阔处用树干框取坡地，避开陡坎。"
+      ],
+      "visit": [
+        "阴凉路面雨后可能持续泥泞。给上下坡留时间，动物围栏周边按标示走。"
+      ],
+      "facts": [
+        [
+          "建议停留",
+          "45–90 分钟"
+        ]
+      ],
+      "faq": [
+        [
+          "这里的步道基本平坦吗？",
+          "通往山坡的部分路线较陡。若在意坡度，可先核对街道入口的走法。"
+        ],
+        [
+          "动物围场就是全部游览内容吗？",
+          "林间步道本身也可单独散步，动物园区的开放需另查。"
+        ],
+        [
+          "雨后建议怎么走？",
+          "优先走有铺装的既有通道，避开泥泞或陡峭的林间近路。"
+        ]
+      ],
+      "transit": "从罗讷河一侧过来要预留上坡时间，请找巴蒂路的入口标识，河边最近的点未必能直接进园。"
+    },
+    "historySource": "https://archivescacm.geneve.ch/assets/archives/mcm/19821102_19830222/pdf/mcm_19821102_19830222.pdf"
+  }
+}

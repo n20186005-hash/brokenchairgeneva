@@ -1,10 +1,10 @@
-import type { NearbySlug } from './nearbyAttractions';
+import type { OriginalNearbySlug } from './nearbyAttractions';
 
 type Detail = { transit: [string, string, string]; culture: string; experience: string; stay: string; reviewFocus: string };
 type LocalizedDetail = { en: Detail; zh: Detail };
 
 /** Practical details specific to each nearby location; the original editorial data remains intact. */
-export const nearbyPlanning: Record<NearbySlug, LocalizedDetail> = {
+export const nearbyPlanning: Record<OriginalNearbySlug, LocalizedDetail> = {
   'perle-du-lac-park': {
     en: { transit: ['Take local buses towards Perle du Lac or arrive via Genève-Sécheron and follow public walking routes to the lakeside.', 'The park connects with the right-bank promenade, making a relaxed walk from Mon Repos towards the botanical garden possible.', 'If combining it with the History of Science Museum, check the villa opening hours separately; the grounds and museum are not the same visitor facility.'], culture: 'The right-bank park chain shows how former lakeside estates became shared public landscapes. Villa Bartholoni and the nearby international buildings add layers of nineteenth- and twentieth-century Geneva history.', experience: 'Walk slowly across the open lawns to the water, admire lake and mountain views, and then turn towards the villa. This is a place to experience the transition from diplomatic streets to a public waterfront.', stay: 'A lakefront or Sécheron base puts the park and science museum within easy reach; Cornavin is convenient for train connections and offers access by public transit.', reviewFocus: 'Read recent remarks about seasonal lawn conditions, lakeshore access and crowding on sunny weekends; the museum reviews refer to a separate attraction.' },
     zh: { transit: ['乘坐前往 Perle du Lac 的公交，或从 Genève-Sécheron 沿公共步道走向湖岸。', '公园衔接右岸湖滨步道，适合从 Mon Repos 往植物园方向安排舒缓散步。', '如果同时参观科学史博物馆，请另外查看别墅的开馆时间；公园与博物馆是不同游览设施。'], culture: '右岸公园群见证私人湖畔庄园逐渐成为共享公共绿地。Bartholoni 别墅和附近的国际机构建筑又增添了19、20世纪日内瓦的历史层次。', experience: '建议先沿草坪慢行到湖边看湖水和山景，再折向历史别墅，感受从外交办公街区转换到公共湖岸的空间变化。', stay: '湖畔或 Sécheron 区域方便游览公园和科学史博物馆；Cornavin 则便于铁路衔接，也可乘公共交通前往。', reviewFocus: '近期评价应重点关注季节性草坪状况、湖岸通行及晴天周末客流；博物馆评价属于不同景点。' },

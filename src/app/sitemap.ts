@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/lib/site';
+import { nearbyAttractions } from '@/lib/nearbyAttractions';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.baseUrl;
@@ -11,14 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/visitor-guide', priority: 0.9, changeFrequency: 'monthly' as const },
     { path: '/sculpture-facts', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/place-des-nations-walk', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/palais-des-nations', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/red-cross-museum', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/portail-des-nations', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/musee-ariana', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/geneva-botanical-garden', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/centre-william-rappard', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/science-history-museum', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/attractions/perle-du-lac-park', priority: 0.8, changeFrequency: 'monthly' as const },
+    ...Object.keys(nearbyAttractions).map((slug) => ({
+      path: '/attractions/' + slug,
+      priority: 0.8,
+      changeFrequency: 'monthly' as const,
+    })),
     { path: '/privacy-policy', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/terms-of-service', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/cookie-settings', priority: 0.2, changeFrequency: 'yearly' as const },

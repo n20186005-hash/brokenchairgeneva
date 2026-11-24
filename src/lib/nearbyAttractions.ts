@@ -1,16 +1,24 @@
-export type NearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden' | 'centre-william-rappard' | 'science-history-museum' | 'perle-du-lac-park';
+import genevaPlaces from './geneva-places.json';
+
+export type OriginalNearbySlug = 'palais-des-nations' | 'red-cross-museum' | 'portail-des-nations' | 'musee-ariana' | 'geneva-botanical-garden' | 'centre-william-rappard' | 'science-history-museum' | 'perle-du-lac-park';
+export type NearbySlug = OriginalNearbySlug | keyof typeof genevaPlaces;
+
 type Content = {
-  name: string; tagline: string; intro: string; operator: string; about: string;
-  facts: [string, string][]; history: string[]; architecture: string[]; highlights: string[];
-  visit: string[]; photoTips: string[]; route: string[]; faq: [string, string][];
+  name: string; tagline: string; intro?: string; operator: string; about: string;
+  facts: string[][]; history?: string[]; architecture: string[]; highlights?: string[];
+  visit: string[]; photoTips: string[]; route: string[]; faq: string[][]; transit?: string;
 };
 type Place = {
-  slug: NearbySlug; image: string; imageSource: string; imageCredit: string;
+  slug: string; image: string; imageSource: string; imageCredit: string;
   maps: string; address: string; official: string; admission: string; hours: string;
+  hoursZh?: string; admissionZh?: string;
+  imageCaption?: { en: string; zh: string };
+  historySource?: string;
+  cluster?: string;
   en: Content; zh: Content;
 };
 
-export const nearbyAttractions: Record<NearbySlug, Place> = {
+const originalPlaces: Record<OriginalNearbySlug, Place> = {
   'perle-du-lac-park': {
     slug: 'perle-du-lac-park', image: '/gallery/perle-du-lac-park.jpg',
     imageSource: 'https://commons.wikimedia.org/wiki/File:Parc_de_la_Perle_du_Lac%2C_Geneve_-_panoramio_(1).jpg', imageCredit: 'Wikimedia Commons / Panoramio archive',
@@ -300,3 +308,5 @@ export const nearbyAttractions: Record<NearbySlug, Place> = {
     },
   },
 };
+
+export const nearbyAttractions: Record<NearbySlug, Place> = { ...originalPlaces, ...genevaPlaces };

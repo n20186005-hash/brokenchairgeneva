@@ -1,18 +1,20 @@
 import { useTranslations } from 'next-intl';
 
-export default function Hero() {
+type Place = { name: string; tagline: string; image: string; alt: string; map: string; hours: string; reviews: string };
+
+export default function Hero({ place }: { place?: Place }) {
   const t = useTranslations('hero');
   const a11y = useTranslations('accessibilityLabels');
 
-  const mapsLink = t('mapsLink') || 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed';
+  const mapsLink = place?.map || t('mapsLink') || 'https://maps.google.com/?cid=2401392834066059427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=zh-CN&source=embed';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image slideshow */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/broken-chair-geneva-02.jpg"
-          alt={a11y('heroImage')}
+          src={place?.image ?? "/gallery/broken-chair-geneva-02.jpg"}
+          alt={place?.alt ?? a11y('heroImage')}
           className="w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -24,10 +26,10 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-3xl">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
-            {t('title')}
+            {place?.name ?? t('title')}
           </h1>
           <p className="text-lg sm:text-xl text-white/80 mb-8 animate-fade-in-up animation-delay-100 font-light">
-            {t('subtitle')}
+            {place?.tagline ?? t('subtitle')}
           </p>
 
           {/* Meta row */}
@@ -36,15 +38,15 @@ export default function Hero() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0b429" stroke="none">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
               </svg>
-              <span className="text-white text-sm font-medium">{t('rating')}</span>
-              <span className="text-white/60 text-xs">({t('reviewCount')})</span>
+              <span className="text-white text-sm font-medium">{place ? <a href="#visitor-reviews" className="underline">{place.reviews}</a> : t('rating')}</span>
+              {!place && <span className="text-white/60 text-xs">({t('reviewCount')})</span>}
             </div>
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                 <path d="M12 2v20M2 12h20"/>
                 <circle cx="12" cy="12" r="10"/>
               </svg>
-              <span className="text-white text-sm">{t('type')}</span>
+              <span className="text-white text-sm">{place?.hours ?? t('type')}</span>
             </div>
             <a
               href={mapsLink}
